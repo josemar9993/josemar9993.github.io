@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit com Estilo — Achadinhos Fitness, Moda e Bem-estar</title>
+    <meta name="description" content="Fit com Estilo - Achadinhos de moda fitness, suplementos, beleza e acessórios com os melhores preços. Links e cupons exclusivos.">
+    <meta name="keywords" content="moda fitness, suplementos, beleza, acessórios, achadinhos, cupons, ofertas">
+    
+    <!-- Open Graph (Facebook/Instagram) -->
+    <meta property="og:title" content="Fit com Estilo">
+    <meta property="og:description" content="Achadinhos de moda fitness, suplementos, beleza e acessórios com os melhores preços.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 420px;
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        /* PERFIL */
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            margin: 0 auto 15px;
+            box-shadow: 0 0 30px rgba(102, 126, 234, 0.4);
+            border: 3px solid rgba(255,255,255,0.2);
+        }
+
+        .profile h1 {
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .profile p {
+            color: #b0b0b0;
+            font-size: 14px;
+            margin-top: 5px;
+            line-height: 1.4;
+        }
+
+        /* CATEGORIAS */
+        .section-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+            margin: 25px 0 12px;
+            text-align: center;
+        }
+
+        /* LINKS */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 20px;
+            border-radius: 14px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .link-btn:hover::before {
+            border-color: rgba(255,255,255,0.3);
+            background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.08));
+        }
+
+        .link-btn .icon {
+            font-size: 22px;
+            z-index: 1;
+        }
+
+        .link-btn .text {
+            z-index: 1;
+            flex: 1;
+        }
+
+        .link-btn .arrow {
+            z-index: 1;
+            opacity: 0.5;
+            font-size: 14px;
+        }
+
+        .link-btn .badge {
+            z-index: 1;
+            background: #ff4757;
+            color: #fff;
+            font-size: 10px;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-weight: 700;
+        }
+
+        /* CORES por categoria */
+        .link-fitness { background: linear-gradient(135deg, #667eea33, #764ba233); }
+        .link-suplemento { background: linear-gradient(135deg, #2ed57333, #1abc9c33); }
+        .link-beleza { background: linear-gradient(135deg, #f093fb33, #f5576c33); }
+        .link-eletro { background: linear-gradient(135deg, #4facfe33, #00f2fe33); }
+        .link-social { background: linear-gradient(135deg, #fa709a33, #fee14033); }
+        .link-loja { background: linear-gradient(135deg, #ffd70033, #ff980033); }
+
+        /* SOCIAL */
+        .social-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .social-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.05);
+        }
+
+        .social-icon:hover {
+            transform: scale(1.15);
+            border-color: rgba(255,255,255,0.3);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        /* FOOTER */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .footer p {
+            color: #555;
+            font-size: 11px;
+        }
+
+        /* ANIMAÇÃO */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .link-btn {
+            animation: fadeInUp 0.5s ease forwards;
+            opacity: 0;
+        }
+
+        .link-btn:nth-child(1) { animation-delay: 0.1s; }
+        .link-btn:nth-child(2) { animation-delay: 0.15s; }
+        .link-btn:nth-child(3) { animation-delay: 0.2s; }
+        .link-btn:nth-child(4) { animation-delay: 0.25s; }
+        .link-btn:nth-child(5) { animation-delay: 0.3s; }
+        .link-btn:nth-child(6) { animation-delay: 0.35s; }
+
+        /* RESPONSIVE */
+        @media (max-width: 400px) {
+            .link-btn {
+                padding: 14px 16px;
+                font-size: 14px;
+            }
+            .profile h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- PERFIL -->
+        <div class="profile">
+            <div class="profile-img">💪</div>
+            <h1>Fit com Estilo</h1>
+            <p>Achadinhos de moda fitness, suplementos, beleza e acessórios com os melhores preços</p>
+        </div>
+
+        <!-- DESTAQUES -->
+        <div class="section-title">🔥 Destaques</div>
+        <div class="links">
+            <a href="#" class="link-btn link-loja" target="_blank">
+                <span class="icon">🛍️</span>
+                <span class="text">Ofertas da Semana</span>
+                <span class="badge">NOVO</span>
+                <span class="arrow">›</span>
+            </a>
+            <a href="#" class="link-btn link-loja" target="_blank">
+                <span class="icon">🎁</span>
+                <span class="text">Cupons de Desconto</span>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <!-- MODA FITNESS -->
+        <div class="section-title">👗 Moda Fitness</div>
+        <div class="links">
+            <a href="#" class="link-btn link-fitness" target="_blank">
+                <span class="icon">👟</span>
+                <span class="text">Melhores Looks de Academia</span>
+                <span class="arrow">›</span>
+            </a>
+            <a href="#" class="link-btn link-fitness" target="_blank">
+                <span class="icon">🩳</span>
+                <span class="text">Achadinhos de Legging</span>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <!-- SUPLEMENTOS -->
+        <div class="section-title">💊 Suplementos</div>
+        <div class="links">
+            <a href="#" class="link-btn link-suplemento" target="_blank">
+                <span class="icon">🥤</span>
+                <span class="text">Whey e Creatina em Oferta</span>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <!-- BELEZA -->
+        <div class="section-title">💄 Beleza</div>
+        <div class="links">
+            <a href="#" class="link-btn link-beleza" target="_blank">
+                <span class="icon">✨</span>
+                <span class="text">Skincare e Cosméticos</span>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <!-- ELETRÔNICOS -->
+        <div class="section-title">📱 Eletrônicos &amp; Acessórios</div>
+        <div class="links">
+            <a href="#" class="link-btn link-eletro" target="_blank">
+                <span class="icon">⌚</span>
+                <span class="text">Smartwatches e Gadgets</span>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <!-- REDES SOCIAIS -->
+        <div class="section-title">📲 Me siga</div>
+        <div class="social-row">
+            <a href="https://www.instagram.com/fitcomestilo" class="social-icon" target="_blank" title="Instagram">📸</a>
+            <a href="https://www.facebook.com/fitcomestilo" class="social-icon" target="_blank" title="Facebook">👍</a>
+            <a href="https://www.tiktok.com/@fitcomestilo" class="social-icon" target="_blank" title="TikTok">🎵</a>
+            <a href="#" class="social-icon" target="_blank" title="WhatsApp">💬</a>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p>© 2026 Fit com Estilo — Todos os direitos reservados</p>
+            <p style="margin-top: 5px; color: #444;">Links podem conter parcerias e comissões</p>
+        </div>
+    </div>
+</body>
+</html>
