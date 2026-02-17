@@ -326,12 +326,28 @@
 
         .product-card-top {
             position: relative;
-            height: 140px;
+            height: 160px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 48px;
             overflow: hidden;
+        }
+
+        .product-card-top img.prod-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 14px;
+            transition: transform 0.4s ease;
+        }
+
+        .product-card:hover .prod-img {
+            transform: scale(1.08);
+        }
+
+        .product-card-top .emoji-fallback {
+            font-size: 48px;
         }
 
         .card-gradient-fitness { background: linear-gradient(135deg, #667eea22, #764ba244); }
@@ -674,7 +690,7 @@
             }
             .product-card:hover::before { opacity: 1; }
 
-            .product-card-top { height: 180px; font-size: 56px; }
+            .product-card-top { height: 200px; font-size: 56px; }
         }
 
         /* ============================================
@@ -694,7 +710,7 @@
                 gap: 10px;
             }
 
-            .product-card-top { height: 100px; font-size: 40px; }
+            .product-card-top { height: 140px; font-size: 40px; }
 
             .nav-tab { padding: 12px 14px; font-size: 12px; }
 
@@ -836,7 +852,9 @@
 
             <div class="products-grid">
                 <a href="https://www.amazon.com.br/s?k=top+fitness+feminino+alta+sustentacao&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-1" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-fitness">👟
+                    <div class="product-card-top card-gradient-fitness">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61q3apCptDL._AC_SX300_.jpg" alt="Top Fitness Alta Sustentação" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">👟</span>
                         <span class="product-card-badge badge-prime">PRIME</span>
                     </div>
                     <div class="product-card-body">
@@ -850,7 +868,9 @@
                 </a>
 
                 <a href="https://www.amazon.com.br/s?k=legging+montaria+preta+feminina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-2" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-fitness">🩳
+                    <div class="product-card-top card-gradient-fitness">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51v5yJErLIL._AC_SX300_.jpg" alt="Legging Montaria Preta" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">🩳</span>
                         <span class="product-card-badge badge-off">20% OFF</span>
                     </div>
                     <div class="product-card-body">
@@ -864,7 +884,9 @@
                 </a>
 
                 <a href="https://www.amazon.com.br/s?k=conjunto+academia+short+top+feminino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-3" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-fitness">👗
+                    <div class="product-card-top card-gradient-fitness">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51lTvgB5URL._AC_SX300_.jpg" alt="Conjunto Academia Short+Top" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">👗</span>
                         <span class="product-card-badge badge-prime">PRIME</span>
                     </div>
                     <div class="product-card-body">
@@ -914,7 +936,9 @@
 
             <div class="products-grid">
                 <a href="https://www.amazon.com.br/s?k=whey+protein+isolado+900g&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-1" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-suplemento">🥤
+                    <div class="product-card-top card-gradient-suplemento">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61Ru03cU+-L._AC_SX300_.jpg" alt="Whey Protein Isolado 900g" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">🥤</span>
                         <span class="product-card-badge badge-fire">🔥 OFERTA</span>
                     </div>
                     <div class="product-card-body">
@@ -927,7 +951,9 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/s?k=creatina+monohidratada+300g&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-2" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-suplemento">💪
+                    <div class="product-card-top card-gradient-suplemento">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51ORfD3BFUL._AC_SX300_.jpg" alt="Creatina Monohidratada 300g" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">💪</span>
                         <span class="product-card-badge badge-prime">PRIME</span>
                     </div>
                     <div class="product-card-body">
@@ -940,7 +966,10 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/s?k=pre+treino+importado+academia&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-3" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-suplemento">⚡</div>
+                    <div class="product-card-top card-gradient-suplemento">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61DWPFHyB8L._AC_SX300_.jpg" alt="Pré-Treino Importado" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">⚡</span>
+                    </div>
                     <div class="product-card-body">
                         <div class="product-card-name">Pré-Treino Importado</div>
                         <div class="product-card-store">Amazon</div>
@@ -996,7 +1025,9 @@
 
             <div class="products-grid">
                 <a href="https://www.amazon.com.br/s?k=protetor+solar+fps+70+facial&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-1" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-beleza">☀️
+                    <div class="product-card-top card-gradient-beleza">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51CpZhKSXwL._AC_SX300_.jpg" alt="Protetor Solar FPS 70" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">☀️</span>
                         <span class="product-card-badge badge-prime">PRIME</span>
                     </div>
                     <div class="product-card-body">
@@ -1009,7 +1040,9 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/s?k=kit+skincare+facial+completo&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-2" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-beleza">✨
+                    <div class="product-card-top card-gradient-beleza">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/71G8rFTMwnL._AC_SX300_.jpg" alt="Kit Skincare Completo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">✨</span>
                         <span class="product-card-badge badge-off">15% OFF</span>
                     </div>
                     <div class="product-card-body">
@@ -1022,7 +1055,9 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/s?k=serum+vitamina+c+facial&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-3" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-beleza">💧
+                    <div class="product-card-top card-gradient-beleza">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51gTXdIIwJL._AC_SX300_.jpg" alt="Sérum Vitamina C" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">💧</span>
                         <span class="product-card-badge badge-prime">PRIME</span>
                     </div>
                     <div class="product-card-body">
@@ -1071,7 +1106,9 @@
 
             <div class="products-grid">
                 <a href="https://www.amazon.com.br/s?k=smartwatch+monitor+cardiaco+feminino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-1" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-eletro">⌚
+                    <div class="product-card-top card-gradient-eletro">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61Qqe0DBnZL._AC_SX300_.jpg" alt="Smartwatch Monitor Cardíaco" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">⌚</span>
                         <span class="product-card-badge badge-new">NOVO</span>
                     </div>
                     <div class="product-card-body">
@@ -1084,7 +1121,9 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/s?k=fone+bluetooth+esporte+sem+fio&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-2" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-eletro">🎧
+                    <div class="product-card-top card-gradient-eletro">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51UdZfMy6mL._AC_SX300_.jpg" alt="Fone Bluetooth Esporte" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">🎧</span>
                         <span class="product-card-badge badge-prime">PRIME</span>
                     </div>
                     <div class="product-card-body">
@@ -1097,7 +1136,9 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/s?k=balanca+bioimpedancia+digital&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="product-card animate-in delay-3" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-eletro">⚖️
+                    <div class="product-card-top card-gradient-eletro">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61NxjCBCixL._AC_SX300_.jpg" alt="Balança Bioimpedância" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">⚖️</span>
                         <span class="product-card-badge badge-prime">PRIME</span>
                     </div>
                     <div class="product-card-body">
@@ -1146,7 +1187,9 @@
 
             <div class="products-grid">
                 <div class="product-card animate-in delay-1 ht-link" data-ref="G104343009C" role="link" tabindex="0" style="cursor:pointer">
-                    <div class="product-card-top card-gradient-digital">❤️‍🩹
+                    <div class="product-card-top card-gradient-digital">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51oe+5lm4ZL._AC_SX300_.jpg" alt="Coração Blindado" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">❤️‍🩹</span>
                         <span class="product-card-badge badge-hot">QUENTE</span>
                     </div>
                     <div class="product-card-body">
@@ -1158,7 +1201,10 @@
                     </div>
                 </div>
                 <div class="product-card animate-in delay-2 ht-link" data-ref="C104342832B" role="link" tabindex="0" style="cursor:pointer">
-                    <div class="product-card-top card-gradient-digital">🥗</div>
+                    <div class="product-card-top card-gradient-digital">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/81WoVHZKY3L._AC_SX300_.jpg" alt="Receitas Fit Low Carb" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">🥗</span>
+                    </div>
                     <div class="product-card-body">
                         <div class="product-card-name">Receitas Fit Low Carb</div>
                         <div class="product-card-store">Hotmart — Acesso imediato</div>
@@ -1168,7 +1214,9 @@
                     </div>
                 </div>
                 <div class="product-card animate-in delay-3 ht-link" data-ref="E104342875H" role="link" tabindex="0" style="cursor:pointer">
-                    <div class="product-card-top card-gradient-digital">📋
+                    <div class="product-card-top card-gradient-digital">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61wOjVunnzL._AC_SX300_.jpg" alt="Planner Fit" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">📋</span>
                         <span class="product-card-badge badge-new">NOVO</span>
                     </div>
                     <div class="product-card-body">
@@ -1252,7 +1300,9 @@
             <!-- Produtos destaque Shopee -->
             <div class="products-grid" style="margin-top:16px">
                 <a href="https://shopee.com.br/product/394192376/21897733919?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&utm_campaign=id_ae5c3d5812&af_click_lookback=7d&is_from_login=YES" class="product-card animate-in delay-1" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-shopee">💪
+                    <div class="product-card-top card-gradient-shopee">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51ORfD3BFUL._AC_SX300_.jpg" alt="Creatina 250g" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">💪</span>
                         <span class="product-card-badge badge-shopee">-87%</span>
                     </div>
                     <div class="product-card-body">
@@ -1265,7 +1315,9 @@
                     </div>
                 </a>
                 <a href="https://shopee.com.br/product/442964228/21399231374?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&utm_campaign=id_249a924c73&af_click_lookback=7d&is_from_login=YES" class="product-card animate-in delay-2" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-shopee">✨
+                    <div class="product-card-top card-gradient-shopee">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/71xXLiTJI0L._AC_SX300_.jpg" alt="Água Micelar Vitamina C" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">✨</span>
                         <span class="product-card-badge badge-shopee">-78%</span>
                     </div>
                     <div class="product-card-body">
@@ -1278,7 +1330,9 @@
                     </div>
                 </a>
                 <a href="https://shopee.com.br/product/442964228/20499605983?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&utm_campaign=id_e00d93c677&af_click_lookback=7d&is_from_login=YES" class="product-card animate-in delay-3" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-shopee">💧
+                    <div class="product-card-top card-gradient-shopee">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51gTXdIIwJL._AC_SX300_.jpg" alt="Sérum Facial Rosa Mosqueta" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">💧</span>
                         <span class="product-card-badge badge-shopee">-78%</span>
                     </div>
                     <div class="product-card-body">
@@ -1423,7 +1477,9 @@
 
             <div class="products-grid">
                 <a href="https://www.amazon.com.br/dp/B00A3D10JE?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" class="product-card animate-in delay-1" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-livro">📖
+                    <div class="product-card-top card-gradient-livro">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/51x6NOHX5gL._SY445_SX342_.jpg" alt="O Poder do Hábito" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">📖</span>
                         <span class="product-card-badge badge-frete">FRETE GRÁTIS</span>
                     </div>
                     <div class="product-card-body">
@@ -1436,7 +1492,9 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/dp/B0153SZLXO?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" class="product-card animate-in delay-2" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-livro">😈
+                    <div class="product-card-top card-gradient-livro">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/41qjYMFr3jL._SY445_SX342_.jpg" alt="Mais Esperto que o Diabo" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">😈</span>
                         <span class="product-card-badge badge-frete">FRETE GRÁTIS</span>
                     </div>
                     <div class="product-card-body">
@@ -1449,7 +1507,9 @@
                     </div>
                 </a>
                 <a href="https://www.amazon.com.br/dp/B01NASOQGG?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" class="product-card animate-in delay-3" target="_blank" rel="noopener">
-                    <div class="product-card-top card-gradient-livro">🧠
+                    <div class="product-card-top card-gradient-livro">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/41+7a4RuENL._SY445_SX342_.jpg" alt="Mindset" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">🧠</span>
                         <span class="product-card-badge badge-frete">FRETE GRÁTIS</span>
                     </div>
                     <div class="product-card-body">
