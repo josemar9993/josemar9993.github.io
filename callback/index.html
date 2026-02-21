@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação TikTok — Fit com Estilo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 500px;
+        }
+        .icon { font-size: 4rem; margin-bottom: 1rem; }
+        h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+        p { color: #a0a0a0; margin-bottom: 1.5rem; line-height: 1.6; }
+        .code-box {
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            font-family: monospace;
+            word-break: break-all;
+            margin: 1rem 0;
+            text-align: left;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: linear-gradient(135deg, #ff0050, #00f2ea);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        .error { color: #ff6b6b; }
+        .success { color: #51cf66; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🎵</div>
+        <h1>Autenticação TikTok</h1>
+        <div id="result">
+            <p>Processando autenticação...</p>
+        </div>
+        <a href="https://fitcomestilo.store" class="btn">Voltar ao site</a>
+    </div>
+
+    <script>
+        // Captura os parâmetros da URL (código de autorização do TikTok)
+        const params = new URLSearchParams(window.location.search);
+        const code = params.get('code');
+        const state = params.get('state');
+        const scopes = params.get('scopes');
+        const error = params.get('error');
+        const errorDescription = params.get('error_description');
+
+        const resultDiv = document.getElementById('result');
+
+        if (error) {
+            resultDiv.innerHTML = `
+                <p class="error">❌ Erro na autenticação</p>
+                <div class="code-box">
+                    <strong>Erro:</strong> ${error}<br>
+                    <strong>Descrição:</strong> ${errorDescription || 'Sem descrição'}
+                </div>
+                <p>Tente novamente ou entre em contato conosco.</p>
+            `;
+        } else if (code) {
+            resultDiv.innerHTML = `
+                <p class="success">✅ Autenticação bem-sucedida!</p>
+                <div class="code-box">
+                    <strong>Código:</strong> ${code.substring(0, 20)}...<br>
+                    <strong>Escopos:</strong> ${scopes || 'N/A'}
+                </div>
+                <p>Você já pode fechar esta página.</p>
+            `;
+            
+            // Log para debug (pode ser removido em produção)
+            console.log('TikTok Auth Code:', code);
+            console.log('State:', state);
+            console.log('Scopes:', scopes);
+        } else {
+            resultDiv.innerHTML = `
+                <p>Esta página é usada para autenticação com o TikTok.</p>
+                <p>Se você chegou aqui por engano, volte ao site principal.</p>
+            `;
+        }
+    </script>
+</body>
+</html>
