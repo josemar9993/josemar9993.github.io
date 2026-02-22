@@ -93,7 +93,7 @@
             --card-shadow-hover: 0 12px 50px rgba(139, 92, 246, 0.22);
             --radius: 24px;
             --radius-lg: 32px;
-            --max-width: 520px;
+            --max-width: 540px;
         }
 
         /* ============================================
@@ -114,12 +114,12 @@
         }
 
         .profile-photo {
-            width: 160px;
-            height: 160px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
             margin: 0 auto 24px;
             border: 5px solid var(--white);
-            box-shadow: 0 10px 40px rgba(139, 92, 246, 0.25);
+            box-shadow: 0 12px 48px rgba(139, 92, 246, 0.3);
             overflow: hidden;
             background: linear-gradient(135deg, var(--purple-light), var(--pink));
         }
@@ -142,7 +142,7 @@
 
         .profile-name {
             font-family: 'Great Vibes', cursive;
-            font-size: 52px;
+            font-size: 56px;
             color: var(--purple-dark);
             margin-bottom: 8px;
             font-weight: 400;
@@ -212,7 +212,7 @@
         .cards-container {
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 30px;
             padding-bottom: 50px;
         }
 
@@ -225,7 +225,7 @@
             overflow: hidden;
             box-shadow: var(--card-shadow);
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            min-height: 160px;
+            min-height: 200px;
             cursor: pointer;
             position: relative;
         }
@@ -247,7 +247,7 @@
 
         .hero-card-image {
             width: 50%;
-            min-height: 160px;
+            min-height: 200px;
             position: relative;
             overflow: hidden;
             display: flex;
@@ -268,7 +268,7 @@
 
         .hero-card-content {
             flex: 1;
-            padding: 24px;
+            padding: 28px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -288,19 +288,19 @@
         }
 
         .hero-card-brand-text {
-            font-size: 12px;
-            font-weight: 700;
+            font-size: 15px;
+            font-weight: 800;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             color: var(--text-light);
         }
 
         .hero-card-title {
-            font-size: 20px;
-            font-weight: 700;
+            font-size: 26px;
+            font-weight: 800;
             color: var(--text-dark);
-            line-height: 1.3;
-            margin-bottom: 12px;
+            line-height: 1.2;
+            margin-bottom: 14px;
         }
 
         .hero-card-title span {
@@ -315,8 +315,8 @@
             background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
             border: 2px dashed var(--purple-light);
             border-radius: 12px;
-            padding: 10px 16px;
-            font-size: 14px;
+            padding: 10px 18px;
+            font-size: 15px;
             font-weight: 800;
             color: var(--purple-dark);
             width: fit-content;
@@ -336,13 +336,13 @@
         }
 
         .price-old {
-            font-size: 14px;
+            font-size: 15px;
             color: var(--text-light);
             text-decoration: line-through;
         }
 
         .price-new {
-            font-size: 22px;
+            font-size: 28px;
             font-weight: 800;
             color: var(--green-dark);
         }
@@ -350,13 +350,13 @@
         /* Badge */
         .card-badge {
             position: absolute;
-            top: 12px;
-            right: 12px;
+            top: 14px;
+            right: 14px;
             background: var(--green);
             color: white;
-            font-size: 11px;
+            font-size: 12px;
             font-weight: 700;
-            padding: 6px 14px;
+            padding: 7px 16px;
             border-radius: 20px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -419,11 +419,14 @@
         }
 
         .section-title {
-            font-size: 13px;
-            font-weight: 700;
+            font-size: 14px;
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 3px;
-            color: var(--purple);
+            background: linear-gradient(135deg, var(--purple), var(--pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         /* ============================================
@@ -436,7 +439,7 @@
             overflow: hidden;
             box-shadow: var(--card-shadow);
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            min-height: 140px;
+            min-height: 180px;
         }
 
         .social-card:hover {
@@ -460,20 +463,20 @@
         }
 
         .social-card-logo svg {
-            width: 28px;
-            height: 28px;
+            width: 40px;
+            height: 40px;
         }
 
         .social-card-logo span {
-            font-size: 18px;
-            font-weight: 700;
+            font-size: 22px;
+            font-weight: 800;
             color: var(--text-dark);
         }
 
         .social-card-text {
-            font-size: 17px;
+            font-size: 22px;
             color: var(--text-dark);
-            font-weight: 500;
+            font-weight: 600;
         }
 
         .social-card-text span {
@@ -502,8 +505,8 @@
         }
 
         .phone-mockup {
-            width: 70px;
-            height: 140px;
+            width: 80px;
+            height: 155px;
             background: #1a1a1a;
             border-radius: 12px;
             padding: 4px;
@@ -634,19 +637,19 @@
             }
 
             .hero-card {
-                min-height: 140px;
+                min-height: 170px;
             }
 
             .hero-card-content {
-                padding: 18px;
+                padding: 20px;
             }
 
             .hero-card-title {
-                font-size: 17px;
+                font-size: 20px;
             }
 
             .hero-card-image {
-                width: 45%;
+                width: 46%;
             }
 
             .social-card-image {
@@ -663,7 +666,7 @@
             }
 
             .social-card {
-                min-height: 120px;
+                min-height: 150px;
             }
 
             .social-card-content {
@@ -671,8 +674,8 @@
             }
 
             .phone-mockup {
-                width: 55px;
-                height: 110px;
+                width: 65px;
+                height: 125px;
             }
         }
 
@@ -682,12 +685,92 @@
             }
 
             .hero-card-title {
-                font-size: 15px;
+                font-size: 18px;
             }
 
             .hero-card-image {
                 width: 40%;
             }
+        }
+
+        /* ============================================
+           CARD BANNER — GRADIENTE FULL (ESTILO ANATHOLL)
+           ============================================ */
+        .hero-card.banner {
+            background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 40%, #c4b5fd 100%);
+        }
+
+        .hero-card.banner .hero-card-content {
+            background: transparent;
+        }
+
+        .hero-card.banner .hero-card-brand-text {
+            color: rgba(255,255,255,0.85);
+        }
+
+        .hero-card.banner .hero-card-title {
+            color: white;
+        }
+
+        .hero-card.banner .hero-card-title span {
+            color: #fcd34d;
+        }
+
+        .hero-card.banner .price-new {
+            color: #fcd34d;
+        }
+
+        .hero-card.banner .price-old {
+            color: rgba(255,255,255,0.55);
+        }
+
+        .hero-card.banner .coupon-pill {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.4);
+            color: white;
+        }
+
+        .hero-card.banner-green {
+            background: linear-gradient(135deg, #059669 0%, #10b981 40%, #6ee7b7 100%);
+        }
+
+        .hero-card.banner-green .hero-card-content {
+            background: transparent;
+        }
+
+        .hero-card.banner-green .hero-card-brand-text {
+            color: rgba(255,255,255,0.85);
+        }
+
+        .hero-card.banner-green .hero-card-title {
+            color: white;
+        }
+
+        .hero-card.banner-green .hero-card-title span {
+            color: #fcd34d;
+        }
+
+        .hero-card.banner-green .coupon-pill {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.4);
+            color: white;
+        }
+
+        /* Social card gradient icon (sem phone mockup) */
+        .social-icon-area {
+            width: 45%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-icon-area svg {
+            width: 72px;
+            height: 72px;
+            opacity: 0.95;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
         }
 
     </style>
@@ -734,7 +817,7 @@
         <div class="cards-container">
 
             <!-- ====== E-BOOK DE RECEITAS ====== -->
-            <a href="https://www.amazon.com.br/dp/B0DKVT5WCM?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-5">
+            <a href="https://www.amazon.com.br/dp/B0DKVT5WCM?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left banner animate-in delay-5">
                 <div class="hero-card-image gradient-purple">
                     <img src="https://m.media-amazon.com/images/I/71NbJr-hqwL._SY466_.jpg" alt="E-book de Receitas Fit">
                 </div>
@@ -751,7 +834,7 @@
             </a>
 
             <!-- ====== PROGRAMA DE TREINOS ====== -->
-            <a href="https://www.amazon.com.br/s?k=treino+funcional+guia&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-6">
+            <a href="https://www.amazon.com.br/s?k=treino+funcional+guia&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right banner-green animate-in delay-6">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">💪 Fitness</span>
@@ -908,15 +991,8 @@
                     </div>
                     <p class="social-card-text">Me acompanhe no <span class="red">YouTube</span></p>
                 </div>
-                <div class="social-card-image" style="background: linear-gradient(135deg, #fef2f2, #fee2e2);">
-                    <div class="social-card-mockup">
-                        <div class="phone-mockup">
-                            <img src="https://m.media-amazon.com/images/I/71NbJr-hqwL._SY466_.jpg" alt="Vídeo">
-                        </div>
-                        <div class="phone-mockup" style="margin-top: 20px;">
-                            <img src="https://m.media-amazon.com/images/I/61mbzGHRbML._AC_SX679_.jpg" alt="Vídeo">
-                        </div>
-                    </div>
+                <div class="social-icon-area" style="background: linear-gradient(135deg, #ff0000, #cc0000);">
+                    <svg viewBox="0 0 24 24" fill="rgba(255,255,255,0.9)"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
                 </div>
             </a>
 
@@ -929,15 +1005,8 @@
                     </div>
                     <p class="social-card-text">Me acompanhe no <span class="purple">TikTok</span></p>
                 </div>
-                <div class="social-card-image" style="background: linear-gradient(135deg, #fdf4ff, #fae8ff);">
-                    <div class="social-card-mockup">
-                        <div class="phone-mockup">
-                            <img src="https://m.media-amazon.com/images/I/61gTsnKXG7L._AC_SX679_.jpg" alt="TikTok">
-                        </div>
-                        <div class="phone-mockup" style="margin-top: 20px;">
-                            <img src="https://m.media-amazon.com/images/I/71Q8u-Z7qUL._AC_SX679_.jpg" alt="TikTok">
-                        </div>
-                    </div>
+                <div class="social-icon-area" style="background: linear-gradient(135deg, #010101, #333);">
+                    <svg viewBox="0 0 24 24" fill="rgba(255,255,255,0.9)"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
                 </div>
             </a>
 
@@ -961,15 +1030,8 @@
                     </div>
                     <p class="social-card-text">Me siga no <span class="pink">Instagram</span></p>
                 </div>
-                <div class="social-card-image" style="background: linear-gradient(135deg, #fef7ee, #fef3c7);">
-                    <div class="social-card-mockup">
-                        <div class="phone-mockup">
-                            <img src="https://m.media-amazon.com/images/I/51mbOFt+DkL._SX679_.jpg" alt="Instagram">
-                        </div>
-                        <div class="phone-mockup" style="margin-top: 20px;">
-                            <img src="https://m.media-amazon.com/images/I/61GuyDGLILL._AC_SX679_.jpg" alt="Instagram">
-                        </div>
-                    </div>
+                <div class="social-icon-area" style="background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">
+                    <svg viewBox="0 0 24 24" fill="rgba(255,255,255,0.9)"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                 </div>
             </a>
 
@@ -982,15 +1044,8 @@
                     </div>
                     <p class="social-card-text">Ofertas no <span class="blue">Telegram</span> 🔔</p>
                 </div>
-                <div class="social-card-image" style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe);">
-                    <div class="social-card-mockup">
-                        <div class="phone-mockup">
-                            <img src="https://m.media-amazon.com/images/I/51Pn3YHDm5L._AC_SX679_.jpg" alt="Telegram">
-                        </div>
-                        <div class="phone-mockup" style="margin-top: 20px;">
-                            <img src="https://m.media-amazon.com/images/I/71cJ8wN-4FL._AC_SX679_.jpg" alt="Telegram">
-                        </div>
-                    </div>
+                <div class="social-icon-area" style="background: linear-gradient(135deg, #0088cc, #00bbff);">
+                    <svg viewBox="0 0 24 24" fill="rgba(255,255,255,0.9)"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
                 </div>
             </a>
 
