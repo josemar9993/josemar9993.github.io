@@ -437,11 +437,17 @@
            ============================================ */
         .store-nav {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             gap: 10px;
-            justify-content: center;
+            align-items: center;
             padding: 0 20px 10px;
             margin-bottom: 8px;
+        }
+
+        .store-nav-row {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
         }
 
         .store-nav-btn {
@@ -476,7 +482,7 @@
         .store-nav-btn.btn-todos { background: linear-gradient(135deg, #8b5cf6, #a78bfa); }
         .store-nav-btn.btn-amazon { background: linear-gradient(135deg, #ff9900, #ffad33); color: #000; }
         .store-nav-btn.btn-shopee { background: linear-gradient(135deg, #ee4d2d, #ff6740); }
-        .store-nav-btn.btn-shein { background: linear-gradient(135deg, #222, #444); }
+        .store-nav-btn.btn-shein { background: linear-gradient(135deg, #333, #555); color: #fff; }
         .store-nav-btn.btn-magalu { background: linear-gradient(135deg, #0068c8, #0086ff); }
         .store-nav-btn.btn-hotmart { background: linear-gradient(135deg, #f04e23, #ff6b3d); }
         .store-nav-btn.btn-livros { background: linear-gradient(135deg, #7c3aed, #a78bfa); }
@@ -869,13 +875,19 @@
 
         <!-- MENU DE LOJAS -->
         <nav class="store-nav animate-in delay-5">
-            <a href="#" class="store-nav-btn btn-todos" data-filter="todos" onclick="filtrarLojas('todos')">🔥 Todos</a>
-            <a href="#" class="store-nav-btn btn-amazon" data-filter="amazon" onclick="filtrarLojas('amazon')">🛒 Amazon</a>
-            <a href="#" class="store-nav-btn btn-shopee" data-filter="shopee" onclick="filtrarLojas('shopee')">🧡 Shopee</a>
-            <a href="#" class="store-nav-btn btn-shein" data-filter="shein" onclick="filtrarLojas('shein')">🖤 Shein</a>
-            <a href="#" class="store-nav-btn btn-magalu" data-filter="magalu" onclick="filtrarLojas('magalu')">💙 Magalu</a>
-            <a href="#" class="store-nav-btn btn-hotmart" data-filter="hotmart" onclick="filtrarLojas('hotmart')">🎓 Hotmart</a>
-            <a href="#" class="store-nav-btn btn-livros" data-filter="livros" onclick="filtrarLojas('livros')">📚 Livros</a>
+            <div class="store-nav-row">
+                <a href="#" class="store-nav-btn btn-todos active" data-filter="todos" onclick="filtrarLojas('todos')">🔥 Todos</a>
+            </div>
+            <div class="store-nav-row">
+                <a href="#" class="store-nav-btn btn-shein" data-filter="shein" onclick="filtrarLojas('shein')">🖤 Shein</a>
+                <a href="#" class="store-nav-btn btn-shopee" data-filter="shopee" onclick="filtrarLojas('shopee')">🧡 Shopee</a>
+                <a href="#" class="store-nav-btn btn-amazon" data-filter="amazon" onclick="filtrarLojas('amazon')">🛒 Amazon</a>
+            </div>
+            <div class="store-nav-row">
+                <a href="#" class="store-nav-btn btn-magalu" data-filter="magalu" onclick="filtrarLojas('magalu')">💙 Magalu</a>
+                <a href="#" class="store-nav-btn btn-hotmart" data-filter="hotmart" onclick="filtrarLojas('hotmart')">🎓 Hotmart</a>
+                <a href="#" class="store-nav-btn btn-livros" data-filter="livros" onclick="filtrarLojas('livros')">📚 Livros</a>
+            </div>
         </nav>
 
         <div class="cards-container">
