@@ -433,6 +433,61 @@
         }
 
         /* ============================================
+           MENU DE LOJAS — NAVEGAÇÃO RÁPIDA
+           ============================================ */
+        .store-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            padding: 0 20px 10px;
+            margin-bottom: 8px;
+        }
+
+        .store-nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 18px;
+            border-radius: 50px;
+            background: var(--card-bg);
+            color: #fff;
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            border: 2px solid rgba(255,255,255,0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+        }
+
+        .store-nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .store-nav-btn.btn-amazon { border-color: #ff9900; color: #ff9900; }
+        .store-nav-btn.btn-amazon:hover { background: #ff9900; color: #000; }
+
+        .store-nav-btn.btn-shopee { border-color: #ee4d2d; color: #ee4d2d; }
+        .store-nav-btn.btn-shopee:hover { background: #ee4d2d; color: #fff; }
+
+        .store-nav-btn.btn-shein { border-color: #fff; color: #fff; }
+        .store-nav-btn.btn-shein:hover { background: #fff; color: #000; }
+
+        .store-nav-btn.btn-magalu { border-color: #0086ff; color: #0086ff; }
+        .store-nav-btn.btn-magalu:hover { background: #0086ff; color: #fff; }
+
+        .store-nav-btn.btn-hotmart { border-color: #f04e23; color: #f04e23; }
+        .store-nav-btn.btn-hotmart:hover { background: #f04e23; color: #fff; }
+
+        .store-nav-btn.btn-livros { border-color: #a78bfa; color: #a78bfa; }
+        .store-nav-btn.btn-livros:hover { background: #a78bfa; color: #fff; }
+
+        .store-nav-btn.btn-todos { border-color: var(--purple); color: var(--purple); background: rgba(139,92,246,0.1); }
+        .store-nav-btn.btn-todos:hover { background: var(--purple); color: #fff; }
+
+        /* ============================================
            CARDS DE REDES SOCIAIS — ESTILO PREMIUM
            ============================================ */
         .social-card {
@@ -817,10 +872,22 @@
          CARDS DE LINKS
          ============================================ -->
     <main class="container">
+
+        <!-- MENU DE LOJAS -->
+        <nav class="store-nav animate-in delay-5">
+            <a href="#" class="store-nav-btn btn-todos" data-filter="todos" onclick="filtrarLojas('todos')">🔥 Todos</a>
+            <a href="#" class="store-nav-btn btn-amazon" data-filter="amazon" onclick="filtrarLojas('amazon')">🛒 Amazon</a>
+            <a href="#" class="store-nav-btn btn-shopee" data-filter="shopee" onclick="filtrarLojas('shopee')">🧡 Shopee</a>
+            <a href="#" class="store-nav-btn btn-shein" data-filter="shein" onclick="filtrarLojas('shein')">🖤 Shein</a>
+            <a href="#" class="store-nav-btn btn-magalu" data-filter="magalu" onclick="filtrarLojas('magalu')">💙 Magalu</a>
+            <a href="#" class="store-nav-btn btn-hotmart" data-filter="hotmart" onclick="filtrarLojas('hotmart')">🎓 Hotmart</a>
+            <a href="#" class="store-nav-btn btn-livros" data-filter="livros" onclick="filtrarLojas('livros')">📚 Livros</a>
+        </nav>
+
         <div class="cards-container">
 
             <!-- ====== SUPLEMENTOS ====== -->
-            <a href="https://www.amazon.com.br/s?k=suplementos+whey+creatina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-5">
+            <a href="https://www.amazon.com.br/s?k=suplementos+whey+creatina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-5" data-store="amazon">
                 <div class="hero-card-image gradient-green">
                     <img src="https://m.media-amazon.com/images/I/61cVXbI0OOL._AC_SL500_.jpg" alt="Suplementos">
                     <span class="card-badge prime">PRIME</span>
@@ -838,7 +905,7 @@
             </a>
 
             <!-- ====== MODA FITNESS ====== -->
-            <a href="https://www.amazon.com.br/s?k=moda+fitness+feminina+legging&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-6">
+            <a href="https://www.amazon.com.br/s?k=moda+fitness+feminina+legging&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-6" data-store="amazon">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">👗 Fashion</span>
@@ -856,7 +923,7 @@
             </a>
 
             <!-- ====== ACESSÓRIOS FITNESS ====== -->
-            <a href="https://www.amazon.com.br/s?k=acessorios+fitness+treino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-7">
+            <a href="https://www.amazon.com.br/s?k=acessorios+fitness+treino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-7" data-store="amazon">
                 <div class="hero-card-image" style="background: #fff;">
                     <img src="img-acessorios.webp" alt="Acessórios Fitness" style="object-fit: cover;">
                 </div>
@@ -873,7 +940,7 @@
             </a>
 
             <!-- ====== E-BOOK DE RECEITAS ====== -->
-            <a href="https://www.amazon.com.br/s?k=receitas+fit+marmitas+saudaveis+ebook&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left banner animate-in delay-8">
+            <a href="https://www.amazon.com.br/s?k=receitas+fit+marmitas+saudaveis+ebook&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left banner animate-in delay-8" data-store="amazon">
                 <div class="hero-card-image gradient-purple">
                     <img src="https://m.media-amazon.com/images/I/718PshdCE3L._AC_SL500_.jpg" alt="E-book de Receitas Fit">
                 </div>
@@ -890,7 +957,7 @@
             </a>
 
             <!-- ====== PROGRAMA DE TREINOS ====== -->
-            <a href="https://www.amazon.com.br/s?k=treino+funcional+guia&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right banner-green animate-in delay-9">
+            <a href="https://www.amazon.com.br/s?k=treino+funcional+guia&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right banner-green animate-in delay-9" data-store="amazon">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">💪 Fitness</span>
@@ -912,7 +979,7 @@
             </div>
 
             <!-- ====== SHOPEE ====== -->
-            <a href="https://shopee.com.br/search?keyword=moda%20fitness" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-10">
+            <a href="https://shopee.com.br/search?keyword=moda%20fitness" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-10" data-store="shopee">
                 <div class="hero-card-image" style="background: #fff;">
                     <img src="img-shopee.webp" alt="Coleção Shopee" style="object-fit: cover;">
                 </div>
@@ -929,7 +996,7 @@
             </a>
 
             <!-- ====== BELEZA & SKINCARE ====== -->
-            <a href="https://www.amazon.com.br/s?k=skincare+vitamina+c+serum&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-10">
+            <a href="https://www.amazon.com.br/s?k=skincare+vitamina+c+serum&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-10" data-store="amazon">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">💄 Beauty</span>
@@ -946,7 +1013,7 @@
             </a>
 
             <!-- ====== ELETRÔNICOS ====== -->
-            <a href="https://www.amazon.com.br/s?k=smartwatch+fone+bluetooth&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-11">
+            <a href="https://www.amazon.com.br/s?k=smartwatch+fone+bluetooth&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-11" data-store="amazon">
                 <div class="hero-card-image gradient-blue">
                     <img src="https://m.media-amazon.com/images/I/71vHLiJHUHL._AC_SL1200_.jpg" alt="Eletrônicos">
                     <span class="card-badge off">30% OFF</span>
@@ -964,7 +1031,7 @@
             </a>
 
             <!-- ====== CASA & COZINHA ====== -->
-            <a href="https://www.amazon.com.br/s?k=air+fryer+organizadores&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-11">
+            <a href="https://www.amazon.com.br/s?k=air+fryer+organizadores&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-11" data-store="amazon">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">🏠 Casa</span>
@@ -986,7 +1053,7 @@
             </div>
 
             <!-- ====== MAGALU — TV SAMSUNG ====== -->
-            <a href="https://divulgador.magalu.com/dbIhfE=T" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12">
+            <a href="https://divulgador.magalu.com/dbIhfE=T" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="magalu">
                 <div class="hero-card-image gradient-blue">
                     <img src="https://m.media-amazon.com/images/I/71LJJrKbezL._AC_SL1500_.jpg" alt="Smart TV Samsung 43">
                     <span class="card-badge off">-43% OFF</span>
@@ -1004,7 +1071,7 @@
             </a>
 
             <!-- ====== MAGALU — SMARTPHONE ====== -->
-            <a href="https://divulgador.magalu.com/Rm-srB=Q" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12">
+            <a href="https://divulgador.magalu.com/Rm-srB=Q" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12" data-store="magalu">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text" style="color:#005aa7;">🔵 Magalu</span>
@@ -1022,7 +1089,7 @@
             </a>
 
             <!-- ====== MAGALU — LOJA ====== -->
-            <a href="https://www.magazinevoce.com.br/magazinefitcomestilo/" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12">
+            <a href="https://www.magazinevoce.com.br/magazinefitcomestilo/" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="magalu">
                 <div class="hero-card-image gradient-blue">
                     <img src="https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg" alt="Magalu Loja">
                 </div>
@@ -1039,7 +1106,7 @@
             </a>
 
             <!-- ====== SHEIN — CONJUNTO ====== -->
-            <a href="https://onelink.shein.com/30/5hbo1g7ykwmc" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12">
+            <a href="https://onelink.shein.com/30/5hbo1g7ykwmc" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12" data-store="shein">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">🖤 Shein</span>
@@ -1057,7 +1124,7 @@
             </a>
 
             <!-- ====== SHEIN — TOP ====== -->
-            <a href="https://onelink.shein.com/30/5hbo63xl4v7t" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12">
+            <a href="https://onelink.shein.com/30/5hbo63xl4v7t" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="shein">
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #222, #444);">
                     <img src="https://m.media-amazon.com/images/I/61Fp5ini3bL._AC_SL1500_.jpg" alt="Top Fitness Shein">
                     <span class="card-badge off">-45% OFF</span>
@@ -1075,7 +1142,7 @@
             </a>
 
             <!-- ====== SHEIN — LOJA ====== -->
-            <a href="https://br.shein.com/Sports-c-2183.html" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12">
+            <a href="https://br.shein.com/Sports-c-2183.html" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12" data-store="shein">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">🖤 Shein</span>
@@ -1097,7 +1164,7 @@
             </div>
 
             <!-- ====== LIVRO — PODER DO HÁBITO ====== -->
-            <a href="https://www.amazon.com.br/dp/B00A3D10JE?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12">
+            <a href="https://www.amazon.com.br/dp/B00A3D10JE?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="livros">
                 <div class="hero-card-image gradient-purple">
                     <img src="https://m.media-amazon.com/images/I/815+4rm+F-L._SY385_.jpg" alt="O Poder do Hábito">
                 </div>
@@ -1114,7 +1181,7 @@
             </a>
 
             <!-- ====== LIVRO — MAIS ESPERTO ====== -->
-            <a href="https://www.amazon.com.br/dp/B0153SZLXO?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12">
+            <a href="https://www.amazon.com.br/dp/B0153SZLXO?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12" data-store="livros">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text">😈 Kindle</span>
@@ -1131,7 +1198,7 @@
             </a>
 
             <!-- ====== LIVRO — MINDSET ====== -->
-            <a href="https://www.amazon.com.br/dp/B01NASOQGG?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12">
+            <a href="https://www.amazon.com.br/dp/B01NASOQGG?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="livros">
                 <div class="hero-card-image gradient-purple">
                     <img src="https://m.media-amazon.com/images/I/81D1T67ZflL._SY385_.jpg" alt="Mindset">
                 </div>
@@ -1153,7 +1220,7 @@
             </div>
 
             <!-- ====== HOTMART — CORAÇÃO BLINDADO ====== -->
-            <a href="https://go.hotmart.com/G104343009C" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12">
+            <a href="https://go.hotmart.com/G104343009C" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="hotmart">
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #ff6b9d, #c44dff);">
                     <img src="https://m.media-amazon.com/images/I/61+Y3zu7NgL._AC_UL320_.jpg" alt="Coração Blindado">
                     <span class="card-badge hot">QUENTE</span>
@@ -1171,7 +1238,7 @@
             </a>
 
             <!-- ====== HOTMART — RECEITAS FIT ====== -->
-            <a href="https://go.hotmart.com/C104342832B" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12">
+            <a href="https://go.hotmart.com/C104342832B" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-12" data-store="hotmart">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
                         <span class="hero-card-brand-text" style="color:#ff6b9d;">🎓 Hotmart</span>
@@ -1188,7 +1255,7 @@
             </a>
 
             <!-- ====== HOTMART — PLANNER FIT ====== -->
-            <a href="https://go.hotmart.com/E104342875H" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12">
+            <a href="https://go.hotmart.com/E104342875H" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="hotmart">
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #ff6b9d, #c44dff);">
                     <img src="https://m.media-amazon.com/images/I/618mfDS1L3L._AC_UL320_.jpg" alt="Planner Fit">
                     <span class="card-badge new">NOVO</span>
@@ -1307,6 +1374,40 @@
     <a href="https://wa.me/5547992615857?text=Oi!%20Vim%20pelo%20site%20Fit%20com%20Estilo%20%F0%9F%92%AA" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
         💬
     </a>
+
+    <!-- ============================================
+         FILTRO POR LOJA
+         ============================================ -->
+    <script>
+    function filtrarLojas(loja) {
+        event.preventDefault();
+        const cards = document.querySelectorAll('.hero-card[data-store]');
+        const dividers = document.querySelectorAll('.section-divider');
+        const btns = document.querySelectorAll('.store-nav-btn');
+
+        // Atualiza botão ativo
+        btns.forEach(b => b.style.opacity = '0.5');
+        const ativo = document.querySelector('[data-filter="' + loja + '"]');
+        if (ativo) ativo.style.opacity = '1';
+
+        if (loja === 'todos') {
+            cards.forEach(c => { c.style.display = ''; });
+            dividers.forEach(d => { d.style.display = ''; });
+            return;
+        }
+
+        cards.forEach(c => {
+            if (c.dataset.store === loja) {
+                c.style.display = '';
+            } else {
+                c.style.display = 'none';
+            }
+        });
+
+        // Esconde divisores quando filtrando
+        dividers.forEach(d => { d.style.display = 'none'; });
+    }
+    </script>
 
 </body>
 </html>
