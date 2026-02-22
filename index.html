@@ -375,6 +375,7 @@
         .card-gradient-digital { background: linear-gradient(135deg, #ec489922, #a855f744); }
         .card-gradient-shopee { background: linear-gradient(135deg, #ee4d2d22, #f5762e44); }
         .card-gradient-magalu { background: linear-gradient(135deg, #005aa722, #0086d644); }
+        .card-gradient-shein { background: linear-gradient(135deg, #00000022, #e6000044); }
 
         .product-card-badge {
             position: absolute;
@@ -1451,6 +1452,7 @@
                     <a href="#shopee" class="nav-tab" onclick="activateTab(this)">🧡 Shopee</a>
                     <a href="#casa" class="nav-tab" onclick="activateTab(this)">🏠 Casa</a>
                     <a href="#magalu" class="nav-tab" onclick="activateTab(this)">🛒 Magalu</a>
+                    <a href="#shein" class="nav-tab" onclick="activateTab(this)">🖤 Shein</a>
                     <a href="#ofertas" class="nav-tab" onclick="activateTab(this)">🔥 Ofertas</a>
                     <a href="#livros" class="nav-tab" onclick="activateTab(this)">📚 Livros</a>
                 </div>
@@ -1464,6 +1466,7 @@
                     <button class="filter-pill" data-filter="hotmart" onclick="filterByStore(this)">🎓 Hotmart <span class="pill-count" id="countHotmart"></span></button>
                     <button class="filter-pill" data-filter="kindle" onclick="filterByStore(this)">📚 Kindle <span class="pill-count" id="countKindle"></span></button>
                     <button class="filter-pill" data-filter="magalu" onclick="filterByStore(this)">🛒 Magalu <span class="pill-count" id="countMagalu"></span></button>
+                    <button class="filter-pill" data-filter="shein" onclick="filterByStore(this)">🖤 Shein <span class="pill-count" id="countShein"></span></button>
                 </div>
             </div>
         </div>
@@ -2513,6 +2516,87 @@
                 <a href="https://www.magazinevoce.com.br/magazinefitcomestilo/eletrodomesticos/" class="link-item" target="_blank" rel="noopener">
                     <span class="icon">🏠</span>
                     <div class="info"><div class="name">Eletrodomésticos</div><div class="desc">Geladeiras, fogões, lavadoras</div></div>
+                </a>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- ============================================
+             SHEIN
+             ============================================ -->
+        <section class="section" id="shein" data-loja="shein">
+            <div class="section-header">
+                <div>
+                    <div class="section-title"><span class="emoji">🖤</span> Shein — Moda Fitness</div>
+                    <p class="section-subtitle">Roupas fitness com preços imbatíveis · Use o cupom GRQ7A</p>
+                </div>
+                <span class="section-badge">🔥 Cupom</span>
+            </div>
+
+            <div class="products-grid">
+                <a href="https://onelink.shein.com/30/5hbo1g7ykwmc" class="product-card bestseller animate-in delay-1" target="_blank" rel="noopener">
+                    <div class="product-card-top card-gradient-shein">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/61Qw8j3G9IL._AC_SL1500_.jpg" alt="Conjunto Fitness 2 Peças" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">👗</span>
+                        <span class="product-card-badge badge-hot">🔥 MAIS VENDIDO</span>
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-stars">
+                            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                            <span class="star-count">(2.847)</span>
+                        </div>
+                        <div class="product-card-name">Conjunto Fitness 2 Peças — Top + Legging</div>
+                        <div class="product-card-store">Shein · Cupom GRQ7A</div>
+                        <div class="product-card-footer">
+                            <div class="product-price-wrapper">
+                                <span class="product-old-price">R$ 89,90</span>
+                                <div class="product-price">R$ 49,90</div>
+                            </div>
+                            <span class="btn-buy-pulse">🔥 Comprar</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://onelink.shein.com/30/5hbo63xl4v7t" class="product-card animate-in delay-2" target="_blank" rel="noopener">
+                    <div class="product-card-top card-gradient-shein">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/71R4OdC1rjL._AC_SL1500_.jpg" alt="Top Fitness Cropped" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">👙</span>
+                        <span class="product-card-badge badge-off">-45% OFF</span>
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-stars">
+                            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star-empty">★</span>
+                            <span class="star-count">(1.523)</span>
+                        </div>
+                        <div class="product-card-name">Top Fitness Cropped com Costas Cruzadas</div>
+                        <div class="product-card-store">Shein · Frete Grátis</div>
+                        <div class="product-card-footer">
+                            <div class="product-price-wrapper">
+                                <span class="product-old-price">R$ 59,90</span>
+                                <div class="product-price">R$ 32,90</div>
+                            </div>
+                            <span class="btn-buy">Ver Oferta</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://br.shein.com/Sports-c-2183.html" class="product-card animate-in delay-3" target="_blank" rel="noopener">
+                    <div class="product-card-top card-gradient-shein">
+                        <img class="prod-img" src="https://m.media-amazon.com/images/I/71p0MkXqYOL._AC_SL1500_.jpg" alt="Ver Mais Shein" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+                        <span class="emoji-fallback" style="display:none">🛍️</span>
+                        <span class="product-card-badge badge-new">LOJA</span>
+                    </div>
+                    <div class="product-card-body">
+                        <div class="product-card-name">Ver Toda a Coleção Fitness</div>
+                        <div class="product-card-store">Shein Brasil · Milhares de produtos</div>
+                        <div class="product-card-footer">
+                            <div class="product-price-wrapper">
+                                <div class="product-price" style="font-size:14px">A partir de R$ 19,90</div>
+                            </div>
+                            <span class="btn-buy">Explorar →</span>
+                        </div>
+                    </div>
                 </a>
             </div>
         </section>
