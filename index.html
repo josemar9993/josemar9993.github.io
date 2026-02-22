@@ -448,44 +448,38 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            padding: 10px 18px;
+            padding: 10px 20px;
             border-radius: 50px;
-            background: var(--card-bg);
             color: #fff;
             font-size: 13px;
             font-weight: 700;
             text-decoration: none;
-            border: 2px solid rgba(255,255,255,0.08);
+            border: none;
             transition: all 0.3s ease;
             cursor: pointer;
             letter-spacing: 0.5px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.25);
         }
 
         .store-nav-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+            filter: brightness(1.15);
         }
 
-        .store-nav-btn.btn-amazon { border-color: #ff9900; color: #ff9900; }
-        .store-nav-btn.btn-amazon:hover { background: #ff9900; color: #000; }
+        .store-nav-btn.active {
+            transform: scale(1.08);
+            box-shadow: 0 4px 20px rgba(255,255,255,0.25);
+            filter: brightness(1.2);
+        }
 
-        .store-nav-btn.btn-shopee { border-color: #ee4d2d; color: #ee4d2d; }
-        .store-nav-btn.btn-shopee:hover { background: #ee4d2d; color: #fff; }
-
-        .store-nav-btn.btn-shein { border-color: #fff; color: #fff; }
-        .store-nav-btn.btn-shein:hover { background: #fff; color: #000; }
-
-        .store-nav-btn.btn-magalu { border-color: #0086ff; color: #0086ff; }
-        .store-nav-btn.btn-magalu:hover { background: #0086ff; color: #fff; }
-
-        .store-nav-btn.btn-hotmart { border-color: #f04e23; color: #f04e23; }
-        .store-nav-btn.btn-hotmart:hover { background: #f04e23; color: #fff; }
-
-        .store-nav-btn.btn-livros { border-color: #a78bfa; color: #a78bfa; }
-        .store-nav-btn.btn-livros:hover { background: #a78bfa; color: #fff; }
-
-        .store-nav-btn.btn-todos { border-color: var(--purple); color: var(--purple); background: rgba(139,92,246,0.1); }
-        .store-nav-btn.btn-todos:hover { background: var(--purple); color: #fff; }
+        .store-nav-btn.btn-todos { background: linear-gradient(135deg, #8b5cf6, #a78bfa); }
+        .store-nav-btn.btn-amazon { background: linear-gradient(135deg, #ff9900, #ffad33); color: #000; }
+        .store-nav-btn.btn-shopee { background: linear-gradient(135deg, #ee4d2d, #ff6740); }
+        .store-nav-btn.btn-shein { background: linear-gradient(135deg, #222, #444); }
+        .store-nav-btn.btn-magalu { background: linear-gradient(135deg, #0068c8, #0086ff); }
+        .store-nav-btn.btn-hotmart { background: linear-gradient(135deg, #f04e23, #ff6b3d); }
+        .store-nav-btn.btn-livros { background: linear-gradient(135deg, #7c3aed, #a78bfa); }
 
         /* ============================================
            CARDS DE REDES SOCIAIS — ESTILO PREMIUM
@@ -1383,30 +1377,41 @@
         event.preventDefault();
         const cards = document.querySelectorAll('.hero-card[data-store]');
         const dividers = document.querySelectorAll('.section-divider');
+        const sociais = document.querySelectorAll('.social-card');
         const btns = document.querySelectorAll('.store-nav-btn');
 
         // Atualiza botão ativo
-        btns.forEach(b => b.style.opacity = '0.5');
+        btns.forEach(b => {
+            b.classList.remove('active');
+            b.style.opacity = '0.55';
+        });
         const ativo = document.querySelector('[data-filter="' + loja + '"]');
-        if (ativo) ativo.style.opacity = '1';
+        if (ativo) {
+            ativo.classList.add('active');
+            ativo.style.opacity = '1';
+        }
 
         if (loja === 'todos') {
             cards.forEach(c => { c.style.display = ''; });
             dividers.forEach(d => { d.style.display = ''; });
+            sociais.forEach(s => { s.style.display = ''; });
             return;
         }
 
         cards.forEach(c => {
-            if (c.dataset.store === loja) {
-                c.style.display = '';
-            } else {
-                c.style.display = 'none';
-            }
+            c.style.display = c.dataset.store === loja ? '' : 'none';
         });
 
-        // Esconde divisores quando filtrando
+        // Esconde divisores e cards sociais quando filtrando
         dividers.forEach(d => { d.style.display = 'none'; });
+        sociais.forEach(s => { s.style.display = 'none'; });
     }
+
+    // Botão "Todos" ativo por padrão
+    document.addEventListener('DOMContentLoaded', function() {
+        var todosBtn = document.querySelector('.btn-todos');
+        if (todosBtn) todosBtn.classList.add('active');
+    });
     </script>
 
 </body>
