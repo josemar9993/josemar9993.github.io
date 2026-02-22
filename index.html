@@ -664,28 +664,30 @@
         }
 
         .animate-in {
-            animation: fadeInUp 0.7s ease forwards;
             opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
         }
 
-        /* Fallback: garante visibilidade 3s após carregamento */
+        /* Visível quando entra na viewport ou fallback */
         .animate-in.visible {
             opacity: 1 !important;
             transform: translateY(0) !important;
         }
 
-        .delay-1 { animation-delay: 0.1s; }
-        .delay-2 { animation-delay: 0.2s; }
-        .delay-3 { animation-delay: 0.3s; }
-        .delay-4 { animation-delay: 0.4s; }
-        .delay-5 { animation-delay: 0.5s; }
-        .delay-6 { animation-delay: 0.6s; }
-        .delay-7 { animation-delay: 0.7s; }
-        .delay-8 { animation-delay: 0.8s; }
-        .delay-9 { animation-delay: 0.9s; }
-        .delay-10 { animation-delay: 1.0s; }
-        .delay-11 { animation-delay: 1.1s; }
-        .delay-12 { animation-delay: 1.2s; }
+        /* Fallback máximo: se JS falhar, mostra tudo após 4s */
+        @keyframes forceShow {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-in {
+            animation: forceShow 0s 4s forwards;
+        }
+        .animate-in.visible {
+            animation: none;
+        }
+
+        /* Delays usados pelo IntersectionObserver via JS */
+        /* Classes delay-1 a delay-12 mantidas como markers */
 
         /* Classes de filtro */
         .filter-show {
@@ -1409,19 +1411,49 @@
         }
     }
 
-    // Botão "Todos" ativo por padrão + força visibilidade
+    // Botão "Todos" ativo por padrão + IntersectionObserver para animações
     document.addEventListener('DOMContentLoaded', function() {
         var todosBtn = document.querySelector('.btn-todos');
         if (todosBtn) todosBtn.classList.add('active');
 
-        // Força todos os elementos animados ficarem visíveis após 3s
-        // (resolve bug de animação não rodar em abas background/mobile)
-        setTimeout(function() {
-            var els = document.querySelectorAll('.animate-in');
+        var els = document.querySelectorAll('.animate-in');
+
+        // Método 1: IntersectionObserver (melhor — anima ao entrar na tela)
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        // Delay escalonado baseado na classe delay-N
+                        var el = entry.target;
+                        var delay = 0;
+                        var classes = el.className;
+                        var match = classes.match(/delay-(\d+)/);
+                        if (match) delay = parseInt(match[1]) * 100;
+                        setTimeout(function() {
+                            el.classList.add('visible');
+                        }, Math.min(delay, 600));
+                        observer.unobserve(el);
+                    }
+                });
+            }, { threshold: 0.05, rootMargin: '50px' });
+
+            for (var i = 0; i < els.length; i++) {
+                observer.observe(els[i]);
+            }
+        } else {
+            // Fallback: mostra tudo de uma vez
             for (var i = 0; i < els.length; i++) {
                 els[i].classList.add('visible');
             }
-        }, 3000);
+        }
+
+        // Fallback agressivo: força visibilidade após 2s (WebViews, JS lento)
+        setTimeout(function() {
+            var els2 = document.querySelectorAll('.animate-in:not(.visible)');
+            for (var i = 0; i < els2.length; i++) {
+                els2[i].classList.add('visible');
+            }
+        }, 2000);
     });
     </script>
 
