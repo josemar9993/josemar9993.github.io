@@ -668,11 +668,10 @@
             opacity: 0;
         }
 
-        /* Garante que cards ficam visíveis após animação */
-        .hero-card.animate-in,
-        .section-divider.animate-in,
-        .social-card.animate-in {
-            animation-fill-mode: forwards;
+        /* Fallback: garante visibilidade 3s após carregamento */
+        .animate-in.visible {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
         }
 
         .delay-1 { animation-delay: 0.1s; }
@@ -1410,10 +1409,19 @@
         }
     }
 
-    // Botão "Todos" ativo por padrão
+    // Botão "Todos" ativo por padrão + força visibilidade
     document.addEventListener('DOMContentLoaded', function() {
         var todosBtn = document.querySelector('.btn-todos');
         if (todosBtn) todosBtn.classList.add('active');
+
+        // Força todos os elementos animados ficarem visíveis após 3s
+        // (resolve bug de animação não rodar em abas background/mobile)
+        setTimeout(function() {
+            var els = document.querySelectorAll('.animate-in');
+            for (var i = 0; i < els.length; i++) {
+                els[i].classList.add('visible');
+            }
+        }, 3000);
     });
     </script>
 
