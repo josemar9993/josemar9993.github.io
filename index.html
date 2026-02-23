@@ -185,18 +185,11 @@
            RESET & BASE
            ============================================ */
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
         html, body { overflow-x: hidden; width: 100%; }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            background: linear-gradient(180deg, 
-                #f8f4ff 0%, 
-                #f3ecfc 15%, 
-                #efe6fa 30%, 
-                #ebe0f8 50%, 
-                #f0e8fa 70%, 
-                #f5f0fc 100%);
+            background: linear-gradient(180deg, #f8f4ff 0%, #efe6fa 50%, #f5f0fc 100%);
             min-height: 100vh;
             color: #333;
             line-height: 1.6;
@@ -359,10 +352,9 @@
             border-radius: var(--radius);
             overflow: hidden;
             box-shadow: var(--card-shadow);
-            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             min-height: 200px;
-            contain: layout style;
-            will-change: transform;
+            contain: layout;
             cursor: pointer;
             position: relative;
         }
@@ -390,7 +382,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            contain: strict;
             aspect-ratio: 1 / 1;
         }
 
@@ -401,8 +392,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.5s ease;
-            will-change: transform;
+            transition: transform 0.3s ease;
         }
 
         .hero-card:hover .hero-card-image img {
@@ -794,10 +784,8 @@
            ============================================ */
         .animate-in {
             opacity: 0;
-            transform: translateY(40px);
-            transition: opacity 0.4s ease-out, transform 0.4s ease-out;
-            content-visibility: auto;
-            contain-intrinsic-size: 0 300px;
+            transform: translateY(30px);
+            transition: opacity 0.3s ease-out, transform 0.3s ease-out;
         }
 
         /* Visível quando entra na viewport ou fallback */
@@ -980,7 +968,7 @@
     <header class="header">
         <div class="container">
             <div class="profile-photo animate-in">
-                <img src="logo.png" alt="Fit com Estilo - Moda Fitness Feminina" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                <img src="logo.png" alt="Fit com Estilo - Moda Fitness Feminina" width="180" height="180" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
             </div>
             
             <h1 class="profile-name animate-in delay-1">Fit com Estilo</h1>
@@ -1121,7 +1109,7 @@
                     </div>
                 </div>
                 <div class="hero-card-image" style="background: #fff;">
-                    <img src="img-skincare.jpg" alt="Beleza Shopee" loading="lazy" style="object-fit: cover;">
+                    <img src="img-skincare.jpg" alt="Beleza Shopee" width="260" height="260" loading="lazy" style="object-fit: cover;">
                 </div>
             </a>
 
@@ -1150,7 +1138,7 @@
             <!-- ====== MAGALU — TV SAMSUNG ====== -->
             <a href="https://divulgador.magalu.com/dbIhfE=T" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="magalu">
                 <div class="hero-card-image" style="background: #fff;">
-                    <img src="img-tv.jpeg" alt="Smart TV Samsung 43" loading="lazy" style="object-fit: cover;">
+                    <img src="img-tv.jpeg" alt="Smart TV Samsung 43" width="260" height="260" loading="lazy" style="object-fit: cover;">
                     <span class="card-badge off">-43% OFF</span>
                 </div>
                 <div class="hero-card-content">
@@ -1317,7 +1305,7 @@
             <!-- ====== HOTMART — AUTOMAQUIAGEM ====== -->
             <div class="hero-card img-left animate-in delay-12" data-store="hotmart" data-url="aHR0cHM6Ly9nby5ob3RtYXJ0LmNvbS9NMTA0MzQyOTU0QQ==" onclick="goTo(this)" style="cursor:pointer;">
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #ff6b9d, #c44dff);">
-                    <img src="img-hotmart1.png" alt="AutoMaquiagem Profissional" loading="lazy" style="object-fit: cover;">
+                    <img src="img-hotmart1.png" alt="AutoMaquiagem Profissional" width="260" height="260" loading="lazy" style="object-fit: cover;">
                     <span class="card-badge hot">QUENTE</span>
                 </div>
                 <div class="hero-card-content">
@@ -1352,7 +1340,7 @@
             <!-- ====== HOTMART — RECEITAS FIT ====== -->
             <div class="hero-card img-left animate-in delay-12" data-store="hotmart" data-url="aHR0cHM6Ly9nby5ob3RtYXJ0LmNvbS9DMTA0MzQyODMyQg==" onclick="goTo(this)" style="cursor:pointer;">
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #ff6b9d, #c44dff);">
-                    <img src="img-hotmart3.png" alt="Receitas Fit Doces e Bolos" loading="lazy" style="object-fit: cover;">
+                    <img src="img-hotmart3.png" alt="Receitas Fit Doces e Bolos" width="260" height="260" loading="lazy" style="object-fit: cover;">
                     <span class="card-badge new">NOVO</span>
                 </div>
                 <div class="hero-card-content">
