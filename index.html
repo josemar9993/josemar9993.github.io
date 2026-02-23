@@ -175,14 +175,7 @@
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
 
-    <!-- Google Fonts - Otimizado para performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Preload fonte crítica -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
-    <!-- Carregamento não-bloqueante -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600&display=swap"></noscript>
+    <!-- Fontes: Sistema otimizado (sem requisições externas) -->
 
     <style>
         /* ============================================
@@ -193,7 +186,7 @@
         html, body { overflow-x: hidden; width: 100%; }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             background: linear-gradient(180deg, 
                 #f8f4ff 0%, 
                 #f3ecfc 15%, 
@@ -363,8 +356,10 @@
             border-radius: var(--radius);
             overflow: hidden;
             box-shadow: var(--card-shadow);
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
             min-height: 200px;
+            contain: layout style;
+            will-change: transform;
             cursor: pointer;
             position: relative;
         }
@@ -392,6 +387,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            contain: strict;
+            aspect-ratio: 1 / 1;
         }
 
         .hero-card-image img {
@@ -402,6 +399,7 @@
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s ease;
+            will-change: transform;
         }
 
         .hero-card:hover .hero-card-image img {
@@ -805,13 +803,16 @@
         .animate-in {
             opacity: 0;
             transform: translateY(40px);
-            transition: opacity 0.7s ease, transform 0.7s ease;
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+            will-change: transform, opacity;
+            contain: layout style;
         }
 
         /* Visível quando entra na viewport ou fallback */
         .animate-in.visible {
             opacity: 1 !important;
             transform: translateY(0) !important;
+            will-change: auto;
         }
 
         /* Fallback máximo: se JS falhar, mostra tudo após 4s */
@@ -1053,7 +1054,7 @@
             <!-- ====== SUPLEMENTOS ====== -->
             <a href="https://www.amazon.com.br/s?k=suplementos+whey+creatina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-5" data-store="amazon">
                 <div class="hero-card-image gradient-green">
-                    <img src="https://m.media-amazon.com/images/I/61cVXbI0OOL._AC_SL500_.jpg" alt="Suplementos" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/61cVXbI0OOL._AC_SL500_.jpg" alt="Suplementos" width="300" height="300" loading="lazy">
                     <span class="card-badge prime">PRIME</span>
                 </div>
                 <div class="hero-card-content">
@@ -1081,7 +1082,7 @@
                     </div>
                 </div>
                 <div class="hero-card-image gradient-purple">
-                    <img src="https://m.media-amazon.com/images/I/516dPo8gbUL._AC_SL500_.jpg" alt="Moda Fitness" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/516dPo8gbUL._AC_SL500_.jpg" alt="Moda Fitness" width="300" height="300" loading="lazy">
                     <span class="card-badge hot">HOT</span>
                 </div>
             </a>
@@ -1147,7 +1148,7 @@
             <!-- ====== SHOPEE CASA ====== -->
             <a href="https://shopee.com.br/search?keyword=organizadores+casa+cozinha+air+fryer&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&af_click_lookback=7d" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-10" data-store="shopee">
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #fff5f2, #ffebe5);">
-                    <img src="https://m.media-amazon.com/images/I/61dDZxzhI8L._AC_SL1200_.jpg" alt="Casa Shopee" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/61dDZxzhI8L._AC_SL1200_.jpg" alt="Casa Shopee" width="300" height="300" loading="lazy">
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
@@ -1197,7 +1198,7 @@
                     </div>
                 </div>
                 <div class="hero-card-image gradient-blue">
-                    <img src="https://m.media-amazon.com/images/I/71Sa3dqTqzL._AC_SL1500_.jpg" alt="Samsung Galaxy" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/71Sa3dqTqzL._AC_SL1500_.jpg" alt="Samsung Galaxy" width="300" height="300" loading="lazy">
                     <span class="card-badge hot">HOT</span>
                 </div>
             </a>
@@ -1205,7 +1206,7 @@
             <!-- ====== MAGALU — LOJA ====== -->
             <a href="https://www.magazinevoce.com.br/magazinefitcomestilo/" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="magalu">
                 <div class="hero-card-image gradient-blue">
-                    <img src="https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg" alt="Magalu Loja" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg" alt="Magalu Loja" width="300" height="300" loading="lazy">
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
@@ -1232,7 +1233,7 @@
                     </div>
                 </div>
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #222, #444);">
-                    <img src="https://m.media-amazon.com/images/I/61vaVZCGtCL._AC_SL1500_.jpg" alt="Conjunto Fitness Shein" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/61vaVZCGtCL._AC_SL1500_.jpg" alt="Conjunto Fitness Shein" width="300" height="300" loading="lazy">
                     <span class="card-badge hot">🔥</span>
                 </div>
             </a>
@@ -1240,7 +1241,7 @@
             <!-- ====== SHEIN — TOP ====== -->
             <a href="https://onelink.shein.com/30/5hbo63xl4v7t" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="shein">
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #222, #444);">
-                    <img src="https://m.media-amazon.com/images/I/61Fp5ini3bL._AC_SL1500_.jpg" alt="Top Fitness Shein" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/61Fp5ini3bL._AC_SL1500_.jpg" alt="Top Fitness Shein" width="300" height="300" loading="lazy">
                     <span class="card-badge off">-45% OFF</span>
                 </div>
                 <div class="hero-card-content">
@@ -1268,7 +1269,7 @@
                     </div>
                 </div>
                 <div class="hero-card-image" style="background: linear-gradient(135deg, #222, #444);">
-                    <img src="https://m.media-amazon.com/images/I/51vwHmNHMEL._AC_SL1500_.jpg" alt="Shein Fitness" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/51vwHmNHMEL._AC_SL1500_.jpg" alt="Shein Fitness" width="300" height="300" loading="lazy">
                 </div>
             </a>
 
@@ -1280,7 +1281,7 @@
             <!-- ====== LIVRO — PODER DO HÁBITO ====== -->
             <a href="https://www.amazon.com.br/dp/B00A3D10JE?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="livros">
                 <div class="hero-card-image gradient-purple">
-                    <img src="https://m.media-amazon.com/images/I/815+4rm+F-L._SY385_.jpg" alt="O Poder do Hábito" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/815+4rm+F-L._SY385_.jpg" alt="O Poder do Hábito" width="300" height="300" loading="lazy">
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
@@ -1307,14 +1308,14 @@
                     </div>
                 </div>
                 <div class="hero-card-image gradient-purple">
-                    <img src="https://m.media-amazon.com/images/I/819ERrDHRcL._SY385_.jpg" alt="Mais Esperto que o Diabo" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/819ERrDHRcL._SY385_.jpg" alt="Mais Esperto que o Diabo" width="300" height="300" loading="lazy">
                 </div>
             </a>
 
             <!-- ====== LIVRO — MINDSET ====== -->
             <a href="https://www.amazon.com.br/dp/B01NASOQGG?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-12" data-store="livros">
                 <div class="hero-card-image gradient-purple">
-                    <img src="https://m.media-amazon.com/images/I/81D1T67ZflL._SY385_.jpg" alt="Mindset" loading="lazy">
+                    <img src="https://m.media-amazon.com/images/I/81D1T67ZflL._SY385_.jpg" alt="Mindset" width="300" height="300" loading="lazy">
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
