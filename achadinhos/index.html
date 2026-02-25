@@ -98,6 +98,38 @@
       box-shadow: 0 3px 12px rgba(238,77,45,0.3);
     }
 
+    /* ── Busca ── */
+    .search-box {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 22px;
+    }
+    .search-box input {
+      width: 100%;
+      max-width: 480px;
+      padding: 12px 20px 12px 44px;
+      border: 2px solid #f0e0d8;
+      border-radius: 24px;
+      font-size: 0.95rem;
+      outline: none;
+      background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") 14px center / 20px no-repeat;
+      transition: border-color 0.25s, box-shadow 0.25s;
+      color: #333;
+    }
+    .search-box input::placeholder { color: #bbb; }
+    .search-box input:focus {
+      border-color: #ee4d2d;
+      box-shadow: 0 0 0 3px rgba(238,77,45,0.12);
+    }
+    .no-results {
+      display: none;
+      text-align: center;
+      padding: 40px 20px;
+      color: #999;
+      font-size: 0.95rem;
+    }
+    .no-results.show { display: block; }
+
     .cat-section {
       margin-bottom: 30px;
       transition: opacity 0.3s, max-height 0.3s;
@@ -193,6 +225,11 @@
       <button class="filter-btn" data-cat="suplementos">💪 Suplementos (80)</button>
       <button class="filter-btn" data-cat="beleza-skincare">💄 Beleza & Skincare (90)</button>
     </nav>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Buscar produto... ex: legging, creatina, sérum" autocomplete="off" />
+    </div>
+    <div class="no-results" id="noResults">😕 Nenhum produto encontrado para sua busca.</div>
 
 
     <section class="cat-section" data-category="moda-fitness">
@@ -2625,24 +2662,60 @@
   </div>
 
   <script>
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        // Ativar botão
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
+    // ── Estado ──
+    let activeCat = 'todos';
+    let searchTerm = '';
 
-        const cat = btn.dataset.cat;
-        document.querySelectorAll('.cat-section').forEach(sec => {
-          if (cat === 'todos' || sec.dataset.category === cat) {
-            sec.classList.remove('hidden');
+    function applyFilters() {
+      const noResults = document.getElementById('noResults');
+      let totalVisible = 0;
+
+      document.querySelectorAll('.cat-section').forEach(sec => {
+        const catMatch = activeCat === 'todos' || sec.dataset.category === activeCat;
+        if (!catMatch) { sec.classList.add('hidden'); return; }
+
+        sec.classList.remove('hidden');
+        let sectionVisible = 0;
+
+        sec.querySelectorAll('.card').forEach(card => {
+          const nome = card.querySelector('.nome').textContent.toLowerCase();
+          if (!searchTerm || nome.includes(searchTerm)) {
+            card.style.display = '';
+            sectionVisible++;
           } else {
-            sec.classList.add('hidden');
+            card.style.display = 'none';
           }
         });
 
-        // Scroll suave para o topo dos resultados
+        if (sectionVisible === 0 && searchTerm) {
+          sec.classList.add('hidden');
+        }
+        totalVisible += sectionVisible;
+      });
+
+      noResults.classList.toggle('show', totalVisible === 0 && searchTerm.length > 0);
+    }
+
+    // ── Filtro por categoria ──
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeCat = btn.dataset.cat;
+        applyFilters();
         document.querySelector('.filters').scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
+    });
+
+    // ── Busca por texto ──
+    const searchInput = document.getElementById('searchInput');
+    let debounceTimer;
+    searchInput.addEventListener('input', () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        searchTerm = searchInput.value.toLowerCase().trim();
+        applyFilters();
+      }, 200);
     });
   </script>
 </body>
