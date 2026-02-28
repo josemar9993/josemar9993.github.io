@@ -1,87 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://fitcomestilo.store/</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://fitcomestilo.store/sobre/</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/logo.webp</image:loc>
+      <image:title>Fit com Estilo — Moda Fitness Feminina</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/img-tv.webp</image:loc>
+      <image:title>Smart TV Samsung 43 4K</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/img-hotmart1.webp</image:loc>
+      <image:title>Curso AutoMaquiagem Profissional</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/img-hotmart2.webp</image:loc>
+      <image:title>Dança Fit Emagreça Dançando</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/img-hotmart3.webp</image:loc>
+      <image:title>Receitas Fit Doces e Bolos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/img-skincare.webp</image:loc>
+      <image:title>Beleza e Skincare Shopee</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://fitcomestilo.store/achadinhos/</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/logo.webp</image:loc>
+      <image:title>Achadinhos da Shopee — Fit com Estilo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://fitcomestilo.store/sobre/</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://fitcomestilo.store/logo.webp</image:loc>
+      <image:title>Sobre o Fit com Estilo</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://fitcomestilo.store/privacidade/</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://fitcomestilo.store/termos/</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://fitcomestilo.store/p/index.html</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitcomestilo.store/p/melhores-beleza-e-skincare-2026.html</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitcomestilo.store/p/melhores-casa-e-cozinha-2026.html</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitcomestilo.store/p/melhores-eletronicos-e-gadgets-2026.html</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitcomestilo.store/p/melhores-livros-e-ebooks-2026.html</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://fitcomestilo.store/p/melhores-moda-fitness-2026.html</loc>
-    <lastmod>2026-02-25</lastmod>
+    <loc>https://fitcomestilo.store/p/</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://fitcomestilo.store/p/melhores-ofertas-2026.html</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fitcomestilo.store/p/melhores-moda-fitness-2026.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://fitcomestilo.store/p/melhores-suplementos-2026.html</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fitcomestilo.store/p/melhores-beleza-e-skincare-2026.html</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fitcomestilo.store/p/melhores-eletronicos-e-gadgets-2026.html</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fitcomestilo.store/p/melhores-livros-e-ebooks-2026.html</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fitcomestilo.store/p/melhores-casa-e-cozinha-2026.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://fitcomestilo.store/p/ofertas-hoje.html</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

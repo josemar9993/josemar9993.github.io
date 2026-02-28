@@ -8,5 +8,8 @@ Disallow: /.git/
 # Sitemap
 Sitemap: https://fitcomestilo.store/sitemap.xml
 
+# RSS Feed
+# https://fitcomestilo.store/feed.xml
+
 # Crawl-delay (seja gentil com o servidor)
 Crawl-delay: 1
