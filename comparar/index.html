@@ -123,6 +123,21 @@
       color: #fff;
       margin-bottom: 4px;
     }
+    .compare-item-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+    .compare-item-img {
+      width: 72px;
+      height: 72px;
+      border-radius: 14px;
+      object-fit: cover;
+      border: 2px solid rgba(255,255,255,0.1);
+      flex-shrink: 0;
+    }
+    .compare-item-header .item-info { flex: 1; }
     .compare-item .category-tag {
       display: inline-block;
       padding: 3px 10px;
@@ -282,7 +297,6 @@
     <button class="filter-btn active" onclick="filterCompare('todos')">🏷️ Todos</button>
     <button class="filter-btn" onclick="filterCompare('moda')">👗 Moda</button>
     <button class="filter-btn" onclick="filterCompare('suplemento')">💊 Suplementos</button>
-    <button class="filter-btn" onclick="filterCompare('acessorio')">🎒 Acessórios</button>
     <button class="filter-btn" onclick="filterCompare('skincare')">🧴 Skincare</button>
   </div>
 
@@ -295,9 +309,14 @@
 
     <!-- PRODUTO 1 -->
     <div class="compare-item" data-cat="moda">
-      <h3>Legging Cós Alto Poliamida</h3>
-      <span class="category-tag cat-moda">Moda Fitness</span>
-      <a href="https://shopee.com.br/search?keyword=legging+cos+alto+poliamida&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-lzhsnpao0az924" alt="Legging Cós Alto Poliamida" loading="lazy">
+        <div class="item-info">
+          <h3>Legging Cós Alto Poliamida</h3>
+          <span class="category-tag cat-moda">Moda Fitness</span>
+        </div>
+      </div>
+      <a href="https://shopee.com.br/product/1126064857/20599370356?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 32,99</div></div>
         <span class="best-tag">MENOR</span>
@@ -323,15 +342,20 @@
 
     <!-- PRODUTO 2 -->
     <div class="compare-item" data-cat="suplemento">
-      <h3>Whey Protein Concentrado 1kg</h3>
-      <span class="category-tag cat-suplemento">Suplemento</span>
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-mdc5e0md0che14" alt="Whey Protein Concentrado 1kg" loading="lazy">
+        <div class="item-info">
+          <h3>Whey Protein Concentrado 1kg</h3>
+          <span class="category-tag cat-suplemento">Suplemento</span>
+        </div>
+      </div>
       <a href="https://www.amazon.com.br/s?k=whey+protein+concentrado+1kg&tag=fitcomestilo-20&linkCode=ll2" target="_blank" rel="noopener" class="store-row best" data-store="amazon">
         <div class="store-icon store-amazon">A</div>
         <div class="store-info"><div class="store-name">Amazon</div><div class="store-price">R$ 89,90</div></div>
         <span class="best-tag">MENOR</span>
         <span class="btn-go">Ver →</span>
       </a>
-      <a href="https://shopee.com.br/search?keyword=whey+protein+concentrado+1kg&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row" data-store="shopee">
+      <a href="https://shopee.com.br/product/422764082/22194331598?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 94,99</div></div>
         <span class="btn-go">Ver →</span>
@@ -346,9 +370,14 @@
 
     <!-- PRODUTO 3 -->
     <div class="compare-item" data-cat="moda">
-      <h3>Macaquinho Fitness Modelador</h3>
-      <span class="category-tag cat-moda">Moda Fitness</span>
-      <a href="https://shopee.com.br/search?keyword=macaquinho+fitness+modelador+feminino&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-maea8d5h1uof4c" alt="Macaquinho Fitness Modelador" loading="lazy">
+        <div class="item-info">
+          <h3>Macaquinho Fitness Modelador</h3>
+          <span class="category-tag cat-moda">Moda Fitness</span>
+        </div>
+      </div>
+      <a href="https://shopee.com.br/product/969401129/23493569512?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 39,90</div></div>
         <span class="best-tag">MENOR</span>
@@ -369,15 +398,20 @@
 
     <!-- PRODUTO 4 -->
     <div class="compare-item" data-cat="suplemento">
-      <h3>Creatina Monohidratada 300g</h3>
-      <span class="category-tag cat-suplemento">Suplemento</span>
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-mdem522l1mfl80" alt="Creatina Monohidratada 300g" loading="lazy">
+        <div class="item-info">
+          <h3>Creatina Monohidratada 300g</h3>
+          <span class="category-tag cat-suplemento">Suplemento</span>
+        </div>
+      </div>
       <a href="https://www.amazon.com.br/s?k=creatina+monohidratada+300g&tag=fitcomestilo-20&linkCode=ll2" target="_blank" rel="noopener" class="store-row best" data-store="amazon">
         <div class="store-icon store-amazon">A</div>
         <div class="store-info"><div class="store-name">Amazon</div><div class="store-price">R$ 49,90</div></div>
         <span class="best-tag">MENOR</span>
         <span class="btn-go">Ver →</span>
       </a>
-      <a href="https://shopee.com.br/search?keyword=creatina+monohidratada+300g&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row" data-store="shopee">
+      <a href="https://shopee.com.br/product/347988064/7078628796?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 54,90</div></div>
         <span class="btn-go">Ver →</span>
@@ -392,9 +426,14 @@
 
     <!-- PRODUTO 5 -->
     <div class="compare-item" data-cat="moda">
-      <h3>Conjunto Top + Legging Canelado</h3>
-      <span class="category-tag cat-moda">Moda Fitness</span>
-      <a href="https://shopee.com.br/search?keyword=conjunto+top+legging+fitness+canelado&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98r-lmnug42oy91387" alt="Conjunto Top + Legging Canelado" loading="lazy">
+        <div class="item-info">
+          <h3>Conjunto Top + Legging Canelado</h3>
+          <span class="category-tag cat-moda">Moda Fitness</span>
+        </div>
+      </div>
+      <a href="https://shopee.com.br/product/1024306960/22197015688?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 54,90</div></div>
         <span class="best-tag">MENOR</span>
@@ -420,9 +459,14 @@
 
     <!-- PRODUTO 6 -->
     <div class="compare-item" data-cat="skincare">
-      <h3>Sérum Vitamina C + Ácido Hialurônico</h3>
-      <span class="category-tag cat-skincare">Skincare</span>
-      <a href="https://shopee.com.br/search?keyword=serum+vitamina+c+acido+hialuronico&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-mdmixmsuoq0p50" alt="Sérum Vitamina C + Ácido Hialurônico" loading="lazy">
+        <div class="item-info">
+          <h3>Sérum Vitamina C + Ácido Hialurônico</h3>
+          <span class="category-tag cat-skincare">Skincare</span>
+        </div>
+      </div>
+      <a href="https://shopee.com.br/product/509869891/22194318769?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 19,90</div></div>
         <span class="best-tag">MENOR</span>
@@ -442,39 +486,49 @@
     </div>
 
     <!-- PRODUTO 7 -->
-    <div class="compare-item" data-cat="acessorio">
-      <h3>Garrafa de Água 2L com Marcador</h3>
-      <span class="category-tag cat-acessorio">Acessório</span>
-      <a href="https://shopee.com.br/search?keyword=garrafa+agua+2l+marcador+tempo&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
+    <div class="compare-item" data-cat="skincare">
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-maa1iap089dl6d" alt="Hidratante Facial Karité + Niacinamida" loading="lazy">
+        <div class="item-info">
+          <h3>Hidratante Facial Karité + Niacinamida</h3>
+          <span class="category-tag cat-skincare">Skincare</span>
+        </div>
+      </div>
+      <a href="https://shopee.com.br/product/373261329/43852360893?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
-        <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 18,90</div></div>
+        <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 38,70</div></div>
         <span class="best-tag">MENOR</span>
         <span class="btn-go">Ver →</span>
       </a>
-      <a href="https://www.amazon.com.br/s?k=garrafa+agua+2+litros+marcador&tag=fitcomestilo-20&linkCode=ll2" target="_blank" rel="noopener" class="store-row" data-store="amazon">
+      <a href="https://www.amazon.com.br/s?k=hidratante+facial+karite+niacinamida&tag=fitcomestilo-20&linkCode=ll2" target="_blank" rel="noopener" class="store-row" data-store="amazon">
         <div class="store-icon store-amazon">A</div>
-        <div class="store-info"><div class="store-name">Amazon</div><div class="store-price">R$ 29,90</div></div>
+        <div class="store-info"><div class="store-name">Amazon</div><div class="store-price">R$ 54,90</div></div>
         <span class="btn-go">Ver →</span>
       </a>
-      <a href="https://www.magazineluiza.com.br/busca/garrafa+agua+2+litros+marcador/?partner_id=68930&utm_source=divulgador" target="_blank" rel="noopener" class="store-row" data-store="magalu">
+      <a href="https://www.magazineluiza.com.br/busca/hidratante+facial+karite/?partner_id=68930&utm_source=divulgador" target="_blank" rel="noopener" class="store-row" data-store="magalu">
         <div class="store-icon store-magalu">ML</div>
-        <div class="store-info"><div class="store-name">Magazine Luiza</div><div class="store-price">R$ 39,90</div></div>
+        <div class="store-info"><div class="store-name">Magazine Luiza</div><div class="store-price">R$ 59,90</div></div>
         <span class="btn-go">Ver →</span>
       </a>
-      <div class="savings-bar"><span class="savings-text">💰 Economize até R$ 21 escolhendo a Shopee!</span></div>
+      <div class="savings-bar"><span class="savings-text">💰 Economize até R$ 21,20 escolhendo a Shopee!</span></div>
     </div>
 
     <!-- PRODUTO 8 -->
     <div class="compare-item" data-cat="suplemento">
-      <h3>Colágeno Hidrolisado + Vitamina C</h3>
-      <span class="category-tag cat-suplemento">Suplemento</span>
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-lvj6r0lpbdpj39" alt="Colágeno Hidrolisado + Vitamina C" loading="lazy">
+        <div class="item-info">
+          <h3>Colágeno Hidrolisado + Vitamina C</h3>
+          <span class="category-tag cat-suplemento">Suplemento</span>
+        </div>
+      </div>
       <a href="https://www.amazon.com.br/s?k=colageno+hidrolisado+vitamina+c&tag=fitcomestilo-20&linkCode=ll2" target="_blank" rel="noopener" class="store-row best" data-store="amazon">
         <div class="store-icon store-amazon">A</div>
         <div class="store-info"><div class="store-name">Amazon</div><div class="store-price">R$ 39,90</div></div>
         <span class="best-tag">MENOR</span>
         <span class="btn-go">Ver →</span>
       </a>
-      <a href="https://shopee.com.br/search?keyword=colageno+hidrolisado+vitamina+c&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row" data-store="shopee">
+      <a href="https://shopee.com.br/product/1258176146/22697549745?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 44,90</div></div>
         <span class="btn-go">Ver →</span>
@@ -488,33 +542,43 @@
     </div>
 
     <!-- PRODUTO 9 -->
-    <div class="compare-item" data-cat="acessorio">
-      <h3>Fone Bluetooth Esportivo</h3>
-      <span class="category-tag cat-acessorio">Acessório</span>
-      <a href="https://shopee.com.br/search?keyword=fone+bluetooth+esportivo+prova+agua&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
+    <div class="compare-item" data-cat="moda">
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-7r98o-ly3zc6hbp1xzc7" alt="Conjunto Short + Top UV 50+" loading="lazy">
+        <div class="item-info">
+          <h3>Conjunto Short + Top UV 50+</h3>
+          <span class="category-tag cat-moda">Moda Fitness</span>
+        </div>
+      </div>
+      <a href="https://shopee.com.br/product/1024726168/22993172714?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
-        <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 24,90</div></div>
+        <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 29,95</div></div>
         <span class="best-tag">MENOR</span>
         <span class="btn-go">Ver →</span>
       </a>
-      <a href="https://www.amazon.com.br/s?k=fone+bluetooth+esportivo+prova+agua&tag=fitcomestilo-20&linkCode=ll2" target="_blank" rel="noopener" class="store-row" data-store="amazon">
+      <a href="https://www.amazon.com.br/s?k=conjunto+short+top+fitness+feminino+uv&tag=fitcomestilo-20&linkCode=ll2" target="_blank" rel="noopener" class="store-row" data-store="amazon">
         <div class="store-icon store-amazon">A</div>
-        <div class="store-info"><div class="store-name">Amazon</div><div class="store-price">R$ 49,90</div></div>
+        <div class="store-info"><div class="store-name">Amazon</div><div class="store-price">R$ 54,90</div></div>
         <span class="btn-go">Ver →</span>
       </a>
-      <a href="https://www.magazineluiza.com.br/busca/fone+bluetooth+esportivo/?partner_id=68930&utm_source=divulgador" target="_blank" rel="noopener" class="store-row" data-store="magalu">
+      <a href="https://www.magazineluiza.com.br/busca/conjunto+short+top+fitness+feminino/?partner_id=68930&utm_source=divulgador" target="_blank" rel="noopener" class="store-row" data-store="magalu">
         <div class="store-icon store-magalu">ML</div>
-        <div class="store-info"><div class="store-name">Magazine Luiza</div><div class="store-price">R$ 59,90</div></div>
+        <div class="store-info"><div class="store-name">Magazine Luiza</div><div class="store-price">R$ 69,90</div></div>
         <span class="btn-go">Ver →</span>
       </a>
-      <div class="savings-bar"><span class="savings-text">💰 Economize até R$ 35 escolhendo a Shopee!</span></div>
+      <div class="savings-bar"><span class="savings-text">💰 Economize até R$ 39,95 escolhendo a Shopee!</span></div>
     </div>
 
     <!-- PRODUTO 10 -->
     <div class="compare-item" data-cat="skincare">
-      <h3>Protetor Solar Facial FPS 50</h3>
-      <span class="category-tag cat-skincare">Skincare</span>
-      <a href="https://shopee.com.br/search?keyword=protetor+solar+facial+fps+50&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
+      <div class="compare-item-header">
+        <img class="compare-item-img" src="https://cf.shopee.com.br/file/br-11134207-81z1k-mibo3qlzh3peb9" alt="Protetor Solar Facial FPS 50" loading="lazy">
+        <div class="item-info">
+          <h3>Protetor Solar Facial FPS 50</h3>
+          <span class="category-tag cat-skincare">Skincare</span>
+        </div>
+      </div>
+      <a href="https://shopee.com.br/product/373261329/22097296846?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=comparador" target="_blank" rel="noopener" class="store-row best" data-store="shopee">
         <div class="store-icon store-shopee">S</div>
         <div class="store-info"><div class="store-name">Shopee</div><div class="store-price">R$ 22,90</div></div>
         <span class="best-tag">MENOR</span>

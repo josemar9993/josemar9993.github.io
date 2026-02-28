@@ -195,30 +195,40 @@
       background: rgba(255,255,255,0.06);
       border: 1px solid rgba(255,255,255,0.1);
       border-radius: 14px;
-      padding: 16px;
+      padding: 12px;
       margin-bottom: 10px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
       gap: 12px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s;
     }
-    .product-card .prod-info { flex: 1; }
-    .product-card .prod-name { font-size: 0.9rem; color: #fff; font-weight: 600; margin-bottom: 4px; }
-    .product-card .prod-price { font-size: 0.85rem; color: #10b981; font-weight: 700; }
-    .product-card .prod-store { font-size: 0.75rem; color: #999; }
+    .product-card:hover { background: rgba(139,92,246,0.12); transform: translateY(-2px); }
+    .product-card .prod-img {
+      width: 72px;
+      height: 72px;
+      border-radius: 10px;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: rgba(255,255,255,0.08);
+    }
+    .product-card .prod-info { flex: 1; min-width: 0; }
+    .product-card .prod-name { font-size: 0.82rem; color: #fff; font-weight: 600; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .product-card .prod-price { font-size: 0.9rem; color: #10b981; font-weight: 700; }
+    .product-card .prod-store { font-size: 0.7rem; color: #999; margin-top: 2px; }
+    .product-card .prod-sold { font-size: 0.65rem; color: #a78bfa; }
     .product-card .btn-ver {
-      padding: 8px 16px;
+      padding: 8px 14px;
       background: linear-gradient(135deg, #8b5cf6, #ec4899);
       color: #fff;
       border: none;
       border-radius: 10px;
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       font-weight: 700;
-      text-decoration: none;
       white-space: nowrap;
-      transition: transform 0.2s;
+      flex-shrink: 0;
     }
-    .product-card .btn-ver:hover { transform: scale(1.05); }
 
     .email-capture-result {
       background: rgba(139,92,246,0.15);
@@ -437,10 +447,10 @@
       title: 'Warrior Fit',
       desc: 'Você é intensa, disciplinada e não pula treino nem no feriado! Seu estilo é all black com peças que acompanham seu ritmo pesado. Precisa de roupas que performam de verdade.',
       products: [
-        { name: 'Legging Poliamida Cós Alto', price: 'R$ 60,03', store: 'Shopee', url: 'https://shopee.com.br/search?keyword=legging+poliamida+cos+alto&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Quiz' },
-        { name: 'Macaquinho Fitness Blackout', price: 'R$ 55,90', store: 'Shopee', url: 'https://shopee.com.br/search?keyword=macaquinho+fitness+blackout&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Quiz' },
-        { name: 'Whey Protein Isolado', price: 'A partir de R$ 89', store: 'Amazon', url: 'https://www.amazon.com.br/s?k=whey+protein+isolado&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl' },
-        { name: 'Creatina Monohidratada', price: 'A partir de R$ 49', store: 'Amazon', url: 'https://www.amazon.com.br/s?k=creatina+monohidratada&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl' }
+        { name: 'Legging Poliamida Cós Alto Zero Transparência', price: 'R$ 60,03', store: 'Shopee', sold: '3.239 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-mbnvan26jp9jeb', url: 'https://shopee.com.br/product/1293204037/22593267676' },
+        { name: 'Macaquinho Fitness Blackout Alcinha Slim', price: 'R$ 55,90', store: 'Shopee', sold: '4.109 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-maea8d5h1uof4c', url: 'https://shopee.com.br/product/969401129/23493569512' },
+        { name: 'Creatina Monohidratada 500g Soldiers', price: 'R$ 44,90', store: 'Shopee', sold: '6.085 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-mdem522l1mfl80', url: 'https://shopee.com.br/product/347988064/7078628796' },
+        { name: 'Whey Protein Gourmet Concentrado e Isolado', price: 'R$ 32,90', store: 'Shopee', sold: '3.854 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-81ztc-mivh723fxerndc', url: 'https://shopee.com.br/product/1552356308/58200579731' }
       ]
     },
     power: {
@@ -448,10 +458,10 @@
       title: 'Power Queen',
       desc: 'Você é a rainha da academia! Treina pesado, come certinho e malha camiseta. Precisa de roupa que aguenta impacto e suplementos que acompanham sua evolução.',
       products: [
-        { name: 'Conjunto Top + Legging Canelado', price: 'R$ 89,90', store: 'Shopee', url: 'https://shopee.com.br/search?keyword=conjunto+top+legging+canelado&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Quiz' },
-        { name: 'Kit Legging + Top Shein', price: 'R$ 49,90', store: 'Shein', url: 'https://onelink.shein.com/30/5hbo1g7ykwmc' },
-        { name: 'Whey + Creatina Kit', price: 'A partir de R$ 129', store: 'Amazon', url: 'https://www.amazon.com.br/s?k=whey+creatina+kit&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl' },
-        { name: 'Curso Receitas Fit', price: 'Acesso imediato', store: 'Hotmart', url: 'https://go.hotmart.com/C104342832B' }
+        { name: 'Conjunto Top + Legging Canelado com Bolso', price: 'R$ 89,90', store: 'Shopee', sold: '4.134 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98r-lmnug42oy91387', url: 'https://shopee.com.br/product/1024306960/22197015688' },
+        { name: 'Whey Pro Max Titanium 1kg', price: 'R$ 78,99', store: 'Shopee', sold: '3.144 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-mdc5e0md0che14', url: 'https://shopee.com.br/product/422764082/22194331598' },
+        { name: 'Creatina Monohidratada 1kg Soldiers', price: 'R$ 78,90', store: 'Shopee', sold: '7.115 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-mdem522l310137', url: 'https://shopee.com.br/product/347988064/9212570285' },
+        { name: 'Conjunto Top + Legging Wonder Canelado', price: 'R$ 74,90', store: 'Shopee', sold: '2.408 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-maya2wjyl11r79', url: 'https://shopee.com.br/product/427059892/20197986423' }
       ]
     },
     zen: {
@@ -459,10 +469,10 @@
       title: 'Zen Flow',
       desc: 'Yoga, pilates e corrida leve são sua praia. Você valoriza conforto, bem-estar e peças que fluem com o corpo. Minimalismo é a sua vibe!',
       products: [
-        { name: 'Legging Canelada Sem Costura', price: 'R$ 32,99', store: 'Shopee', url: 'https://shopee.com.br/search?keyword=legging+canelada+sem+costura&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Quiz' },
-        { name: 'Top Cropped Costas Cruzadas', price: 'R$ 32,90', store: 'Shein', url: 'https://onelink.shein.com/30/5hbo63xl4v7t' },
-        { name: 'Colágeno Hidrolisado', price: 'A partir de R$ 39', store: 'Amazon', url: 'https://www.amazon.com.br/s?k=colageno+hidrolisado&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl' },
-        { name: 'O Poder do Hábito (eBook)', price: 'R$ 12,90', store: 'Amazon', url: 'https://www.amazon.com.br/dp/B00A3D10JE?tag=fitcomestilo-20&linkCode=ll1&ref_=as_li_ss_tl' }
+        { name: 'Legging Canelada Cintura Alta Sem Costura', price: 'R$ 32,99', store: 'Shopee', sold: '3.814 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-lzhsnpao0az924', url: 'https://shopee.com.br/product/1126064857/20599370356' },
+        { name: 'Legging Cintura Alta Modeladora Esportiva', price: 'R$ 29,90', store: 'Shopee', sold: '3.253 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-81z1k-melv7hm5jm69e8', url: 'https://shopee.com.br/product/1384597727/22194424824' },
+        { name: 'Colágeno + Ácido Hialurônico', price: 'R$ 33,82', store: 'Shopee', sold: '2.349 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-lvj6r0lpbdpj39', url: 'https://shopee.com.br/product/1258176146/22697549745' },
+        { name: 'Colágeno Verisol + Biotina + CoQ-10', price: 'R$ 68,65', store: 'Shopee', sold: '2.044 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-m355mznc8idh93', url: 'https://shopee.com.br/product/571244316/21499493169' }
       ]
     },
     glow: {
@@ -470,10 +480,10 @@
       title: 'Glow Fitness',
       desc: 'Você treina, mas também ama skincare, maquiagem e um look que arrasa nas fotos! Acredita que se sentir bonita é parte do treino. Estilo é tudo!',
       products: [
-        { name: 'Sérum Vitamina C', price: 'A partir de R$ 19', store: 'Shopee', url: 'https://shopee.com.br/search?keyword=serum+vitamina+c+skincare&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Quiz' },
-        { name: 'Conjunto Fitness Colorido', price: 'R$ 37,92', store: 'Shopee', url: 'https://shopee.com.br/search?keyword=conjunto+fitness+colorido+feminino&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Quiz' },
-        { name: 'Curso AutoMaquiagem', price: 'Acesso imediato', store: 'Hotmart', url: 'https://go.hotmart.com/M104342954A' },
-        { name: 'Curso Dança Fit', price: '74 aulas', store: 'Hotmart', url: 'https://go.hotmart.com/B104342919Q' }
+        { name: 'Sérum Clareador Dermachem Anti-Manchas', price: 'R$ 22,99', store: 'Shopee', sold: '6.160 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-mdmixmsuoq0p50', url: 'https://shopee.com.br/product/509869891/22194318769' },
+        { name: 'Creme Hidratante Facial Karité + Niacinamida', price: 'R$ 38,70', store: 'Shopee', sold: '6.880 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-maa1iap089dl6d', url: 'https://shopee.com.br/product/373261329/43852360893' },
+        { name: 'Protetor Solar Facial FPS 60', price: 'R$ 44,10', store: 'Shopee', sold: '7.318 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-81z1k-mibo3qlzh3peb9', url: 'https://shopee.com.br/product/373261329/22097296846' },
+        { name: 'Conjunto Short + Top Fitness UV 50+', price: 'R$ 29,95', store: 'Shopee', sold: '3.334 vendidos', img: 'https://cf.shopee.com.br/file/br-11134207-7r98o-ly3zc6hbp1xzc7', url: 'https://shopee.com.br/product/1024726168/22993172714' }
       ]
     }
   };
@@ -525,14 +535,16 @@
     // Produtos
     var prodHTML = '';
     profile.products.forEach(function(p) {
-      prodHTML += '<div class="product-card">' +
+      prodHTML += '<a href="' + p.url + '?mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=quiz-' + maxKey + '" target="_blank" rel="noopener" class="product-card">' +
+        '<img class="prod-img" src="' + p.img + '" alt="' + p.name + '" width="72" height="72" loading="lazy">' +
         '<div class="prod-info">' +
           '<div class="prod-name">' + p.name + '</div>' +
           '<div class="prod-price">' + p.price + '</div>' +
           '<div class="prod-store">📍 ' + p.store + '</div>' +
+          '<div class="prod-sold">🔥 ' + p.sold + '</div>' +
         '</div>' +
-        '<a href="' + p.url + '" target="_blank" rel="noopener" class="btn-ver">Ver Oferta →</a>' +
-      '</div>';
+        '<span class="btn-ver">Ver →</span>' +
+      '</a>';
     });
     document.getElementById('result-products').innerHTML = prodHTML;
 
