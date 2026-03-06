@@ -331,6 +331,36 @@
             color: var(--purple);
         }
 
+        .hero-card-note {
+            font-size: 13px;
+            color: var(--text-medium);
+            margin-bottom: 14px;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
+        .bg-white-panel {
+            background: #fff;
+        }
+
+        .bg-shopee-soft {
+            background: linear-gradient(135deg, #fff5f2, #ffebe5);
+        }
+
+        .img-cover {
+            object-fit: cover;
+        }
+
+        .brand-shopee {
+            color: #ee4d2d;
+        }
+
+        .coupon-pill-shopee {
+            background: linear-gradient(135deg, #fff5f2, #ffebe5);
+            border-color: #ee4d2d;
+            color: #ee4d2d;
+        }
+
         /* Cupom Pill */
         .coupon-pill {
             display: inline-flex;
@@ -974,8 +1004,8 @@
 
             <!-- ====== ACESSÓRIOS FITNESS ====== -->
             <a href="https://www.amazon.com.br/s?k=acessorios+fitness+treino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-7" data-store="amazon">
-                <div class="hero-card-image" style="background: #fff;">
-                    <img src="img-acessorios.webp" alt="Acessórios Fitness" loading="lazy" decoding="async" style="object-fit: cover;">
+                <div class="hero-card-image bg-white-panel">
+                    <img src="img-acessorios.webp" alt="Acessórios Fitness" loading="lazy" decoding="async" class="img-cover">
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
@@ -998,18 +1028,19 @@
 
             <!-- ====== ACHADINHOS DA SHOPEE (NOVO) ====== -->
             <a href="https://fitcomestilo.store/achadinhos/" class="hero-card img-left animate-in delay-10" data-store="shopee">
-                <div class="hero-card-image" style="background: linear-gradient(135deg, #fff5f2, #ffebe5);">
-                    <img src="img-achadinhos.svg" alt="Nossos Achadinhos da Shopee — Moda Fitness, Suplementos e Beleza" loading="lazy" decoding="async" style="object-fit: cover;">
-                    <span class="card-badge hot">NOVO</span>
+                <div class="hero-card-image bg-shopee-soft">
+                    <img src="img-achadinhos.svg" alt="Nossos Achadinhos da Shopee — Moda Fitness, Suplementos e Beleza" loading="lazy" decoding="async" class="img-cover">
+                    <span class="card-badge hot">120 ITENS</span>
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
-                        <span class="hero-card-brand-text" style="color: #ee4d2d;">🛍️ Shopee</span>
+                        <span class="hero-card-brand-text brand-shopee">🛍️ Shopee</span>
                     </div>
-                    <h2 class="hero-card-title">Nossos <span style="color:#ee4d2d;">Achadinhos</span></h2>
-                    <div class="coupon-pill" style="background: linear-gradient(135deg, #fff5f2, #ffebe5); border-color: #ee4d2d; color: #ee4d2d;">
+                    <h2 class="hero-card-title">120 achadinhos <span class="brand-shopee">reais</span></h2>
+                    <p class="hero-card-note">40 moda fitness • 40 suplementos • 40 beleza e skincare</p>
+                    <div class="coupon-pill coupon-pill-shopee">
                         <span class="icon">🔥</span>
-                        CURADORIA EXCLUSIVA
+                        ATUALIZADO EM 06/03
                     </div>
                 </div>
             </a>
@@ -1018,16 +1049,16 @@
             <a href="https://shopee.com.br/search?keyword=moda%20fitness&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&af_click_lookback=7d" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-10" data-store="shopee">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
-                        <span class="hero-card-brand-text" style="color: #ee4d2d;">🧡 Shopee</span>
+                        <span class="hero-card-brand-text brand-shopee">🧡 Shopee</span>
                     </div>
-                    <h2 class="hero-card-title">Minha coleção <span style="color:#ee4d2d;">Shopee</span></h2>
-                    <div class="coupon-pill" style="background: linear-gradient(135deg, #fff5f2, #ffebe5); border-color: #ee4d2d; color: #ee4d2d;">
+                    <h2 class="hero-card-title">Moda fitness <span class="brand-shopee">Shopee</span></h2>
+                    <div class="coupon-pill coupon-pill-shopee">
                         <span class="icon">🛒</span>
                         CUPONS DIÁRIOS
                     </div>
                 </div>
-                <div class="hero-card-image" style="background: #fff;">
-                    <img src="img-shopee.webp" alt="Coleção Shopee" loading="lazy" decoding="async" style="object-fit: cover;">
+                <div class="hero-card-image bg-white-panel">
+                    <img src="img-shopee.webp" alt="Coleção Shopee" loading="lazy" decoding="async" class="img-cover">
                 </div>
             </a>
 
@@ -1035,30 +1066,30 @@
             <a href="https://shopee.com.br/search?keyword=skincare+vitamina+c+serum&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&af_click_lookback=7d" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-10" data-store="shopee">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
-                        <span class="hero-card-brand-text" style="color: #ee4d2d;">💄 Shopee</span>
+                        <span class="hero-card-brand-text brand-shopee">💄 Shopee</span>
                     </div>
-                    <h2 class="hero-card-title">Beleza & <span style="color:#ee4d2d;">Skincare</span></h2>
-                    <div class="coupon-pill" style="background: linear-gradient(135deg, #fff5f2, #ffebe5); border-color: #ee4d2d; color: #ee4d2d;">
+                    <h2 class="hero-card-title">Beleza & <span class="brand-shopee">Skincare</span></h2>
+                    <div class="coupon-pill coupon-pill-shopee">
                         <span class="icon">✨</span>
                         FRETE GRÁTIS
                     </div>
                 </div>
-                <div class="hero-card-image" style="background: #fff;">
-                    <img src="img-skincare.webp" alt="Beleza Shopee" width="260" height="260" loading="lazy" decoding="async" style="object-fit: cover;">
+                <div class="hero-card-image bg-white-panel">
+                    <img src="img-skincare.webp" alt="Beleza Shopee" width="260" height="260" loading="lazy" decoding="async" class="img-cover">
                 </div>
             </a>
 
             <!-- ====== SHOPEE CASA ====== -->
             <a href="https://shopee.com.br/search?keyword=organizadores+casa+cozinha+air+fryer&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&af_click_lookback=7d" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-10" data-store="shopee">
-                <div class="hero-card-image" style="background: linear-gradient(135deg, #fff5f2, #ffebe5);">
+                <div class="hero-card-image bg-shopee-soft">
                     <img src="https://m.media-amazon.com/images/I/61dDZxzhI8L._AC_SL300_.jpg" alt="Casa Shopee" width="300" height="300" loading="lazy" decoding="async">
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
-                        <span class="hero-card-brand-text" style="color: #ee4d2d;">🏠 Shopee</span>
+                        <span class="hero-card-brand-text brand-shopee">🏠 Shopee</span>
                     </div>
-                    <h2 class="hero-card-title">Casa & <span style="color:#ee4d2d;">Cozinha</span></h2>
-                    <div class="coupon-pill" style="background: linear-gradient(135deg, #fff5f2, #ffebe5); border-color: #ee4d2d; color: #ee4d2d;">
+                    <h2 class="hero-card-title">Casa & <span class="brand-shopee">Cozinha</span></h2>
+                    <div class="coupon-pill coupon-pill-shopee">
                         <span class="icon">🛒</span>
                         OFERTAS DO DIA
                     </div>
@@ -1067,7 +1098,7 @@
 
             <!-- DIVISOR -->
             <div class="section-divider animate-in delay-12">
-                <span class="section-title">� Lojas parceiras</span>
+                <span class="section-title">✨ Lojas parceiras</span>
             </div>
 
             <!-- ====== MAGALU — TV SAMSUNG ====== -->
@@ -1559,10 +1590,10 @@
         <meta itemprop="headline" content="Fit com Estilo — Moda Fitness Feminina, Suplementos e Beleza">
         <meta itemprop="author" content="Fit com Estilo">
         <meta itemprop="datePublished" content="2026-01-01">
-        <meta itemprop="dateModified" content="2026-02-22">
+        <meta itemprop="dateModified" content="2026-03-06">
 
         <h2 id="o-que-e-fit-com-estilo" style="color: #8b5cf6; font-size: 26px; margin-bottom: 20px;">O que é Fit com Estilo?</h2>
-        <p><strong>Fit com Estilo</strong> (<a href="https://fitcomestilo.store/" style="color: #8b5cf6;">fitcomestilo.store</a>) é a curadoria oficial de <strong>moda fitness feminina</strong>, <strong>suplementos esportivos</strong> e <strong>beleza</strong> no Brasil. Desde 2024, selecionamos os melhores produtos das maiores lojas — Amazon, Shopee, Shein e Magalu — com cupons exclusivos, frete grátis e links verificados.</p>
+        <p><strong>Fit com Estilo</strong> (<a href="https://fitcomestilo.store/" style="color: #8b5cf6;">fitcomestilo.store</a>) é a curadoria oficial de <strong>moda fitness feminina</strong>, <strong>suplementos esportivos</strong> e <strong>beleza</strong> no Brasil. Desde 2024, selecionamos os melhores produtos das maiores lojas — Amazon, Shopee, Shein e Magalu — com cupons exclusivos, frete grátis e links verificados. Em março de 2026, a home foi atualizada para destacar nossa vitrine de <strong>120 achadinhos reais da Shopee</strong>, organizada em moda fitness, suplementos e beleza.</p>
         <p>O conceito <strong>"fit com estilo"</strong> une conforto, alta performance e moda, com foco em tecidos tecnológicos (dry fit, poliamida, suplex) que modelam o corpo sem transparência, ideais para o treino e o pós‑treino. Tendências incluem conjuntos coordenados, <em>biker shorts</em> e o uso de pontos de cor em looks neutros para maior sofisticação.</p>
 
         <h3 id="tendencias" style="color: #7c3aed; font-size: 20px; margin: 30px 0 15px;">Tendências de Moda Fitness com Estilo em 2026</h3>
