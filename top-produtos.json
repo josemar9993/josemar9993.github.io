@@ -10,7 +10,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial Anti Idade Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-anti-idade-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-anti-idade-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-anti-idade-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 73.91,
+    "ordem_anuncio": 81
   },
   {
     "nome": "Protetor Solar Anti Idade Vitamina C",
@@ -23,7 +31,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar Anti Idade Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-anti-idade-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 80.31,
+    "ordem_anuncio": 54
   },
   {
     "nome": "Kit Creatina e Whey Protein Combo",
@@ -36,7 +52,15 @@
     "beneficio_principal": "forca e performance muscular",
     "titulo_merchant": "Kit Creatina e Whey Protein Combo | Suplementos e Performance | Forca",
     "url_local": "https://fitcomestilo.store/produto/kit-creatina-e-whey-protein-combo/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/kit-creatina-e-whey-protein-combo.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/kit-creatina-e-whey-protein-combo.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 94.49,
+    "ordem_anuncio": 3
   },
   {
     "nome": "Protetor Solar Anti Idade Reparador",
@@ -49,7 +73,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Anti Idade Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-anti-idade-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 78.11,
+    "ordem_anuncio": 55
   },
   {
     "nome": "Protetor Solar Anti Idade Firmador",
@@ -62,7 +94,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Anti Idade Firmador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-anti-idade-firmador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-firmador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-firmador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 6.48,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.6,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 81.31,
+    "ordem_anuncio": 36
   },
   {
     "nome": "Protetor Solar Anti Idade Pele Oleosa",
@@ -75,7 +115,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Anti Idade Pele Oleosa | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-anti-idade-pele-oleosa/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-pele-oleosa.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-pele-oleosa.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 6.48,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.6,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 81.31,
+    "ordem_anuncio": 37
   },
   {
     "nome": "Creatina Monohidratada 1kg Premium",
@@ -88,7 +136,15 @@
     "beneficio_principal": "forca e performance muscular",
     "titulo_merchant": "Creatina Monohidratada 1kg Premium | Suplementos e Performance | Forca",
     "url_local": "https://fitcomestilo.store/produto/creatina-monohidratada-1kg-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-1kg-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-1kg-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 4.72,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 3.67,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 73.89,
+    "ordem_anuncio": 80
   },
   {
     "nome": "Protetor Solar Anti Idade Antioxidante",
@@ -101,7 +157,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Anti Idade Antioxidante | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-anti-idade-antioxidante/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-antioxidante.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-antioxidante.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 7.08,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 6.2,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 84.51,
+    "ordem_anuncio": 31
   },
   {
     "nome": "Protetor Solar Anti Idade Pele Sensível",
@@ -114,7 +178,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Anti Idade Pele Sensível | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-anti-idade-pele-sensivel/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-pele-sensivel.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-anti-idade-pele-sensivel.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 7.08,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 6.2,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 84.51,
+    "ordem_anuncio": 32
   },
   {
     "nome": "Whey Protein Concentrado 120 Cápsulas Premium",
@@ -127,7 +199,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado 120 Cápsulas Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-120-capsulas-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-120-capsulas-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-120-capsulas-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 40
   },
   {
     "nome": "Whey Protein Concentrado 1kg Premium",
@@ -140,7 +220,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado 1kg Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-1kg-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-1kg-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-1kg-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 41
   },
   {
     "nome": "Whey Protein Concentrado 300g Premium",
@@ -153,7 +241,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado 300g Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-300g-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-300g-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-300g-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 42
   },
   {
     "nome": "Whey Protein Concentrado 480ml Premium",
@@ -166,7 +262,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado 480ml Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-480ml-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-480ml-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-480ml-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 43
   },
   {
     "nome": "Whey Protein Concentrado 60 Cápsulas Premium",
@@ -179,7 +283,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado 60 Cápsulas Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-60-capsulas-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-60-capsulas-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-60-capsulas-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 44
   },
   {
     "nome": "Whey Protein Concentrado 900g Premium",
@@ -192,7 +304,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado 900g Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-900g-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-900g-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-900g-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 45
   },
   {
     "nome": "Whey Protein Concentrado Alta Absorção Premium",
@@ -205,7 +325,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado Alta Absorção Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-alta-absorcao-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-alta-absorcao-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-alta-absorcao-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 46
   },
   {
     "nome": "Whey Protein Concentrado Baunilha Premium",
@@ -218,7 +346,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado Baunilha Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-baunilha-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-baunilha-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-baunilha-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 47
   },
   {
     "nome": "Whey Protein Concentrado Chocolate Premium",
@@ -231,7 +367,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado Chocolate Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-chocolate-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-chocolate-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-chocolate-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 48
   },
   {
     "nome": "Whey Protein Concentrado Morango Premium",
@@ -244,7 +388,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado Morango Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-morango-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-morango-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-morango-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 49
   },
   {
     "nome": "Whey Protein Concentrado Performance Premium",
@@ -257,7 +409,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado Performance Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-performance-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-performance-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-performance-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 50
   },
   {
     "nome": "Whey Protein Concentrado Sem Açúcar Premium",
@@ -270,7 +430,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Concentrado Sem Açúcar Premium | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-concentrado-sem-acucar-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-sem-acucar-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-concentrado-sem-acucar-premium.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 6.32,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 5.27,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 83.09,
+    "ordem_anuncio": 51
   },
   {
     "nome": "Whey Protein Isolado 120 Cápsulas Academia",
@@ -283,7 +451,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 120 Cápsulas Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-120-capsulas-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-120-capsulas-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-120-capsulas-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 4
   },
   {
     "nome": "Whey Protein Isolado 120 Cápsulas Importado",
@@ -296,7 +472,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 120 Cápsulas Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-120-capsulas-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-120-capsulas-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-120-capsulas-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 5
   },
   {
     "nome": "Whey Protein Isolado 1kg Academia",
@@ -309,7 +493,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 1kg Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-1kg-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-1kg-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-1kg-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 6
   },
   {
     "nome": "Whey Protein Isolado 1kg Importado",
@@ -322,7 +514,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 1kg Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-1kg-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-1kg-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-1kg-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 7
   },
   {
     "nome": "Whey Protein Isolado 300g Academia",
@@ -335,7 +535,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 300g Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-300g-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-300g-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-300g-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 8
   },
   {
     "nome": "Whey Protein Isolado 300g Importado",
@@ -348,7 +556,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 300g Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-300g-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-300g-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-300g-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 9
   },
   {
     "nome": "Whey Protein Isolado 480ml Academia",
@@ -361,7 +577,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 480ml Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-480ml-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-480ml-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-480ml-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 10
   },
   {
     "nome": "Whey Protein Isolado 480ml Importado",
@@ -374,7 +598,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 480ml Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-480ml-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-480ml-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-480ml-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 11
   },
   {
     "nome": "Whey Protein Isolado 60 Cápsulas Academia",
@@ -387,7 +619,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 60 Cápsulas Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-60-capsulas-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-60-capsulas-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-60-capsulas-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 12
   },
   {
     "nome": "Whey Protein Isolado 60 Cápsulas Importado",
@@ -400,7 +640,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 60 Cápsulas Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-60-capsulas-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-60-capsulas-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-60-capsulas-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 13
   },
   {
     "nome": "Whey Protein Isolado 900g Academia",
@@ -413,7 +661,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 900g Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-900g-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-900g-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-900g-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 14
   },
   {
     "nome": "Whey Protein Isolado 900g Chocolate",
@@ -426,7 +682,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 900g Chocolate | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-900g-chocolate/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-900g-chocolate.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-900g-chocolate.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 15
   },
   {
     "nome": "Whey Protein Isolado 900g Importado",
@@ -439,7 +703,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado 900g Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-900g-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-900g-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-900g-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 16
   },
   {
     "nome": "Whey Protein Isolado Alta Absorção Academia",
@@ -452,7 +724,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Alta Absorção Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-alta-absorcao-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-alta-absorcao-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-alta-absorcao-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 17
   },
   {
     "nome": "Whey Protein Isolado Alta Absorção Importado",
@@ -465,7 +745,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Alta Absorção Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-alta-absorcao-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-alta-absorcao-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-alta-absorcao-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 18
   },
   {
     "nome": "Whey Protein Isolado Baunilha Academia",
@@ -478,7 +766,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Baunilha Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-baunilha-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-baunilha-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-baunilha-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 19
   },
   {
     "nome": "Whey Protein Isolado Baunilha Importado",
@@ -491,7 +787,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Baunilha Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-baunilha-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-baunilha-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-baunilha-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 20
   },
   {
     "nome": "Whey Protein Isolado Chocolate Academia",
@@ -504,7 +808,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Chocolate Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-chocolate-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-chocolate-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-chocolate-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 21
   },
   {
     "nome": "Whey Protein Isolado Chocolate Importado",
@@ -517,7 +829,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Chocolate Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-chocolate-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-chocolate-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-chocolate-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 22
   },
   {
     "nome": "Whey Protein Isolado Morango Academia",
@@ -530,7 +850,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Morango Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-morango-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-morango-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-morango-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 23
   },
   {
     "nome": "Whey Protein Isolado Morango Importado",
@@ -543,7 +871,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Morango Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-morango-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-morango-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-morango-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 24
   },
   {
     "nome": "Whey Protein Isolado Performance Academia",
@@ -556,7 +892,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Performance Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-performance-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-performance-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-performance-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 25
   },
   {
     "nome": "Whey Protein Isolado Performance Importado",
@@ -569,7 +913,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Performance Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-performance-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-performance-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-performance-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 26
   },
   {
     "nome": "Whey Protein Isolado Sem Açúcar Academia",
@@ -582,7 +934,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Sem Açúcar Academia | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-sem-acucar-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-sem-acucar-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-sem-acucar-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 27
   },
   {
     "nome": "Whey Protein Isolado Sem Açúcar Importado",
@@ -595,7 +955,15 @@
     "beneficio_principal": "recuperacao e aporte proteico diario",
     "titulo_merchant": "Whey Protein Isolado Sem Açúcar Importado | Suplementos e Performance | Recuperacao",
     "url_local": "https://fitcomestilo.store/produto/whey-protein-isolado-sem-acucar-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-sem-acucar-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/whey-protein-isolado-sem-acucar-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 7.92,
+    "faixa_comissao": "media",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 6.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 92.29,
+    "ordem_anuncio": 28
   },
   {
     "nome": "Sérum Facial 100ml Vitamina C",
@@ -608,7 +976,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial 100ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-100ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-100ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-100ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 82
   },
   {
     "nome": "Sérum Facial 200ml Vitamina C",
@@ -621,7 +997,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial 200ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-200ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-200ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-200ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 83
   },
   {
     "nome": "Sérum Facial 30ml Vitamina C",
@@ -634,7 +1018,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial 30ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-30ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-30ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-30ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 84
   },
   {
     "nome": "Sérum Facial 50ml Vitamina C",
@@ -647,7 +1039,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial 50ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-50ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-50ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-50ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 85
   },
   {
     "nome": "Sérum Facial Capilar Vitamina C",
@@ -660,7 +1060,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial Capilar Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-capilar-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-capilar-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-capilar-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 86
   },
   {
     "nome": "Sérum Facial Corporal Vitamina C",
@@ -673,7 +1081,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial Corporal Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-corporal-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-corporal-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-corporal-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 87
   },
   {
     "nome": "Sérum Facial FPS 60 Vitamina C",
@@ -686,7 +1102,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial FPS 60 Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-fps-60-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-fps-60-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-fps-60-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 88
   },
   {
     "nome": "Sérum Facial Facial Vitamina C",
@@ -699,7 +1123,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial Facial Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-facial-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-facial-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-facial-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 89
   },
   {
     "nome": "Sérum Facial Glow Vitamina C",
@@ -712,7 +1144,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial Glow Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-glow-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-glow-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-glow-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 90
   },
   {
     "nome": "Sérum Facial Hidratação Vitamina C",
@@ -725,7 +1165,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial Hidratação Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-hidratacao-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-hidratacao-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-hidratacao-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 91
   },
   {
     "nome": "Sérum Facial Uso Diário Vitamina C",
@@ -738,7 +1186,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Facial Uso Diário Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-facial-uso-diario-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-uso-diario-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-facial-uso-diario-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 92
   },
   {
     "nome": "Sérum Vitamina C Facial 30ml",
@@ -751,7 +1207,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Sérum Vitamina C Facial 30ml | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/serum-vitamina-c-facial-30ml/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/serum-vitamina-c-facial-30ml.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/serum-vitamina-c-facial-30ml.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 70.61,
+    "ordem_anuncio": 93
   },
   {
     "nome": "Legging Fitness Premium Preta",
@@ -764,7 +1228,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Preta | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-preta/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-preta.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-preta.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 4.9,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 3.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 72.6,
+    "ordem_anuncio": 78
   },
   {
     "nome": "Legging Fitness Premium Sem Costura",
@@ -777,7 +1249,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Sem Costura | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-sem-costura/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-sem-costura.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-sem-costura.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 4.9,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 3.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 72.6,
+    "ordem_anuncio": 79
   },
   {
     "nome": "Protetor Solar 100ml Vitamina C",
@@ -790,7 +1270,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar 100ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-100ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-100ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-100ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 56
   },
   {
     "nome": "Protetor Solar 200ml Vitamina C",
@@ -803,7 +1291,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar 200ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-200ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-200ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-200ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 57
   },
   {
     "nome": "Protetor Solar 30ml Vitamina C",
@@ -816,7 +1312,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar 30ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-30ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-30ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-30ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 58
   },
   {
     "nome": "Protetor Solar 50ml Vitamina C",
@@ -829,7 +1333,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar 50ml Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-50ml-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-50ml-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-50ml-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 59
   },
   {
     "nome": "Protetor Solar Capilar Vitamina C",
@@ -842,7 +1354,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar Capilar Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-capilar-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-capilar-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-capilar-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 60
   },
   {
     "nome": "Protetor Solar Corporal Vitamina C",
@@ -855,7 +1375,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar Corporal Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-corporal-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-corporal-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-corporal-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 61
   },
   {
     "nome": "Protetor Solar FPS 60 Vitamina C",
@@ -868,7 +1396,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar FPS 60 Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-fps-60-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-fps-60-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-fps-60-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 62
   },
   {
     "nome": "Protetor Solar Facial Vitamina C",
@@ -881,7 +1417,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar Facial Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-facial-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-facial-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-facial-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 63
   },
   {
     "nome": "Protetor Solar Glow Vitamina C",
@@ -894,7 +1438,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar Glow Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-glow-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-glow-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-glow-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 64
   },
   {
     "nome": "Protetor Solar Hidratação Vitamina C",
@@ -907,7 +1459,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar Hidratação Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-hidratacao-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-hidratacao-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-hidratacao-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 65
   },
   {
     "nome": "Protetor Solar Uso Diário Vitamina C",
@@ -920,7 +1480,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Protetor Solar Uso Diário Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-uso-diario-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-uso-diario-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-uso-diario-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 77.01,
+    "ordem_anuncio": 66
   },
   {
     "nome": "Legging Fitness Premium Alta Sustentação",
@@ -933,7 +1501,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Alta Sustentação | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-alta-sustentacao/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-alta-sustentacao.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-alta-sustentacao.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 5.4,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 4.45,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 75.35,
+    "ordem_anuncio": 76
   },
   {
     "nome": "Legging Fitness Premium Azul Marinho",
@@ -946,7 +1522,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Azul Marinho | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-azul-marinho/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-azul-marinho.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-azul-marinho.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 5.4,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 4.45,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 75.35,
+    "ordem_anuncio": 77
   },
   {
     "nome": "Legging Fitness Premium Rosa",
@@ -959,7 +1543,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Rosa | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-rosa/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-rosa.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-rosa.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 5.9,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 4.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 78.1,
+    "ordem_anuncio": 52
   },
   {
     "nome": "Legging Fitness Premium Tecido Suplex",
@@ -972,7 +1564,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Tecido Suplex | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-tecido-suplex/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-tecido-suplex.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-tecido-suplex.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 5.9,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 4.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 78.1,
+    "ordem_anuncio": 53
   },
   {
     "nome": "Legging Fitness Premium Cinza",
@@ -985,7 +1585,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Cinza | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-cinza/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-cinza.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-cinza.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 6.4,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 5.45,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 80.85,
+    "ordem_anuncio": 38
   },
   {
     "nome": "Legging Fitness Premium Estampa Floral",
@@ -998,7 +1606,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Estampa Floral | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-estampa-floral/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-estampa-floral.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-estampa-floral.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 6.4,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 5.45,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 80.85,
+    "ordem_anuncio": 39
   },
   {
     "nome": "Legging Fitness Premium Estilo Básico",
@@ -1011,7 +1627,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Estilo Básico | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-estilo-basico/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-estilo-basico.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-estilo-basico.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 6.9,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 5.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 83.6,
+    "ordem_anuncio": 34
   },
   {
     "nome": "Legging Fitness Premium Nude",
@@ -1024,7 +1648,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Nude | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-nude/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-nude.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-nude.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 6.9,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 5.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 83.6,
+    "ordem_anuncio": 35
   },
   {
     "nome": "Legging Fitness Premium Com Bolso",
@@ -1037,7 +1669,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Com Bolso | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-com-bolso/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-com-bolso.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-com-bolso.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 7.4,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 6.45,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 86.35,
+    "ordem_anuncio": 29
   },
   {
     "nome": "Legging Fitness Premium Performance",
@@ -1050,7 +1690,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Legging Fitness Premium Performance | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/legging-fitness-premium-performance/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-performance.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/legging-fitness-premium-performance.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 7.4,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 6.45,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 86.35,
+    "ordem_anuncio": 30
   },
   {
     "nome": "Conjunto Academia Premium Preta",
@@ -1063,7 +1711,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Conjunto Academia Premium Preta | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/conjunto-academia-premium-preta/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/conjunto-academia-premium-preta.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/conjunto-academia-premium-preta.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 8.9,
+    "faixa_comissao": "alta",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 7.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 94.6,
+    "ordem_anuncio": 1
   },
   {
     "nome": "Conjunto Academia Premium Sem Costura",
@@ -1076,7 +1732,15 @@
     "beneficio_principal": "conforto, estilo e praticidade para treinar",
     "titulo_merchant": "Conjunto Academia Premium Sem Costura | Moda Fitness Feminina | Conforto, estilo",
     "url_local": "https://fitcomestilo.store/produto/conjunto-academia-premium-sem-costura/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/conjunto-academia-premium-sem-costura.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/conjunto-academia-premium-sem-costura.jpg",
+    "taxa_comissao_estimada": 10.0,
+    "comissao_estimada_reais": 8.9,
+    "faixa_comissao": "alta",
+    "cpc_estimado": 0.95,
+    "lucro_pos_cpc": 7.95,
+    "roas_alvo": 2.4,
+    "indice_anuncio": 94.6,
+    "ordem_anuncio": 2
   },
   {
     "nome": "Ácido Hialurônico Facial Premium",
@@ -1089,7 +1753,15 @@
     "beneficio_principal": "hidratacao e viço da pele",
     "titulo_merchant": "Ácido Hialurônico Facial Premium | Beleza e Skincare | Hidratacao",
     "url_local": "https://fitcomestilo.store/produto/acido-hialuronico-facial-premium/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/acido-hialuronico-facial-premium.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/acido-hialuronico-facial-premium.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 7.08,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 6.2,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 82.31,
+    "ordem_anuncio": 33
   },
   {
     "nome": "Protetor Térmico Capilar 200ml",
@@ -1102,7 +1774,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Térmico Capilar 200ml | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-termico-capilar-200ml/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-termico-capilar-200ml.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-termico-capilar-200ml.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 3.48,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 2.6,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 62.01,
+    "ordem_anuncio": 100
   },
   {
     "nome": "Ácido Hialurônico Capilar Vitamina C",
@@ -1115,7 +1795,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Ácido Hialurônico Capilar Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/acido-hialuronico-capilar-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/acido-hialuronico-capilar-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/acido-hialuronico-capilar-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 68.41,
+    "ordem_anuncio": 94
   },
   {
     "nome": "Ácido Hialurônico Facial Vitamina C",
@@ -1128,7 +1816,15 @@
     "beneficio_principal": "luminosidade e rotina antioxidante",
     "titulo_merchant": "Ácido Hialurônico Facial Vitamina C | Beleza e Skincare | Luminosidade",
     "url_local": "https://fitcomestilo.store/produto/acido-hialuronico-facial-vitamina-c/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/acido-hialuronico-facial-vitamina-c.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/acido-hialuronico-facial-vitamina-c.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 4.68,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 3.8,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 68.41,
+    "ordem_anuncio": 95
   },
   {
     "nome": "Creatina Monohidratada 1kg Academia",
@@ -1141,7 +1837,15 @@
     "beneficio_principal": "forca e performance muscular",
     "titulo_merchant": "Creatina Monohidratada 1kg Academia | Suplementos e Performance | Forca",
     "url_local": "https://fitcomestilo.store/produto/creatina-monohidratada-1kg-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-1kg-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-1kg-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 3.92,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 2.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 65.99,
+    "ordem_anuncio": 96
   },
   {
     "nome": "Creatina Monohidratada 1kg Importado",
@@ -1154,7 +1858,15 @@
     "beneficio_principal": "forca e performance muscular",
     "titulo_merchant": "Creatina Monohidratada 1kg Importado | Suplementos e Performance | Forca",
     "url_local": "https://fitcomestilo.store/produto/creatina-monohidratada-1kg-importado/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-1kg-importado.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-1kg-importado.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 3.92,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 2.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 65.99,
+    "ordem_anuncio": 97
   },
   {
     "nome": "Creatina Monohidratada 300g",
@@ -1167,7 +1879,15 @@
     "beneficio_principal": "forca e performance muscular",
     "titulo_merchant": "Creatina Monohidratada 300g | Suplementos e Performance | Forca",
     "url_local": "https://fitcomestilo.store/produto/creatina-monohidratada-300g/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-300g.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-300g.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 3.92,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 2.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 65.99,
+    "ordem_anuncio": 98
   },
   {
     "nome": "Creatina Monohidratada 900g Academia",
@@ -1180,7 +1900,15 @@
     "beneficio_principal": "forca e performance muscular",
     "titulo_merchant": "Creatina Monohidratada 900g Academia | Suplementos e Performance | Forca",
     "url_local": "https://fitcomestilo.store/produto/creatina-monohidratada-900g-academia/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-900g-academia.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/creatina-monohidratada-900g-academia.jpg",
+    "taxa_comissao_estimada": 8.0,
+    "comissao_estimada_reais": 3.92,
+    "faixa_comissao": "entrada",
+    "cpc_estimado": 1.05,
+    "lucro_pos_cpc": 2.87,
+    "roas_alvo": 2.2,
+    "indice_anuncio": 65.99,
+    "ordem_anuncio": 99
   },
   {
     "nome": "Protetor Solar 100ml Reparador",
@@ -1193,7 +1921,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar 100ml Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-100ml-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-100ml-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-100ml-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 67
   },
   {
     "nome": "Protetor Solar 200ml Reparador",
@@ -1206,7 +1942,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar 200ml Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-200ml-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-200ml-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-200ml-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 68
   },
   {
     "nome": "Protetor Solar 30ml Reparador",
@@ -1219,7 +1963,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar 30ml Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-30ml-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-30ml-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-30ml-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 69
   },
   {
     "nome": "Protetor Solar 50ml Reparador",
@@ -1232,7 +1984,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar 50ml Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-50ml-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-50ml-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-50ml-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 70
   },
   {
     "nome": "Protetor Solar Capilar Reparador",
@@ -1245,7 +2005,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Capilar Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-capilar-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-capilar-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-capilar-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 71
   },
   {
     "nome": "Protetor Solar Corporal Reparador",
@@ -1258,7 +2026,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Corporal Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-corporal-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-corporal-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-corporal-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 72
   },
   {
     "nome": "Protetor Solar FPS 60 Reparador",
@@ -1271,7 +2047,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar FPS 60 Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-fps-60-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-fps-60-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-fps-60-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 73
   },
   {
     "nome": "Protetor Solar FPS60 60g",
@@ -1284,7 +2068,15 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar FPS60 60g | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-fps60-60g/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-fps60-60g.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-fps60-60g.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 74
   },
   {
     "nome": "Protetor Solar Facial Reparador",
@@ -1297,6 +2089,14 @@
     "beneficio_principal": "protecao solar para o dia a dia",
     "titulo_merchant": "Protetor Solar Facial Reparador | Beleza e Skincare | Protecao solar para o dia a dia",
     "url_local": "https://fitcomestilo.store/produto/protetor-solar-facial-reparador/",
-    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-facial-reparador.jpg"
+    "imagem": "https://fitcomestilo.store/produto/imgs/protetor-solar-facial-reparador.jpg",
+    "taxa_comissao_estimada": 12.0,
+    "comissao_estimada_reais": 5.88,
+    "faixa_comissao": "media",
+    "cpc_estimado": 0.88,
+    "lucro_pos_cpc": 5.0,
+    "roas_alvo": 2.8,
+    "indice_anuncio": 74.81,
+    "ordem_anuncio": 75
   }
 ]
