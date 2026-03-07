@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achadinhos do Mercado Livre — Moda Fitness, Suplementos e Beleza | Fit com Estilo</title>
+  <meta name="description" content="Nossos Achadinhos do Mercado Livre: curadoria de moda fitness, suplementos e beleza com os melhores preços. Seleção atualizada por Fit com Estilo.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://fitcomestilo.store/achadinhos-meli/">
+  <meta property="og:title" content="🟡 Achadinhos do Mercado Livre — Fit com Estilo">
+  <meta property="og:description" content="Curadoria de moda fitness, suplementos e beleza com os melhores preços do Mercado Livre.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fitcomestilo.store/achadinhos-meli/">
+  <meta property="og:image" content="https://fitcomestilo.store/logo.webp">
+  <meta property="og:site_name" content="Fit com Estilo">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@fit_com_estilo">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffe600">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8TPYHYMY8"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-J8TPYHYMY8");</script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: linear-gradient(180deg, #fffbea 0%, #fff8d0 50%, #fffbea 100%);
+      min-height: 100vh; color: #333;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 20px 16px; }
+    header { text-align: center; padding: 30px 0 20px; }
+    header h1 { font-size: 1.6rem; color: #b8860b; margin-bottom: 6px; }
+    header p { color: #666; font-size: 0.95rem; }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-bottom: 16px; padding: 8px 16px;
+      background: #fff; border-radius: 20px; font-size: 0.85rem;
+      font-weight: 600; color: #b8860b;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+      transition: all 0.25s; text-decoration: none;
+    }
+    .back-link:hover { background: #fffbea; transform: translateY(-1px); }
+    .filters {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 8px; margin: 18px 0 24px;
+    }
+    .filter-btn {
+      border: none; padding: 8px 18px; border-radius: 20px;
+      font-size: 0.85rem; font-weight: 600; cursor: pointer;
+      transition: all 0.25s; background: #fff; color: #555;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+    .filter-btn:hover { background: #fffbea; color: #b8860b; }
+    .filter-btn.active { background: #ffe600; color: #333; box-shadow: 0 3px 12px rgba(255,230,0,0.4); }
+    .search-box { display: flex; justify-content: center; margin: 0 0 22px; }
+    .search-box input {
+      width: 100%; max-width: 480px; padding: 12px 20px 12px 44px;
+      border: 2px solid #ffe600; border-radius: 24px; font-size: 0.95rem; outline: none;
+      background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") 14px center / 20px no-repeat;
+      transition: border-color 0.25s, box-shadow 0.25s; color: #333;
+    }
+    .search-box input::placeholder { color: #bbb; }
+    .search-box input:focus { border-color: #f5c800; box-shadow: 0 0 0 3px rgba(255,230,0,0.2); }
+    .no-results { display: none; text-align: center; padding: 40px 20px; color: #999; font-size: 0.95rem; }
+    .no-results.show { display: block; }
+    .cat-section { margin-bottom: 30px; }
+    .cat-section.hidden { display: none; }
+    .cat-section h2 { font-size: 1.2rem; color: #b8860b; margin-bottom: 14px; padding-bottom: 6px; border-bottom: 2px solid #ffe600; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
+    .card {
+      background: #fff; border-radius: 14px; overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08); text-decoration: none;
+      color: inherit; transition: transform 0.2s, box-shadow 0.2s; position: relative;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(255,200,0,0.25); }
+    .card img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+    .card .info { padding: 10px 12px 14px; }
+    .card .nome {
+      font-size: 0.82rem; line-height: 1.3;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      overflow: hidden; margin-bottom: 6px; min-height: 2.1em;
+    }
+    .card .preco { font-size: 1.05rem; font-weight: 700; color: #b8860b; }
+    .card .preco-old { font-size: 0.75rem; color: #bbb; text-decoration: line-through; margin-bottom: 2px; }
+    .badge {
+      position: absolute; top: 8px; right: 8px;
+      background: #ffe600; color: #333;
+      font-size: 0.7rem; font-weight: 700; padding: 3px 8px; border-radius: 10px;
+    }
+    .header-update { font-size: 0.8rem; color: #999; margin-top: 6px; }
+    footer { text-align: center; padding: 20px; color: #999; font-size: 0.8rem; }
+    .footer-brand-link { color: #b8860b; text-decoration: none; font-weight: 600; }
+    .share-bar { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 24px 0; }
+    .share-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 10px 20px; color: #fff; border-radius: 50px;
+      text-decoration: none; font-size: 0.85rem; font-weight: 700; transition: all .2s;
+    }
+    .share-link.whatsapp { background: #25d366; box-shadow: 0 3px 12px rgba(37,211,102,.3); }
+    .share-link.telegram { background: #0088cc; box-shadow: 0 3px 12px rgba(0,136,204,.3); }
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.3rem; }
+      .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="https://fitcomestilo.store/" class="back-link">← Voltar ao Fit com Estilo</a>
+      <h1>🟡 Achadinhos do Mercado Livre</h1>
+      <p>Curadoria de moda fitness, suplementos e beleza 💪</p>
+      <p class="header-update">120 produtos · Atualizado em 06/03/2026 21:03</p>
+    </header>
+
+    <nav class="filters">
+      <button class="filter-btn active" data-cat="todos">🔥 Todos (120)</button>
+      <button class="filter-btn" data-cat="moda-fitness">👗 Moda Fitness (40)</button>
+      <button class="filter-btn" data-cat="suplementos">💪 Suplementos (40)</button>
+      <button class="filter-btn" data-cat="beleza">💄 Beleza & Skincare (40)</button>
+    </nav>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Buscar produto... ex: legging, whey, sérum" autocomplete="off" />
+    </div>
+    <div class="no-results" id="noResults">😕 Nenhum produto encontrado para sua busca.</div>
+
+    <section class="cat-section" data-category="moda-fitness">
+      <h2>👗 Moda Fitness</h2>
+      <div class="grid">
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_658388-MLB90869609638_082025-E.webp" alt="Calça Legging Leg Flare Zero Transparência Grossa Academia" loading="lazy" />
+          <div class="info">
+            <p class="nome">Calça Legging Leg Flare Zero Transparência Grossa Academia</p>
+<p class="preco-old">R$ 59</p>
+            <p class="preco">R$ 59</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_983130-MLB105966940364_022026-E.webp" alt="Calça Legging Benévola Poliamida Sem Costura Leg Confortável" loading="lazy" />
+          <div class="info">
+            <p class="nome">Calça Legging Benévola Poliamida Sem Costura Leg Confortável</p>
+<p class="preco-old">R$ 111</p>
+            <p class="preco">R$ 111</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-1959203557-conjunto-manalinda-fitness-top-e-legging-azul-escuro-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_758241-MLB98885808273_112025-E.webp" alt="Conjunto Manalinda Fitness Top E Legging Azul Escuro" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Manalinda Fitness Top E Legging Azul Escuro</p>
+<p class="preco-old">R$ 224</p>
+            <p class="preco">R$ 224</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/short-academia-feminino-poliamida-selene-zero-transparencia/up/MLBU2503023395#polycard_client=search-desktop&search_layout=grid&position=6&type=product&tracking_id=fa5a" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_704152-MLB107727811689_022026-E.webp" alt="Short Academia Feminino Poliamida Selene Zero Transparência" loading="lazy" />
+          <div class="info">
+            <p class="nome">Short Academia Feminino Poliamida Selene Zero Transparência</p>
+<p class="preco-old">R$ 83</p>
+            <p class="preco">R$ 83</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4278723761-calca-legging-sem-costura-canelada-feminina-fitness-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_619344-MLB96173149878_102025-E.webp" alt="Calça Legging Sem Costura Canelada Feminina Fitness" loading="lazy" />
+          <div class="info">
+            <p class="nome">Calça Legging Sem Costura Canelada Feminina Fitness</p>
+<p class="preco-old">R$ 89</p>
+            <p class="preco">R$ 89</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4202727307-calca-legging-flare-bailarina-cintura-alta-treino-academia-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_667429-MLB93045395408_092025-E.webp" alt="Calça Legging Flare Bailarina Cintura Alta Treino Academia" loading="lazy" />
+          <div class="info">
+            <p class="nome">Calça Legging Flare Bailarina Cintura Alta Treino Academia</p>
+<p class="preco-old">R$ 59</p>
+            <p class="preco">R$ 59</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/kit-3-calcas-legging-empina-levanta-bumbum-fitness-academia/up/MLBU3127477726#polycard_client=search-desktop&search_layout=grid&position=9&type=product&tracking_id=fa5a" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_968450-MLB83802436041_042025-E.webp" alt="Kit 3 Calças Legging Empina Levanta Bumbum Fitness Academia" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit 3 Calças Legging Empina Levanta Bumbum Fitness Academia</p>
+<p class="preco-old">R$ 64</p>
+            <p class="preco">R$ 64</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4095748923-conjunto-fitness-roupa-academia-legging-zero-transp-bioc-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_888530-MLB92395939146_092025-E.webp" alt="Conjunto Fitness Roupa Academia Legging Zero Transp. Bioc" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Fitness Roupa Academia Legging Zero Transp. Bioc</p>
+<p class="preco-old">R$ 149</p>
+            <p class="preco">R$ 149</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3645524742-short-benevola-poliamida-sem-costura-bermuda-confortavel-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_839687-MLB107368587239_022026-E.webp" alt="Short Benévola Poliamida Sem Costura Bermuda Confortável" loading="lazy" />
+          <div class="info">
+            <p class="nome">Short Benévola Poliamida Sem Costura Bermuda Confortável</p>
+<p class="preco-old">R$ 99</p>
+            <p class="preco">R$ 99</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4447324625-calca-saia-midi-moda-evangelica-academia-atividades-fisicas-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_723044-MLB105310008590_012026-E.webp" alt="Calça Saia Midi Moda Evangélica Academia Atividades Físicas" loading="lazy" />
+          <div class="info">
+            <p class="nome">Calça Saia Midi Moda Evangélica Academia Atividades Físicas</p>
+<p class="preco-old">R$ 76</p>
+            <p class="preco">R$ 76</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_979469-MLB99120802091_112025-E.webp" alt="Conjunto Bermuda Feminino Academia Blackout Zero Transparenc" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Bermuda Feminino Academia Blackout Zero Transparenc</p>
+<p class="preco-old">R$ 69</p>
+            <p class="preco">R$ 69</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_758241-MLB98885808273_112025-E.webp" alt="Conjunto Manalinda Fitness Top E Legging Azul Escuro" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Manalinda Fitness Top E Legging Azul Escuro</p>
+<p class="preco-old">R$ 224</p>
+            <p class="preco">R$ 224</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4095748923-conjunto-fitness-roupa-academia-legging-zero-transp-bioc-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_888530-MLB92395939146_092025-E.webp" alt="Conjunto Fitness Roupa Academia Legging Zero Transp. Bioc" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Fitness Roupa Academia Legging Zero Transp. Bioc</p>
+<p class="preco-old">R$ 149</p>
+            <p class="preco">R$ 149</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/kit-conjunto-fitness-feminino--camiseta-roupa-academia/up/MLBU1683562471#polycard_client=search-desktop&search_layout=grid&position=6&type=product&tracking_id=7f1e42a1-" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_600096-MLB89986300360_082025-E.webp" alt="Kit Conjunto Fitness Feminino + Camiseta Roupa Academia Roxo Lisa G" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit Conjunto Fitness Feminino + Camiseta Roupa Academia Roxo Lisa G</p>
+<p class="preco-old">R$ 78</p>
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3890654464-2-conjunto-fitness-feminino-top-e-short-de-academia-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_905687-MLB90956734654_082025-E.webp" alt="2 Conjunto Fitness Feminino Top E Short De Academia" loading="lazy" />
+          <div class="info">
+            <p class="nome">2 Conjunto Fitness Feminino Top E Short De Academia</p>
+<p class="preco-old">R$ 78</p>
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/conjunto-blackout-zero-transparencia-legging-e-cropped-suple/up/MLBU1676085699#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=7f1" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_932848-MLB98756748561_112025-E.webp" alt="Conjunto Blackout Zero Transparência Legging E Cropped Suple Preto G" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Blackout Zero Transparência Legging E Cropped Suple Preto G</p>
+<p class="preco-old">R$ 78</p>
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3889677974-conjunto-suplex-blackout-zero-transparncia-legging-e-croppe-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_779172-MLB99396598895_112025-E.webp" alt="Conjunto Suplex Blackout Zero Transparência Legging E Croppe" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Suplex Blackout Zero Transparência Legging E Croppe</p>
+<p class="preco-old">R$ 77</p>
+            <p class="preco">R$ 77</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-5344136142-conjunto-plus-size-academia-top-e-calca-sem-transparncia-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_621373-MLB104753879399_012026-E.webp" alt="Conjunto Plus Size Academia Top E Calça Sem Transparência" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Plus Size Academia Top E Calça Sem Transparência</p>
+<p class="preco-old">R$ 85</p>
+            <p class="preco">R$ 85</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4095749113-conjunto-esportivo-feminino-zero-transparencia-fitness-bioc-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_640707-MLB97136678081_112025-E.webp" alt="Conjunto Esportivo Feminino Zero Transparencia Fitness Bioc" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Esportivo Feminino Zero Transparencia Fitness Bioc</p>
+<p class="preco-old">R$ 149</p>
+            <p class="preco">R$ 149</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-921038313-4-conjuntos-calca-legging-fitness-roupas-feminina-academia-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_651926-MLB106004372099_012026-E.webp" alt="4 Conjuntos Calça Legging Fitness Roupas Feminina Academia" loading="lazy" />
+          <div class="info">
+            <p class="nome">4 Conjuntos Calça Legging Fitness Roupas Feminina Academia</p>
+<p class="preco-old">R$ 238</p>
+            <p class="preco">R$ 238</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_985317-MLB104245470194_012026-E.webp" alt="Top Fitness Feminino Cropped Academia Conforto E Sustentação" loading="lazy" />
+          <div class="info">
+            <p class="nome">Top Fitness Feminino Cropped Academia Conforto E Sustentação</p>
+<p class="preco-old">R$ 33</p>
+            <p class="preco">R$ 33</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_884194-MLB87095357027_072025-E.webp" alt="Kit Conjunto Fitness Feminino Roupa Academia Legging Cropped" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit Conjunto Fitness Feminino Roupa Academia Legging Cropped</p>
+<p class="preco-old">R$ 77</p>
+            <p class="preco">R$ 77</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3920989559-cropped-manga-curta-oversized-feminino-dry-proteco-uv-blusa-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_725210-MLB92863956941_092025-E.webp" alt="Cropped Manga Curta Oversized Feminino Dry Proteção Uv Blusa" loading="lazy" />
+          <div class="info">
+            <p class="nome">Cropped Manga Curta Oversized Feminino Dry Proteção Uv Blusa</p>
+<p class="preco-old">R$ 34</p>
+            <p class="preco">R$ 34</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-5577964216-top-cropped-feminino-manga-longa-de-academia-segunda-pele-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_678551-MLB107718879999_022026-E.webp" alt="Top Cropped Feminino Manga Longa De Academia Segunda Pele" loading="lazy" />
+          <div class="info">
+            <p class="nome">Top Cropped Feminino Manga Longa De Academia Segunda Pele</p>
+<p class="preco-old">R$ 59</p>
+            <p class="preco">R$ 59</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4150820817-conjunto-fitness-top-short-roupa-academia-feminino-treino-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_666051-MLB98358915393_112025-E.webp" alt="Conjunto Fitness Top Short Roupa Academia Feminino Treino" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Fitness Top Short Roupa Academia Feminino Treino</p>
+<p class="preco-old">R$ 115</p>
+            <p class="preco">R$ 115</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3944967863-kit-2-cropped-manga-curta-oversized-feminino-proteco-uv-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_699165-MLB92102671034_092025-E.webp" alt="Kit 2 Cropped Manga Curta Oversized Feminino Proteção Uv" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit 2 Cropped Manga Curta Oversized Feminino Proteção Uv</p>
+<p class="preco-old">R$ 47</p>
+            <p class="preco">R$ 47</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3426816189-top-croped-plus-size-casual-academia-ginastica-oferta-treino-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_666822-MLB97117961527_112025-E.webp" alt="Top Croped Plus Size Casual Academia Ginastica Oferta Treino" loading="lazy" />
+          <div class="info">
+            <p class="nome">Top Croped Plus Size Casual Academia Ginastica Oferta Treino</p>
+<p class="preco-old">R$ 24</p>
+            <p class="preco">R$ 24</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3995997238-conjunto-fitness-legging-e-cropped-feminino-roupa-ginastica-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_821436-MLB85113810010_052025-E.webp" alt="Conjunto Fitness Legging E Cropped Feminino Roupa Ginástica" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Fitness Legging E Cropped Feminino Roupa Ginástica</p>
+<p class="preco-old">R$ 77</p>
+            <p class="preco">R$ 77</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/regata-cropped-blusinha-cavada-feminina-academia-morta-porem/up/MLBU2744336303#polycard_client=search-desktop&search_layout=grid&position=11&type=product&tracking_id=c7" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_705472-MLA106077105120_022026-E.webp" alt="Regata Cropped Blusinha Cavada Feminina Academia Morta Porém" loading="lazy" />
+          <div class="info">
+            <p class="nome">Regata Cropped Blusinha Cavada Feminina Academia Morta Porém</p>
+
+            <p class="preco">R$ 44</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4104592451-top-academia-feminino-fitness-compresso-cropped-fitness-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_987188-MLB97938255496_112025-E.webp" alt="Top Academia Feminino Fitness Compressão Cropped Fitness" loading="lazy" />
+          <div class="info">
+            <p class="nome">Top Academia Feminino Fitness Compressão Cropped Fitness</p>
+<p class="preco-old">R$ 49</p>
+            <p class="preco">R$ 49</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_813143-MLB93548889416_102025-E.webp" alt="Shorts Academia Feminino Modelador Com Bolso Zero Opacidade" loading="lazy" />
+          <div class="info">
+            <p class="nome">Shorts Academia Feminino Modelador Com Bolso Zero Opacidade</p>
+<p class="preco-old">R$ 49</p>
+            <p class="preco">R$ 49</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_615145-MLB90274630198_082025-E.webp" alt="Short Duplo Compreensão Fitness Bermuda Academia Feminino" loading="lazy" />
+          <div class="info">
+            <p class="nome">Short Duplo Compreensão Fitness Bermuda Academia Feminino</p>
+<p class="preco-old">R$ 54</p>
+            <p class="preco">R$ 54</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-1773690346-shorts-feminino-cintura-alta-com-bolsos-academia-corrida-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_690605-MLB86162482094_062025-E.webp" alt="Shorts Feminino Cintura Alta Com Bolsos Academia Corrida" loading="lazy" />
+          <div class="info">
+            <p class="nome">Shorts Feminino Cintura Alta Com Bolsos Academia Corrida</p>
+<p class="preco-old">R$ 77</p>
+            <p class="preco">R$ 77</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-5184808828-conjunto-fitness-virginia-top-shorts-meia-coxa-cintura-alta-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_756187-MLB85423096541_052025-E.webp" alt="Conjunto Fitness Virginia Top Shorts Meia Coxa Cintura Alta" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Fitness Virginia Top Shorts Meia Coxa Cintura Alta</p>
+<p class="preco-old">R$ 69</p>
+            <p class="preco">R$ 69</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/short-academia-feminino-poliamida-selene-zero-transparencia/up/MLBU2503023395#polycard_client=search-desktop&search_layout=grid&position=7&type=product&tracking_id=e2dc" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_704152-MLB107727811689_022026-E.webp" alt="Short Academia Feminino Poliamida Selene Zero Transparência" loading="lazy" />
+          <div class="info">
+            <p class="nome">Short Academia Feminino Poliamida Selene Zero Transparência</p>
+<p class="preco-old">R$ 83</p>
+            <p class="preco">R$ 83</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4167700535-kit-2-short-duplo-compreenso-fitness-bermuda-feminino-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_931953-MLB91661561415_092025-E.webp" alt="Kit 2 Short Duplo Compreensão Fitness Bermuda Feminino" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit 2 Short Duplo Compreensão Fitness Bermuda Feminino</p>
+<p class="preco-old">R$ 99</p>
+            <p class="preco">R$ 99</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-5598371836-kit-2-bermudas-blackout-zero-tranparncia-feminina-modella-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_841597-MLB90358364433_082025-E.webp" alt="Kit 2 Bermudas Blackout Zero Tranparência Feminina Modella" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit 2 Bermudas Blackout Zero Tranparência Feminina Modella</p>
+<p class="preco-old">R$ 78</p>
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-5037721960-bermuda-feminina-short-academia-bolso-lateral-cintura-alta-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_922967-MLB85564516944_062025-E.webp" alt="Bermuda Feminina Short Academia Bolso Lateral Cintura Alta" loading="lazy" />
+          <div class="info">
+            <p class="nome">Bermuda Feminina Short Academia Bolso Lateral Cintura Alta</p>
+<p class="preco-old">R$ 59</p>
+            <p class="preco">R$ 59</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-4181062973-conjunto-top-e-bermuda-academia-com-bolso-zero-transparncia-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_881097-MLB106413411997_022026-E.webp" alt="Conjunto Top E Bermuda Academia Com Bolso Zero Transparência" loading="lazy" />
+          <div class="info">
+            <p class="nome">Conjunto Top E Bermuda Academia Com Bolso Zero Transparência</p>
+<p class="preco-old">R$ 72</p>
+            <p class="preco">R$ 72</p>
+          </div>
+        </a>
+        <a href="https://produto.mercadolivre.com.br/MLB-3645524742-short-benevola-poliamida-sem-costura-bermuda-confortavel-_JM" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_839687-MLB107368587239_022026-E.webp" alt="Short Benévola Poliamida Sem Costura Bermuda Confortável" loading="lazy" />
+          <div class="info">
+            <p class="nome">Short Benévola Poliamida Sem Costura Bermuda Confortável</p>
+<p class="preco-old">R$ 99</p>
+            <p class="preco">R$ 99</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="cat-section" data-category="suplementos">
+      <h2>💪 Suplementos</h2>
+      <div class="grid">
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_964421-MLB81068495438_122024-E.webp" alt="Isolate Protein Mix Whey Isolado Bcaa Glutamina Profit Labs" loading="lazy" />
+          <div class="info">
+            <p class="nome">Isolate Protein Mix Whey Isolado Bcaa Glutamina Profit Labs</p>
+
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_667052-MLB105891570257_012026-E.webp" alt="Pasta De Amendoim Dr. Peanut 600g Novos Sabores Gourmet" loading="lazy" />
+          <div class="info">
+            <p class="nome">Pasta De Amendoim Dr. Peanut 600g Novos Sabores Gourmet</p>
+<p class="preco-old">R$ 74</p>
+            <p class="preco">R$ 74</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/whey-pro-baunilha-max-titanium-protein-pro-com-bcaa-e-aminoacidos-1kg-sabor-baunilha/p/MLB6087974#polycard_client=search-desktop&search_layout=grid&position=3&type=prod" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_694824-MLA99490288786_112025-E.webp" alt="Whey Pro Baunilha Max Titanium Protein Pro Com Bcaa E Aminoácidos 1kg Sabor Baun" loading="lazy" />
+          <div class="info">
+            <p class="nome">Whey Pro Baunilha Max Titanium Protein Pro Com Bcaa E Aminoácidos 1kg Sabor Baun</p>
+<p class="preco-old">R$ 104</p>
+            <p class="preco">R$ 104</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/whey-protein-concentrado-1kg-chocolate-dark-lab/p/MLB40182826#polycard_client=search-desktop&search_layout=grid&position=4&type=product&tracking_id=aaf82937-8b73-4eed-b" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_827032-MLA100010410071_122025-E.webp" alt="Whey Protein Concentrado 1kg Chocolate Dark Lab" loading="lazy" />
+          <div class="info">
+            <p class="nome">Whey Protein Concentrado 1kg Chocolate Dark Lab</p>
+<p class="preco-old">R$ 234</p>
+            <p class="preco">R$ 234</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/basic-whey-1kg-growth-supplements-chocolate/p/MLB18725403#polycard_client=search-desktop&search_layout=grid&position=5&type=product&tracking_id=aaf82937-8b73-4eed-bfde-" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_819000-MLA101180020755_122025-E.webp" alt="Basic Whey 1kg Growth Supplements - Chocolate" loading="lazy" />
+          <div class="info">
+            <p class="nome">Basic Whey 1kg Growth Supplements - Chocolate</p>
+<p class="preco-old">R$ 64</p>
+            <p class="preco">R$ 64</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/bold-whey-cookies-cream-450g/p/MLB48878959#polycard_client=search-desktop&search_layout=grid&position=6&type=product&tracking_id=aaf82937-8b73-4eed-bfde-71f2eb713ccc&wi" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_949794-MLA99449520146_112025-E.webp" alt="Bold Whey Cookies & Cream 450g" loading="lazy" />
+          <div class="info">
+            <p class="nome">Bold Whey Cookies & Cream 450g</p>
+<p class="preco-old">R$ 114</p>
+            <p class="preco">R$ 114</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/snack-proteico-mais-mu-chocowheyfer-sabor-cookies-6g-proteina-12-unidades/p/MLB19640117#polycard_client=search-desktop&search_layout=grid&position=7&type=product&tracki" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_618105-MLA99468018388_112025-E.webp" alt="Snack Proteico Mais Mu Chocowheyfer Sabor Cookies 6g Proteína 12 Unidades" loading="lazy" />
+          <div class="info">
+            <p class="nome">Snack Proteico Mais Mu Chocowheyfer Sabor Cookies 6g Proteína 12 Unidades</p>
+<p class="preco-old">R$ 85</p>
+            <p class="preco">R$ 85</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/whey-protein-isolado-iso-blend-complex-2kg-xpro-nutrition/p/MLB19858610#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=aaf82937-8" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_766799-MLA101584130571_122025-E.webp" alt="Whey Protein Isolado Iso Blend Complex 2kg XPRO Nutrition" loading="lazy" />
+          <div class="info">
+            <p class="nome">Whey Protein Isolado Iso Blend Complex 2kg XPRO Nutrition</p>
+<p class="preco-old">R$ 187</p>
+            <p class="preco">R$ 187</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/body-proteina-equaliv-600g-cacau-sabor-cacau/p/MLB18553882#polycard_client=search-desktop&search_layout=grid&position=9&type=product&tracking_id=aaf82937-8b73-4eed-bfde" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_730006-MLA99934528187_112025-E.webp" alt="Body Proteina Equaliv 600g Cacau. Sabor Cacau" loading="lazy" />
+          <div class="info">
+            <p class="nome">Body Proteina Equaliv 600g Cacau. Sabor Cacau</p>
+<p class="preco-old">R$ 293</p>
+            <p class="preco">R$ 293</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/w100-whey-concentrado-refil-pouch-900g-ducle-de-leche-havanna-nutrata/p/MLB36926930#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tracking_" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_710056-MLA100055773811_122025-E.webp" alt="W100 Whey Concentrado Refil Pouch 900g Ducle de Leche Havanna Nutrata" loading="lazy" />
+          <div class="info">
+            <p class="nome">W100 Whey Concentrado Refil Pouch 900g Ducle de Leche Havanna Nutrata</p>
+<p class="preco-old">R$ 175</p>
+            <p class="preco">R$ 175</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_939075-MLB90133356045_082025-E.webp" alt="Creatine Action Gummy Essential Nutrition Creatina Em Gomas" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatine Action Gummy Essential Nutrition Creatina Em Gomas</p>
+
+            <p class="preco">R$ 126</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_975343-MLB82140229681_012025-E.webp" alt="Beta Action Essential Nutrition Pré Treino Coq10 Magnésio" loading="lazy" />
+          <div class="info">
+            <p class="nome">Beta Action Essential Nutrition Pré Treino Coq10 Magnésio</p>
+
+            <p class="preco">R$ 225</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-monohidratada-pura-500g-dark-lab-unidade/p/MLB26796581#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=c4852adb-d9d6-4211" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_942122-MLA99923169249_112025-E.webp" alt="Creatina Monohidratada Pura 500g Dark Lab Unidade" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina Monohidratada Pura 500g Dark Lab Unidade</p>
+<p class="preco-old">R$ 78</p>
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-monohidratada-1kg-soldiers-nutrition-100-pura-importada-alta-performance-musculo-treino/p/MLB18725310#polycard_client=search-desktop&search_layout=grid&positio" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_640712-MLA107002677903_022026-E.webp" alt="Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada Alta Performan" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina Monohidratada 1Kg Soldiers Nutrition 100% Pura Importada Alta Performan</p>
+<p class="preco-old">R$ 239</p>
+            <p class="preco">R$ 239</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-monohidratada-pura-1kg-dark-lab-unidade-sem-sabor/p/MLB25929487#polycard_client=search-desktop&search_layout=grid&position=5&type=product&tracking_id=c4852adb-" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_848860-MLA99964507641_112025-E.webp" alt="Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor</p>
+<p class="preco-old">R$ 129</p>
+            <p class="preco">R$ 129</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/suplemento-em-po-creatina-universal-nutrition-aminoacidos-creatina-monohydrate-pote-de-200ml-coqueteleira-universal/p/MLB35223906#polycard_client=search-desktop&search_" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_706048-MLA106512775697_022026-E.webp" alt="Suplemento Em Pó Creatina Universal Nutrition Aminoácidos Creatina Monohydrate P" loading="lazy" />
+          <div class="info">
+            <p class="nome">Suplemento Em Pó Creatina Universal Nutrition Aminoácidos Creatina Monohydrate P</p>
+<p class="preco-old">R$ 196</p>
+            <p class="preco">R$ 196</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-100-pura-300g-integralmedica-forca-e-performance/p/MLB6204289#polycard_client=search-desktop&search_layout=grid&position=7&type=product&tracking_id=c4852adb-d9" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_817136-MLA99512131069_112025-E.webp" alt="Creatina 100% Pura 300g Integralmedica - Força e Performance" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina 100% Pura 300g Integralmedica - Força e Performance</p>
+<p class="preco-old">R$ 99</p>
+            <p class="preco">R$ 99</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-monohidratada-pote-300g-soldiers-nutrition-100-pura-importada-performance-musculo-treino/p/MLB32081918#polycard_client=search-desktop&search_layout=grid&positi" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_623131-MLA100082629891_122025-E.webp" alt="Creatina Monohidratada Pote 300g Soldiers Nutrition 100% Pura Importada Performa" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina Monohidratada Pote 300g Soldiers Nutrition 100% Pura Importada Performa</p>
+<p class="preco-old">R$ 94</p>
+            <p class="preco">R$ 94</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-300-gr-max-titanium-sabor-sem-sabor/p/MLB37121958#polycard_client=search-desktop&search_layout=grid&position=9&type=product&tracking_id=c4852adb-d9d6-4211-ad45" target="_blank" rel="noopener" class="card">
+<span class="badge">-43%</span>
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_698461-MLA97093693332_112025-E.webp" alt="Creatina 300 Gr - Max Titanium Sabor Sem Sabor" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina 300 Gr - Max Titanium Sabor Sem Sabor</p>
+<p class="preco-old">R$ 85</p>
+            <p class="preco">R$ 48</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-max-titanium-monohidratada-em-po-pote-300g-creatina-po-sem-sabor/p/MLB6104856#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tracki" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_725882-MLA100070897071_122025-E.webp" alt="Creatina Max Titanium monohidratada em pó pote 300g creatina po sem sabor" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina Max Titanium monohidratada em pó pote 300g creatina po sem sabor</p>
+<p class="preco-old">R$ 59</p>
+            <p class="preco">R$ 59</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_696045-MLB104161802968_012026-E.webp" alt="Kit 3x Pre Treino Nuclear Rush Gel - 30 Sachês Bodyaction" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit 3x Pre Treino Nuclear Rush Gel - 30 Sachês Bodyaction</p>
+<p class="preco-old">R$ 93</p>
+            <p class="preco">R$ 93</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_925389-MLB93412072689_092025-E.webp" alt="Testo Cycle Under Labz Zinco Magnésio Cromo Boro Vitamina D" loading="lazy" />
+          <div class="info">
+            <p class="nome">Testo Cycle Under Labz Zinco Magnésio Cromo Boro Vitamina D</p>
+
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/pre-treino-haze-hardcore-300g-growth-supplements-limo/p/MLB50555622#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=7a8dde71-c7c6-" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_665069-MLA98871137821_112025-E.webp" alt="Pré-treino Haze Hardcore 300g Growth Supplements - Limão" loading="lazy" />
+          <div class="info">
+            <p class="nome">Pré-treino Haze Hardcore 300g Growth Supplements - Limão</p>
+<p class="preco-old">R$ 114</p>
+            <p class="preco">R$ 114</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/demons-lab-suplemento-alimentar-aminoacidos-em-po-insane-clown-350g-sabor-gummy/p/MLB26212164#polycard_client=search-desktop&search_layout=grid&position=4&type=product&" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_862495-MLA96418624306_102025-E.webp" alt="Demons Lab Suplemento Alimentar Aminoácidos em Pó Insane Clown 350g Sabor Gummy" loading="lazy" />
+          <div class="info">
+            <p class="nome">Demons Lab Suplemento Alimentar Aminoácidos em Pó Insane Clown 350g Sabor Gummy</p>
+<p class="preco-old">R$ 149</p>
+            <p class="preco">R$ 149</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/queimador-de-gordura-ultimate-2hot-200g-max-titanium-sabor-uva/p/MLB36336728#polycard_client=search-desktop&search_layout=grid&position=6&type=product&tracking_id=7a8dd" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_745738-MLA100047267375_122025-E.webp" alt="Queimador De Gordura Ultimate 2hot - 200g - Max Titanium Sabor Uva" loading="lazy" />
+          <div class="info">
+            <p class="nome">Queimador De Gordura Ultimate 2hot - 200g - Max Titanium Sabor Uva</p>
+<p class="preco-old">R$ 89</p>
+            <p class="preco">R$ 89</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/pre-treino-evolution-workout-300g-termognico-sabor-blueberry-soldiers-nutrition-energia-foco-treino/p/MLB29220995#polycard_client=search-desktop&search_layout=grid&posi" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_671155-MLA100109181339_122025-E.webp" alt="Pré-Treino Evolution Workout 300g Termogênico Sabor Blueberry Soldiers Nutrition" loading="lazy" />
+          <div class="info">
+            <p class="nome">Pré-Treino Evolution Workout 300g Termogênico Sabor Blueberry Soldiers Nutrition</p>
+<p class="preco-old">R$ 78</p>
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/prohibido-pre-treino-360g-sabor-strawberry-margarita-morango-a-combinaco-perfeita-de-8-ingredientes-que-proporcionam-energia-do-inicio-ao-fim-do-seu-treino/p/MLB2136244" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_650250-MLA99429298034_112025-E.webp" alt="PROHIBIDO PRÉ TREINO 360g - Sabor: Strawberry Margarita (Morango) - A Combinação" loading="lazy" />
+          <div class="info">
+            <p class="nome">PROHIBIDO PRÉ TREINO 360g - Sabor: Strawberry Margarita (Morango) - A Combinação</p>
+<p class="preco-old">R$ 125</p>
+            <p class="preco">R$ 125</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/pre-treino-bope-sabor-limo-pote-de-300g-black-skull/p/MLB22370552#polycard_client=search-desktop&search_layout=grid&position=12&type=product&tracking_id=7a8dde71-c7c6-4" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_773787-MLA99605785482_122025-E.webp" alt="Pré Treino B.O.P.E. Sabor Limão Pote de 300g Black Skull" loading="lazy" />
+          <div class="info">
+            <p class="nome">Pré Treino B.O.P.E. Sabor Limão Pote de 300g Black Skull</p>
+<p class="preco-old">R$ 44</p>
+            <p class="preco">R$ 44</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/pre-treino-venom-underground-300g-frutas-vermelhas-dark-lab/p/MLB20553131#polycard_client=search-desktop&search_layout=grid&position=13&type=product&tracking_id=7a8dde7" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_957919-MLA100002935829_112025-E.webp" alt="Pre Treino Venom Underground 300g Frutas Vermelhas Dark Lab" loading="lazy" />
+          <div class="info">
+            <p class="nome">Pre Treino Venom Underground 300g Frutas Vermelhas Dark Lab</p>
+<p class="preco-old">R$ 189</p>
+            <p class="preco">R$ 189</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/pre-treino-insanity-300g-growth-supplements-frutas-vermelhas/p/MLB21514949#polycard_client=search-desktop&search_layout=grid&position=14&type=product&tracking_id=7a8dde" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_793575-MLA98780148661_112025-E.webp" alt="Pré-treino Insanity 300g Growth Supplements - Frutas Vermelhas" loading="lazy" />
+          <div class="info">
+            <p class="nome">Pré-treino Insanity 300g Growth Supplements - Frutas Vermelhas</p>
+<p class="preco-old">R$ 127</p>
+            <p class="preco">R$ 127</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_964421-MLB81068495438_122024-E.webp" alt="Isolate Protein Mix Whey Isolado Bcaa Glutamina Profit Labs" loading="lazy" />
+          <div class="info">
+            <p class="nome">Isolate Protein Mix Whey Isolado Bcaa Glutamina Profit Labs</p>
+
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/kit-2x-creatina-300g-max-titanium-monohidratada-em-po-sem-sabor/p/MLB24081502#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=918a" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_776821-MLA99365251528_112025-E.webp" alt="Kit 2x Creatina 300g Max Titanium Monohidratada em Pó Sem Sabor" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit 2x Creatina 300g Max Titanium Monohidratada em Pó Sem Sabor</p>
+<p class="preco-old">R$ 179</p>
+            <p class="preco">R$ 179</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/whey-pro-baunilha-max-titanium-protein-pro-com-bcaa-e-aminoacidos-1kg-sabor-baunilha/p/MLB6087974#polycard_client=search-desktop&search_layout=grid&position=4&type=prod" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_694824-MLA99490288786_112025-E.webp" alt="Whey Pro Baunilha Max Titanium Protein Pro Com Bcaa E Aminoácidos 1kg Sabor Baun" loading="lazy" />
+          <div class="info">
+            <p class="nome">Whey Pro Baunilha Max Titanium Protein Pro Com Bcaa E Aminoácidos 1kg Sabor Baun</p>
+<p class="preco-old">R$ 104</p>
+            <p class="preco">R$ 104</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/energy-gel-z2-lemon-box-10-unidades-sabor-limo/p/MLB28365637#polycard_client=search-desktop&search_layout=grid&position=5&type=product&tracking_id=918ab02f-a00f-4bf8-b0" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_907752-MLA99454497570_112025-E.webp" alt="Energy Gel Z2+ Lemon Box 10 Unidades Sabor Limão" loading="lazy" />
+          <div class="info">
+            <p class="nome">Energy Gel Z2+ Lemon Box 10 Unidades Sabor Limão</p>
+<p class="preco-old">R$ 139</p>
+            <p class="preco">R$ 139</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/cacao-whey-com-cacau-gourmet-840g-essential-nutrition/p/MLB35241330#polycard_client=search-desktop&search_layout=grid&position=6&type=product&tracking_id=918ab02f-a00f-" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_744724-MLA100052324805_122025-E.webp" alt="Cacao Whey Com Cacau Gourmet - 840g - Essential Nutrition" loading="lazy" />
+          <div class="info">
+            <p class="nome">Cacao Whey Com Cacau Gourmet - 840g - Essential Nutrition</p>
+
+            <p class="preco">R$ 444</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creatina-300-gr-max-titanium-sabor-sem-sabor/p/MLB37121958#polycard_client=search-desktop&search_layout=grid&position=7&type=product&tracking_id=918ab02f-a00f-4bf8-b079" target="_blank" rel="noopener" class="card">
+<span class="badge">-43%</span>
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_698461-MLA97093693332_112025-E.webp" alt="Creatina 300 Gr - Max Titanium Sabor Sem Sabor" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creatina 300 Gr - Max Titanium Sabor Sem Sabor</p>
+<p class="preco-old">R$ 85</p>
+            <p class="preco">R$ 48</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/arginina-em-po-500g-100-pura-soldiers-nutrition-performance-e-recuperaco-muscular/p/MLB25905607#polycard_client=search-desktop&search_layout=grid&position=8&type=produc" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_685100-MLA100117444091_122025-E.webp" alt="Arginina Em Pó 500g 100% Pura Soldiers Nutrition Performance e Recuperação Muscu" loading="lazy" />
+          <div class="info">
+            <p class="nome">Arginina Em Pó 500g 100% Pura Soldiers Nutrition Performance e Recuperação Muscu</p>
+<p class="preco-old">R$ 78</p>
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/suplemento-em-po-creatina-300g-pura-black-skull-sem-sabor-potencialize-sua-forca-e-recuperacao-muscular/p/MLB18513937#polycard_client=search-desktop&search_layout=grid&" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_827397-MLA99423567710_112025-E.webp" alt="Suplemento Em Pó Creatina 300g Pura Black Skull Sem Sabor Potencialize Sua Força" loading="lazy" />
+          <div class="info">
+            <p class="nome">Suplemento Em Pó Creatina 300g Pura Black Skull Sem Sabor Potencialize Sua Força</p>
+
+            <p class="preco">R$ 33</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/bcaa-611-super-pump-powder-300g-profit-sabor-melancia/p/MLB19551477#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tracking_id=918ab02f-a00f" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_838245-MLA100064124865_122025-E.webp" alt="Bcaa 6:1:1 Super Pump Powder 300g - Profit Sabor Melancia" loading="lazy" />
+          <div class="info">
+            <p class="nome">Bcaa 6:1:1 Super Pump Powder 300g - Profit Sabor Melancia</p>
+
+            <p class="preco">R$ 39</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/bcaa-2044mg-90-capsulas-integralmedica-sem-sabor/p/MLB27238671#polycard_client=search-desktop&search_layout=grid&position=11&type=product&tracking_id=918ab02f-a00f-4bf8" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_888128-MLA101186208718_122025-E.webp" alt="Bcaa 2044mg 90 Cápsulas Integralmédica Sem Sabor" loading="lazy" />
+          <div class="info">
+            <p class="nome">Bcaa 2044mg 90 Cápsulas Integralmédica Sem Sabor</p>
+<p class="preco-old">R$ 48</p>
+            <p class="preco">R$ 48</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="cat-section" data-category="beleza">
+      <h2>💄 Beleza & Skincare</h2>
+      <div class="grid">
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_792982-MLB94799426206_102025-E.webp" alt="3x Sérum Facial Renova Be Ácido Hialurônico Hidratação Pele" loading="lazy" />
+          <div class="info">
+            <p class="nome">3x Sérum Facial Renova Be Ácido Hialurônico Hidratação Pele</p>
+<p class="preco-old">R$ 168</p>
+            <p class="preco">R$ 168</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_905403-MLB94290884871_102025-E.webp" alt="Sérum Facial Antioxidante Vita C Renova Be Skincare Pele" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Facial Antioxidante Vita C Renova Be Skincare Pele</p>
+<p class="preco-old">R$ 85</p>
+            <p class="preco">R$ 85</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/darrow-actine-vitamina-c-serum-concentrado-30ml/p/MLB47852647#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=ac63b416-b702-4a76-a" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_901024-MLA95396018606_102025-E.webp" alt="Darrow Actine Vitamina C Sérum Concentrado 30ml" loading="lazy" />
+          <div class="info">
+            <p class="nome">Darrow Actine Vitamina C Sérum Concentrado 30ml</p>
+<p class="preco-old">R$ 101</p>
+            <p class="preco">R$ 101</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-clareador-intimo-maxfem-30ml-com-acido-hialurnico-e-vitamina-c/p/MLB57114494#polycard_client=search-desktop&search_layout=grid&position=4&type=product&tracking_id" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_845460-MLA92975647501_092025-E.webp" alt="Sérum Clareador Íntimo Maxfem 30ml com Ácido Hialurônico e Vitamina C" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Clareador Íntimo Maxfem 30ml com Ácido Hialurônico e Vitamina C</p>
+<p class="preco-old">R$ 119</p>
+            <p class="preco">R$ 119</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-concentrado-acido-hialuronico-e-vitamina-c-e-e-renovil/p/MLB19561421#polycard_client=search-desktop&search_layout=grid&position=5&type=product&tracking_id=ac63b41" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_660549-MLA107426643509_022026-E.webp" alt="Serum Concentrado Ácido Hialuronico E Vitamina C E E Renovil" loading="lazy" />
+          <div class="info">
+            <p class="nome">Serum Concentrado Ácido Hialuronico E Vitamina C E E Renovil</p>
+
+            <p class="preco">R$ 25</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-facial-pure-vitamin-c12-oil-control-15ml-la-roche-posay/p/MLB44555566#polycard_client=search-desktop&search_layout=grid&position=6&type=product&tracking_id=ac63b4" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_891121-MLA81807363337_012025-E.webp" alt="Sérum Facial Pure Vitamin C12 Oil Control 15ml La Roche-posay" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Facial Pure Vitamin C12 Oil Control 15ml La Roche-posay</p>
+<p class="preco-old">R$ 222</p>
+            <p class="preco">R$ 222</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/eucerin-serum-facial-vitamina-c-pura-10-concentrado-8ml-antioxidante-pele-uniforme-hyaluron-filler-acido-hialurnico-antirrugas/p/MLB19722294#polycard_client=search-desk" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_842342-MLU75401926054_042024-E.webp" alt="EUCERIN Sérum Facial Vitamina C Pura 10% Concentrado 8ml, Antioxidante, Pele Uni" loading="lazy" />
+          <div class="info">
+            <p class="nome">EUCERIN Sérum Facial Vitamina C Pura 10% Concentrado 8ml, Antioxidante, Pele Uni</p>
+<p class="preco-old">R$ 159</p>
+            <p class="preco">R$ 159</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-rejuvenescedor-facial-ivy-c-ferulic-30g-mantecorp/p/MLB19970051#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=ac63b416-b70" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_834208-MLA79218726550_092024-E.webp" alt="Sérum Rejuvenescedor Facial Ivy C Ferulic 30g Mantecorp" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Rejuvenescedor Facial Ivy C Ferulic 30g Mantecorp</p>
+<p class="preco-old">R$ 259</p>
+            <p class="preco">R$ 259</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/creamy-skincare-vitamina-c-gold-30g-antioxidante-clareador-e-anti-aging-uniformiza-o-tom-ameniza-manchas-todos-os-tipos-de-pele-noite-e-dia/p/MLB43944873#polycard_clien" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_810391-MLA80992618635_112024-E.webp" alt="Creamy Skincare Vitamina C Gold 30g | Antioxidante, Clareador e Anti-Aging, Unif" loading="lazy" />
+          <div class="info">
+            <p class="nome">Creamy Skincare Vitamina C Gold 30g | Antioxidante, Clareador e Anti-Aging, Unif</p>
+<p class="preco-old">R$ 145</p>
+            <p class="preco">R$ 145</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/principia-kit-anti-manchas-trio-vitamina-c-95-tipo-de-pele-todo-tipo-de-pele/p/MLB53258787#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tr" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_867981-MLA99265862132_112025-E.webp" alt="Principia Kit Anti-manchas Trio Vitamina C-95 Tipo De Pele Todo Tipo De Pele" loading="lazy" />
+          <div class="info">
+            <p class="nome">Principia Kit Anti-manchas Trio Vitamina C-95 Tipo De Pele Todo Tipo De Pele</p>
+<p class="preco-old">R$ 192</p>
+            <p class="preco">R$ 192</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_882408-MLB103361470890_012026-E.webp" alt="Protetor Solar Facial Blu Bege Ou Incolor Esportes Praia" loading="lazy" />
+          <div class="info">
+            <p class="nome">Protetor Solar Facial Blu Bege Ou Incolor Esportes Praia</p>
+<p class="preco-old">R$ 120</p>
+            <p class="preco">R$ 120</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_743550-MLB98495262783_112025-E.webp" alt="Protetor Solar Facial Po Hidrabene Fps50 10g Diversos Tons" loading="lazy" />
+          <div class="info">
+            <p class="nome">Protetor Solar Facial Po Hidrabene Fps50 10g Diversos Tons</p>
+<p class="preco-old">R$ 87</p>
+            <p class="preco">R$ 87</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/protetor-solar-neutrogena-derm-care-pele-clara-fps70-40g/p/MLB18408478#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=862ef241-6e" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_952365-MLA99931801277_112025-E.webp" alt="Protetor Solar Neutrogena Derm Care Pele Clara FPS70 40g" loading="lazy" />
+          <div class="info">
+            <p class="nome">Protetor Solar Neutrogena Derm Care Pele Clara FPS70 40g</p>
+<p class="preco-old">R$ 73</p>
+            <p class="preco">R$ 73</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/protetor-solar-anasol-fps-70-facial-com-clareador-60-g/p/MLB19363995#polycard_client=search-desktop&search_layout=grid&position=4&type=product&tracking_id=862ef241-6e01" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_873217-MLA99821744891_112025-E.webp" alt="Protetor Solar Anasol FPS 70 Facial com clareador 60 g" loading="lazy" />
+          <div class="info">
+            <p class="nome">Protetor Solar Anasol FPS 70 Facial com clareador 60 g</p>
+
+            <p class="preco">R$ 44</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/principia-protetor-solar-facial-ps-01-fps-60/p/MLB36014524#polycard_client=search-desktop&search_layout=grid&position=5&type=product&tracking_id=862ef241-6e01-4af8-8c46" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_977848-MLA96768309813_102025-E.webp" alt="Principia Protetor Solar Facial PS-01 FPS 60" loading="lazy" />
+          <div class="info">
+            <p class="nome">Principia Protetor Solar Facial PS-01 FPS 60</p>
+
+            <p class="preco">R$ 44</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/protetor-solar-com-cor-alta-cobertura-12h-oil-free-toque-seco-fps-60-cor-20-ultra-cover-la-roche-posay-30g/p/MLB19801958#polycard_client=search-desktop&search_layout=gr" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_643449-MLA103364503100_012026-E.webp" alt="Protetor Solar Com Cor, Alta Cobertura 12h, Oil-Free, Toque Seco FPS 60, Cor 2.0" loading="lazy" />
+          <div class="info">
+            <p class="nome">Protetor Solar Com Cor, Alta Cobertura 12h, Oil-Free, Toque Seco FPS 60, Cor 2.0</p>
+<p class="preco-old">R$ 97</p>
+            <p class="preco">R$ 97</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/protetor-solar-fps70-minesol-oil-control-40g-neostrata-sem-cor/p/MLB16313979#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=862ef" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_660601-MLA99441363854_112025-E.webp" alt="Protetor solar fps70 minesol oil control 40g neostrata sem cor" loading="lazy" />
+          <div class="info">
+            <p class="nome">Protetor solar fps70 minesol oil control 40g neostrata sem cor</p>
+<p class="preco-old">R$ 109</p>
+            <p class="preco">R$ 109</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/nivea-sun-protetor-solar-facial-toque-seco-antissinais-fps70-40ml-alta-proteco-uvauvb-controla-a-oleosidade-previne-envelhecimento-textura-leve/p/MLB20741622#polycard_c" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_990747-MLA105989506287_012026-E.webp" alt="NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS70 40ml, Alta Proteção" loading="lazy" />
+          <div class="info">
+            <p class="nome">NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS70 40ml, Alta Proteção</p>
+<p class="preco-old">R$ 47</p>
+            <p class="preco">R$ 47</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/eucerin-protetor-solar-facial-anti-manchas-sun-pigment-control-fps60-50ml/p/MLB19675616#polycard_client=search-desktop&search_layout=grid&position=10&type=product&track" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_755908-MLA104997449558_012026-E.webp" alt="EUCERIN Protetor Solar Facial Anti-Manchas Sun Pigment Control FPS60 50ml" loading="lazy" />
+          <div class="info">
+            <p class="nome">EUCERIN Protetor Solar Facial Anti-Manchas Sun Pigment Control FPS60 50ml</p>
+<p class="preco-old">R$ 129</p>
+            <p class="preco">R$ 129</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/protetor-solar-facial-antioleosidade-com-cor-fps80-controle-da-oleosidade-por-12h-reduz-oleosidade-e-toque-seco-cor-20-airlicium-anthelios-la-roche-posay-40g/p/MLB30067" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_670322-MLA105315996832_012026-E.webp" alt="Protetor Solar Facial Antioleosidade com Cor FPS80 Controle da Oleosidade por 12" loading="lazy" />
+          <div class="info">
+            <p class="nome">Protetor Solar Facial Antioleosidade com Cor FPS80 Controle da Oleosidade por 12</p>
+<p class="preco-old">R$ 109</p>
+            <p class="preco">R$ 109</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_717206-MLB106169528345_012026-E.webp" alt="Pote Mascara Capilar 250ml Organizador Banheiro Lavabo" loading="lazy" />
+          <div class="info">
+            <p class="nome">Pote Mascara Capilar 250ml Organizador Banheiro Lavabo</p>
+<p class="preco-old">R$ 15</p>
+            <p class="preco">R$ 15</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_662751-MLB76836840183_062024-E.webp" alt="Cresce Mais Antiqueda Fortalecedor Capilar + Tônico Glammour" loading="lazy" />
+          <div class="info">
+            <p class="nome">Cresce Mais Antiqueda Fortalecedor Capilar + Tônico Glammour</p>
+
+            <p class="preco">R$ 78</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/mascara-capilar-silicon-mix-tratamento-intenso-450g-hidrata/up/MLBU3790950134#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=8396" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_970293-MLB107036068065_022026-E.webp" alt="Máscara Capilar Silicon Mix Tratamento Intenso 450g Hidrata" loading="lazy" />
+          <div class="info">
+            <p class="nome">Máscara Capilar Silicon Mix Tratamento Intenso 450g Hidrata</p>
+<p class="preco-old">R$ 77</p>
+            <p class="preco">R$ 77</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/mascara-nutritiva-silicon-mix-bambu-450g--cuidado-capilar/up/MLBU3773215357#polycard_client=search-desktop&search_layout=grid&position=4&type=product&tracking_id=83963b" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_929204-MLB106689369065_022026-E.webp" alt="Máscara Nutritiva Silicon Mix Bambu 450g - Cuidado Capilar" loading="lazy" />
+          <div class="info">
+            <p class="nome">Máscara Nutritiva Silicon Mix Bambu 450g - Cuidado Capilar</p>
+<p class="preco-old">R$ 77</p>
+            <p class="preco">R$ 77</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/mascara-anti-porosidade-ph-control-500g-apse/p/MLB27284765#polycard_client=search-desktop&search_layout=grid&position=5&type=product&tracking_id=83963b79-1646-4cb9-901b" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_803173-MLA99445330352_112025-E.webp" alt="Mascara Anti Porosidade Ph Control 500g Apse" loading="lazy" />
+          <div class="info">
+            <p class="nome">Mascara Anti Porosidade Ph Control 500g Apse</p>
+
+            <p class="preco">R$ 69</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/mascara-capilar-regeneradora-com-abyssine-para-hidrataco-profunda-brilho-intenso-e-controle-do-frizz-chronologiste-intense-regenerant-kerastase-200ml/p/MLB20817237#poly" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_974240-MLA99926127891_112025-E.webp" alt="Máscara Capilar Regeneradora com Abyssine para Hidratação Profunda, Brilho Inten" loading="lazy" />
+          <div class="info">
+            <p class="nome">Máscara Capilar Regeneradora com Abyssine para Hidratação Profunda, Brilho Inten</p>
+<p class="preco-old">R$ 548</p>
+            <p class="preco">R$ 548</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/kit-lola-cosmetics-cronograma-capilar-bem-dita-ghee-3x100g/p/MLB27943677#polycard_client=search-desktop&search_layout=grid&position=7&type=product&tracking_id=83963b79-" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_939852-MLA99925257085_112025-E.webp" alt="Kit Lola Cosmetics Cronograma Capilar Be(m) Dita Ghee 3x100g" loading="lazy" />
+          <div class="info">
+            <p class="nome">Kit Lola Cosmetics Cronograma Capilar Be(m) Dita Ghee 3x100g</p>
+<p class="preco-old">R$ 54</p>
+            <p class="preco">R$ 54</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/mascara-de-equilibrio-do-ph-acidificante-amend-250g/p/MLB42456000#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=83963b79-1646-4c" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_744375-MLA80072828784_102024-E.webp" alt="Máscara De Equilibrio Do Ph Acidificante Amend 250g" loading="lazy" />
+          <div class="info">
+            <p class="nome">Máscara De Equilibrio Do Ph Acidificante Amend 250g</p>
+
+            <p class="preco">R$ 37</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/mascara-capilar-de-hidrataco-intensa-anti-frizz-com-proteco-termica-ate-230c-para-cabelos-secos-e-indisciplinados-discipline-oleo-relax-kerastase-200ml/p/MLB20678514#po" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_807307-MLA99842245831_112025-E.webp" alt="Máscara Capilar de Hidratação Intensa Anti-Frizz com Proteção Térmica até 230ºC " loading="lazy" />
+          <div class="info">
+            <p class="nome">Máscara Capilar de Hidratação Intensa Anti-Frizz com Proteção Térmica até 230ºC </p>
+<p class="preco-old">R$ 391</p>
+            <p class="preco">R$ 391</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/mascara-wella-fusion-reconstrutora-500ml-cabelo-forte-e-revitalizado/p/MLB19733586#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tracking_i" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_680963-MLA99928967921_112025-E.webp" alt="Máscara Wella Fusion Reconstrutora 500ml Cabelo Forte e Revitalizado" loading="lazy" />
+          <div class="info">
+            <p class="nome">Máscara Wella Fusion Reconstrutora 500ml Cabelo Forte e Revitalizado</p>
+<p class="preco-old">R$ 328</p>
+            <p class="preco">R$ 328</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_845808-CBT107609836609_022026-E.webp" alt="Soro De Colágeno Controle De Brilho: Firmador E Suavizador" loading="lazy" />
+          <div class="info">
+            <p class="nome">Soro De Colágeno Controle De Brilho: Firmador E Suavizador</p>
+<p class="preco-old">R$ 54</p>
+            <p class="preco">R$ 54</p>
+          </div>
+        </a>
+        <a href="https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_964168-CBT107552122061_022026-E.webp" alt="Sérum Facial Sumifang Com Colágeno Profundo - 100ml" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Facial Sumifang Com Colágeno Profundo - 100ml</p>
+<p class="preco-old">R$ 53</p>
+            <p class="preco">R$ 53</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-revitalizador-de-olhos-le-moritz/p/MLB62978704#polycard_client=search-desktop&search_layout=grid&position=3&type=product&tracking_id=515d7f61-ead1-4827-932f-790e3" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_897528-MLA100841005315_122025-E.webp" alt="Sérum Revitalizador De Olhos Le Moritz" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Revitalizador De Olhos Le Moritz</p>
+<p class="preco-old">R$ 147</p>
+            <p class="preco">R$ 147</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-facial-clareador-dermachem-30ml-para-todo-tipo-de-pele-dia-e-noite-clareia-a-pele-com-machas/p/MLB22370079#polycard_client=search-desktop&search_layout=grid&posit" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_912165-MLA81633893221_122024-E.webp" alt="Sérum Facial Clareador Dermachem 30ML Para Todo Tipo de Pele Dia e Noite clareia" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Facial Clareador Dermachem 30ML Para Todo Tipo de Pele Dia e Noite clareia</p>
+
+            <p class="preco">R$ 8</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/neutrogena-hydro-boost-serum-facial-antimarcas-todo-tipo-de-pele-dianoite/p/MLB51021569#polycard_client=search-desktop&search_layout=grid&position=5&type=product&tracki" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_965743-MLA85732631033_062025-E.webp" alt="Neutrogena Hydro Boost Sérum Facial Antimarcas Todo Tipo De Pele Dia/noite" loading="lazy" />
+          <div class="info">
+            <p class="nome">Neutrogena Hydro Boost Sérum Facial Antimarcas Todo Tipo De Pele Dia/noite</p>
+<p class="preco-old">R$ 157</p>
+            <p class="preco">R$ 157</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-antimanchas-com-melasyl-e-niacinamida-para-todos-os-tipos-de-pele-que-corrige-manchas-persistentes-unifica-o-tom-e-ilumina-sem-perfume-mela-b3-la-rocheposay-15ml/" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_938957-MLA104789667893_012026-E.webp" alt="Sérum Antimanchas com Melasyl e Niacinamida para Todos os Tipos de Pele que Corr" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Antimanchas com Melasyl e Niacinamida para Todos os Tipos de Pele que Corr</p>
+<p class="preco-old">R$ 221</p>
+            <p class="preco">R$ 221</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/eucerin-serum-facial-vitamina-c-pura-10-concentrado-8ml-antioxidante-pele-uniforme-hyaluron-filler-acido-hialurnico-antirrugas/p/MLB19722294#polycard_client=search-desk" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_842342-MLU75401926054_042024-E.webp" alt="EUCERIN Sérum Facial Vitamina C Pura 10% Concentrado 8ml, Antioxidante, Pele Uni" loading="lazy" />
+          <div class="info">
+            <p class="nome">EUCERIN Sérum Facial Vitamina C Pura 10% Concentrado 8ml, Antioxidante, Pele Uni</p>
+<p class="preco-old">R$ 159</p>
+            <p class="preco">R$ 159</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-facial-hidratante-e-fortalecedor-bioderma-hydrabio-40ml/p/MLB19757924#polycard_client=search-desktop&search_layout=grid&position=8&type=product&tracking_id=515d7f" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_791214-MLA74652845188_022024-E.webp" alt="Sérum Facial Hidratante e Fortalecedor Bioderma Hydrabio 40ml" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Facial Hidratante e Fortalecedor Bioderma Hydrabio 40ml</p>
+<p class="preco-old">R$ 169</p>
+            <p class="preco">R$ 169</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-facial-fortalecedor-com-acido-hialurnico-puro-e-minerais-para-hidrataco-intensa-e-proteco-da-barreira-cutnea-para-todos-tipos-de-peles-vichy-mineral-89-30ml/p/MLB" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_650223-MLA80408827011_112024-E.webp" alt="Sérum Facial Fortalecedor com Ácido Hialurônico Puro e Minerais para Hidratação " loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Facial Fortalecedor com Ácido Hialurônico Puro e Minerais para Hidratação </p>
+<p class="preco-old">R$ 146</p>
+            <p class="preco">R$ 146</p>
+          </div>
+        </a>
+        <a href="https://www.mercadolivre.com.br/serum-rejuvenescedor-reviline-retinol-30ml/p/MLB46317414#polycard_client=search-desktop&search_layout=grid&position=10&type=product&tracking_id=515d7f61-ead1-4827-932f-" target="_blank" rel="noopener" class="card">
+
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_619362-MLA82641377891_022025-E.webp" alt="Sérum Rejuvenescedor Reviline Retinol 30ml" loading="lazy" />
+          <div class="info">
+            <p class="nome">Sérum Rejuvenescedor Reviline Retinol 30ml</p>
+<p class="preco-old">R$ 259</p>
+            <p class="preco">R$ 259</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="share-bar">
+      <a class="share-link whatsapp" href="https://wa.me/?text=Achei+achadinhos+incr%C3%ADveis+no+Mercado+Livre+%F0%9F%9F%A1+https://fitcomestilo.store/achadinhos-meli/" target="_blank" rel="noopener">📱 Compartilhar no WhatsApp</a>
+      <a class="share-link telegram" href="https://t.me/share/url?url=https://fitcomestilo.store/achadinhos-meli/&text=Achadinhos+do+Mercado+Livre+%F0%9F%9F%A1" target="_blank" rel="noopener">✈️ Enviar no Telegram</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Curadoria por <a href="https://fitcomestilo.store/" class="footer-brand-link">Fit com Estilo</a> • <a href="https://www.instagram.com/fit_com_estilo" class="footer-brand-link">@fit_com_estilo</a></p>
+    <p style="margin-top:6px">Os preços podem variar. Clique no produto para ver o preço atual no Mercado Livre.</p>
+  </footer>
+
+  <script>
+    const btns = document.querySelectorAll('.filter-btn');
+    const sections = document.querySelectorAll('.cat-section');
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const cat = btn.dataset.cat;
+        sections.forEach(s => {
+          s.classList.toggle('hidden', cat !== 'todos' && s.dataset.category !== cat);
+        });
+        document.getElementById('noResults').classList.remove('show');
+      });
+    });
+
+    const searchInput = document.getElementById('searchInput');
+    const noResults = document.getElementById('noResults');
+    searchInput.addEventListener('input', () => {
+      const q = searchInput.value.toLowerCase().trim();
+      btns.forEach(b => { b.classList.toggle('active', b.dataset.cat === 'todos'); });
+      sections.forEach(s => s.classList.remove('hidden'));
+      let total = 0;
+      document.querySelectorAll('.card').forEach(card => {
+        const nome = card.querySelector('.nome').textContent.toLowerCase();
+        const show = !q || nome.includes(q);
+        card.style.display = show ? '' : 'none';
+        if (show) total++;
+      });
+      noResults.classList.toggle('show', total === 0 && q !== '');
+    });
+  </script>
+</body>
+</html>
