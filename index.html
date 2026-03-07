@@ -37,8 +37,7 @@
 
     <!-- Analytics carregados após conteúdo (performance) -->
 
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8TPYHYMY8"></script>
+    <!-- Google Analytics 4 — stub leve; script real carregado após interação -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -1026,6 +1025,45 @@
             filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
         }
 
+        /* ============================================
+           AMAZON CARDS — CLASSES USADAS NO HTML
+           ============================================ */
+        .bg-amazon-soft {
+            background: linear-gradient(135deg, #fff8f0 0%, #ffecd0 100%);
+        }
+
+        .hero-card-text {
+            font-size: 13px;
+            color: var(--text-medium);
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .hero-card-btn {
+            display: inline-block;
+            padding: 10px 22px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            margin-top: 10px;
+        }
+
+        .amazon-btn {
+            background: linear-gradient(135deg, #ff9900, #ffad33);
+            color: #000;
+            box-shadow: 0 3px 12px rgba(255,153,0,0.3);
+        }
+
+        .amazon-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255,153,0,0.45);
+        }
+
+        .card-badge.new {
+            background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+        }
+
     </style>
 </head>
 <body>
@@ -1119,7 +1157,7 @@
             <!-- ====== ACHADINHOS DA SHOPEE (NOVO) ====== -->
             <a href="https://fitcomestilo.store/achadinhos/" class="hero-card img-left animate-in delay-10" data-store="shopee">
                 <div class="hero-card-image bg-shopee-soft">
-                    <img src="img-achadinhos.svg" alt="Nossos Achadinhos da Shopee — Moda Fitness, Suplementos e Beleza" loading="lazy" decoding="async" class="img-cover">
+                    <img src="img-achadinhos.svg" alt="Nossos Achadinhos da Shopee — Moda Fitness, Suplementos e Beleza" width="300" height="300" loading="lazy" decoding="async" class="img-cover">
                     <span class="card-badge hot">120 ITENS</span>
                 </div>
                 <div class="hero-card-content">
@@ -1174,7 +1212,7 @@
             <!-- ====== ACESSÓRIOS FITNESS ====== -->
             <a href="https://www.amazon.com.br/s?k=acessorios+fitness+treino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" target="_blank" rel="noopener" class="hero-card img-left animate-in delay-7" data-store="amazon">
                 <div class="hero-card-image bg-white-panel">
-                    <img src="img-acessorios.webp" alt="Acessórios Fitness" loading="lazy" decoding="async" class="img-cover">
+                    <img src="img-acessorios.webp" alt="Acessórios Fitness" width="300" height="300" loading="lazy" decoding="async" class="img-cover">
                 </div>
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
@@ -1207,7 +1245,7 @@
                     </div>
                 </div>
                 <div class="hero-card-image bg-white-panel">
-                    <img src="img-shopee.webp" alt="Coleção Shopee" loading="lazy" decoding="async" class="img-cover">
+                    <img src="img-shopee.webp" alt="Coleção Shopee" width="300" height="300" loading="lazy" decoding="async" class="img-cover">
                 </div>
             </a>
 
@@ -1370,7 +1408,7 @@
                     </div>
                 </div>
                 <div class="hero-card-image gradient-meli">
-                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_658388-MLB90869609638_082025-E.webp" alt="Achadinhos do Mercado Livre — Moda Fitness, Suplementos e Beleza" loading="lazy" decoding="async" class="img-cover">
+                    <img src="https://http2.mlstatic.com/D_Q_NP_2X_658388-MLB90869609638_082025-E.webp" alt="Achadinhos do Mercado Livre — Moda Fitness, Suplementos e Beleza" width="300" height="300" loading="lazy" decoding="async" class="img-cover">
                     <span class="card-badge hot">129 ITENS</span>
                 </div>
             </a>
@@ -2108,14 +2146,31 @@
     ]
     </script>
 
-    <!-- Analytics (carregados após conteúdo para não bloquear renderização) -->
-    <script type="text/javascript">
-        // Microsoft Clarity
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "veeg17eg6l");
+    <!-- Analytics — diferidos até primeira interação (reduz JS não utilizado no LCP) -->
+    <script>
+    (function(){
+        var _aLoaded = false;
+        function _loadAnalytics(){
+            if (_aLoaded) return;
+            _aLoaded = true;
+            // GA4 — script real
+            var ga = document.createElement('script');
+            ga.async = true;
+            ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-J8TPYHYMY8';
+            document.head.appendChild(ga);
+            // Microsoft Clarity
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window,document,'clarity','script','veeg17eg6l');
+        }
+        // Carrega na primeira interação ou após 5s (o que ocorrer antes)
+        ['mousedown','touchstart','keydown','scroll'].forEach(function(e){
+            document.addEventListener(e, _loadAnalytics, {once:true, passive:true});
+        });
+        setTimeout(_loadAnalytics, 5000);
+    })();
     </script>
 
     <!-- Tracking de cliques em links de afiliado -->
