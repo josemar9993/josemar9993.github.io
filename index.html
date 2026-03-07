@@ -972,6 +972,36 @@
 
         <div class="cards-container">
 
+            <a href="/top-ofertas/" class="hero-card img-left visible" data-store="amazon">
+                <div class="hero-card-image bg-amazon-soft">
+                    <img src="logo.webp" alt="Top 100 ofertas Fit com Estilo" width="300" height="300" fetchpriority="high">
+                    <span class="card-badge hot">TOP 100</span>
+                </div>
+                <div class="hero-card-content">
+                    <div class="hero-card-brand amazon-gradient">
+                        <span class="hero-card-brand-text" style="color:#c45000;">🔥 Curadoria</span>
+                    </div>
+                    <h2 class="hero-card-title">Top 100 ofertas <span style="color:#FF9900;">para vender mais</span></h2>
+                    <p class="hero-card-text">Página comercial com os produtos de maior potencial em moda fitness, suplementos e beleza.</p>
+                    <span class="hero-card-btn amazon-btn">Abrir ranking →</span>
+                </div>
+            </a>
+
+            <a href="/comparar/" class="hero-card img-right visible" data-store="amazon">
+                <div class="hero-card-content">
+                    <div class="hero-card-brand amazon-gradient">
+                        <span class="hero-card-brand-text" style="color:#c45000;">📊 Comparativos</span>
+                    </div>
+                    <h2 class="hero-card-title">Páginas prontas para <span style="color:#FF9900;">intenção de compra</span></h2>
+                    <p class="hero-card-text">Comparativos como melhor creatina, melhor legging e melhor sérum vitamina C para capturar buscas com mais chance de conversão.</p>
+                    <span class="hero-card-btn amazon-btn">Ver comparativos →</span>
+                </div>
+                <div class="hero-card-image bg-amazon-soft">
+                    <img src="img-achadinhos.svg" alt="Comparativos de compra Fit com Estilo" width="300" height="300" loading="lazy" decoding="async" class="img-cover">
+                    <span class="card-badge top">NOVO</span>
+                </div>
+            </a>
+
             <!-- ====== ACHADINHOS DA SHOPEE (NOVO) ====== -->
             <a href="https://fitcomestilo.store/achadinhos/" class="hero-card img-left animate-in delay-10" data-store="shopee">
                 <div class="hero-card-image bg-shopee-soft">
@@ -1851,15 +1881,34 @@
 
     <!-- Tracking de cliques em links de afiliado -->
     <script>
-    document.querySelectorAll('a[href*="shopee"], a[href*="amazon"], a[href*="shein"], a[href*="magalu"], a[href*="hotmart"], a[href*="magazin"]').forEach(function(link) {
+        document.querySelectorAll('a[href*="shopee"], a[href*="amazon"], a[href*="shein"], a[href*="magalu"], a[href*="hotmart"], a[href*="magazin"]').forEach(function(link) {
       link.addEventListener('click', function() {
         var h = this.href;
+                var cardTitleNode = this.querySelector('h2, h3, .hero-card-title, .social-card-title');
+                var cardTitle = cardTitleNode ? cardTitleNode.textContent.trim().replace(/\s+/g, ' ') : (this.getAttribute('aria-label') || this.textContent.trim().slice(0, 80));
+                var cardStore = this.getAttribute('data-store') || '';
         var store = h.indexOf('shopee') > -1 ? 'Shopee' :
                     h.indexOf('amazon') > -1 ? 'Amazon' :
                     h.indexOf('shein') > -1 ? 'Shein' :
                     (h.indexOf('magalu') > -1 || h.indexOf('magazin') > -1) ? 'Magalu' : 'Hotmart';
+                var historico = {};
+                try {
+                    historico = JSON.parse(localStorage.getItem('fitcomestilo_home_clicks') || '{}');
+                } catch (erro) {
+                    historico = {};
+                }
+                historico[cardTitle] = (historico[cardTitle] || 0) + 1;
+                localStorage.setItem('fitcomestilo_home_clicks', JSON.stringify(historico));
         if (typeof gtag !== 'undefined') {
-          gtag('event', 'affiliate_click', { 'event_category': 'Affiliate', 'event_label': store, 'link_url': h });
+                    gtag('event', 'affiliate_click', {
+                        'event_category': 'Affiliate',
+                        'event_label': store + ' | ' + cardTitle,
+                        'link_url': h,
+                        'destination_store': store,
+                        'card_title': cardTitle,
+                        'card_store': cardStore,
+                        'page_path': window.location.pathname
+                    });
         }
       });
     });
