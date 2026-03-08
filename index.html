@@ -2221,11 +2221,15 @@
         function _loadAnalytics(){
             if (_aLoaded) return;
             _aLoaded = true;
-            // GA4 — script real
+            // GA4 + Google Ads — script real
             var ga = document.createElement('script');
             ga.async = true;
             ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-J8TPYHYMY8';
             document.head.appendChild(ga);
+            // Google Ads Conversion Tag
+            ga.onload = function(){
+                gtag('config', 'AW-17983743163');
+            };
             // Microsoft Clarity
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -2367,6 +2371,9 @@
         });
     }
     </script>
+
+    <!-- Dialogflow CX widget (configure o agentId em /dialogflow-widget.js) -->
+    <script defer src="/dialogflow-widget.js"></script>
 
 </body>
 </html>
