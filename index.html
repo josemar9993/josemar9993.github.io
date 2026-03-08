@@ -35,7 +35,12 @@
     <meta name="twitter:description" content="Fit com Estilo: curadoria de moda fitness feminina, suplementos e beleza. Ofertas exclusivas Amazon, Shopee, Shein e Magalu.">
     <meta name="twitter:image" content="https://fitcomestilo.store/logo.webp">
 
-    <!-- Google AdSense -->
+    <!-- Preconnect AdSense (performance) -->
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
+    <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
+
+    <!-- Google AdSense Auto Ads (pub-9795385449242559) -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9795385449242559"
          crossorigin="anonymous"></script>
 
@@ -1068,6 +1073,29 @@
             background: linear-gradient(135deg, #8b5cf6, #a78bfa);
         }
 
+        /* ────── ANÚNCIOS ADSENSE ────── */
+        .adsense-slot {
+            width: 100%;
+            max-width: 728px;
+            margin: 8px auto 16px;
+            text-align: center;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 4px 0 8px;
+        }
+        .adsense-slot-label {
+            display: block;
+            font-size: 10px;
+            color: #555;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            user-select: none;
+        }
+        @media (max-width: 480px) {
+            .adsense-slot { max-width: 100%; }
+        }
+
     </style>
 </head>
 <body>
@@ -1156,6 +1184,18 @@
             </div>
         </nav>
 
+        <!-- ═══ ANÚNCIO ADSENSE 1 — Banner responsivo (topo dos cards) ═══ -->
+        <div class="adsense-slot">
+            <span class="adsense-slot-label">Publicidade</span>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9795385449242559"
+                 data-ad-slot="6649365061"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
         <div class="cards-container">
 
             <!-- ====== ACHADINHOS DA SHOPEE (NOVO) ====== -->
@@ -1232,11 +1272,23 @@
 
 
 
+            <!-- ═══ ANÚNCIO ADSENSE 2 — Nativo mid-page (antes das lojas) ═══ -->
+            <div class="adsense-slot">
+                <span class="adsense-slot-label">Publicidade</span>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9795385449242559"
+                     data-ad-slot="8921726066"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
             <!-- DIVISOR -->
             <div class="section-divider animate-in delay-10">
                 <span class="section-title">🛍️ Minhas lojas favoritas</span>
             </div>
-            <!-- ====== SHOPEE ====== -->
+            <!-- ====== SHOPEE ======
             <a href="https://shopee.com.br/search?keyword=moda%20fitness&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&af_click_lookback=7d" target="_blank" rel="noopener" class="hero-card img-right animate-in delay-10" data-store="shopee">
                 <div class="hero-card-content">
                     <div class="hero-card-brand">
@@ -1713,6 +1765,18 @@
                 </a>
             </div>
 <!-- CUPONS_ML_FIM -->
+
+            <!-- ═══ ANÚNCIO ADSENSE 3 — Banner responsivo (após cupons) ═══ -->
+            <div class="adsense-slot">
+                <span class="adsense-slot-label">Publicidade</span>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-9795385449242559"
+                     data-ad-slot="6649365061"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
 
             <!-- DIVISOR -->
             <div class="section-divider animate-in delay-12">
