@@ -40,11 +40,7 @@
     <link rel="preconnect" href="https://googleads.g.doubleclick.net" crossorigin>
     <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net">
 
-    <!-- Google AdSense Auto Ads (pub-9795385449242559) -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9795385449242559"
-         crossorigin="anonymous"></script>
-
-    <!-- Analytics carregados após conteúdo (performance) -->
+    <!-- AdSense + Analytics carregados após 1ª interação (reduz LCP/FCP) -->
 
     <!-- Google Analytics 4 — stub leve; script real carregado após interação -->
     <script>
@@ -2320,6 +2316,12 @@
                 t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window,document,'clarity','script','veeg17eg6l');
+            // Google AdSense Auto Ads — diferido para não bloquear LCP/FCP
+            var ads = document.createElement('script');
+            ads.async = true;
+            ads.crossOrigin = 'anonymous';
+            ads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9795385449242559';
+            document.head.appendChild(ads);
             // Facebook Pixel — PIXEL_ID configurável via data-attribute ou hardcoded
             var _fbPixelId = document.querySelector('meta[name="fb-pixel-id"]');
             var fbId = _fbPixelId ? _fbPixelId.content : '';

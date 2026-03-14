@@ -1,0 +1,38 @@
+# === Credenciais e tokens (NUNCA commitar) ===
+.env
+.env.*
+*.token*.json
+.token_*
+client_secret_*.json
+
+# === Sessões Playwright (dados de login) ===
+.instagram_sessao/
+.tiktok_sessao/
+.pinterest_sessao/
+.kwai_sessao/
+.mercadolivre_afiliados_sessao/
+.mercadolivre_cupons_sessao/
+.tiktok_videos/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# === OS ===
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# === IDE ===
+.vscode/
+*.swp
+*.swo
+*~
+
+# === Logs e dados temporários ===
+*.log
