@@ -110,10 +110,24 @@
         margin-bottom: 20px;
         border: 1px solid rgba(255,255,255,0.08);
         transition: transform 0.2s, border-color 0.3s;
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
     }
     .produto-card:hover {
         transform: translateY(-2px);
         border-color: rgba(255,255,255,0.2);
+    }
+    .produto-card .prod-img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        border-radius: 12px;
+        background: #fff;
+        flex-shrink: 0;
+    }
+    .produto-card .prod-info {
+        flex: 1;
     }
     .produto-card h2 {
         font-size: 1.2em;
@@ -141,6 +155,10 @@
         font-size: 0.9em;
         line-height: 1.7;
         margin: 12px 0;
+    }
+    @media (max-width: 600px) {
+        .produto-card { flex-direction: column; align-items: center; text-align: center; }
+        .produto-card .prod-img { width: 100px; height: 100px; }
     }
     .btn-comprar {
         display: inline-block;
@@ -307,31 +325,96 @@
             <h2>🏆 Ranking: Melhores Roupas Fitness Femininas 2026</h2>
             
         <div class="produto-card" id="produto-1">
-            <span class="badge">HOT</span>
-            <h2>💪 1. Looks Moda Fitness</h2>
-            
+            <img class="prod-img" src="/produto/imgs/calca-legging-feminina-cintura-alta-leg-grossa-fitness.jpg" alt="Legging Cintura Alta" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">MAIS VENDIDO</span>
+            <h2>💖 1. Legging Fitness Feminina Cintura Alta</h2>
+            <div class="preco">R$ 49,90</div>
             <div class="detalhes">
-                <p>🏪 Loja: Amazon</p>
-                <p>⭐ Avaliação: Excelente — produto com ótimas reviews de compradoras reais</p>
-                <p>🚚 Entrega rápida disponível</p>
+                <p>🏪 Amazon — Entrega Prime</p>
+                <p>⭐ Tecido grosso, zero transparência! Cintura alta que modela a silhueta. Perfeita para treino pesado, yoga e corrida. Disponível em várias cores.</p>
             </div>
-            <a href="https://www.amazon.com.br/s?k=moda+fitness+feminina+legging&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
-                🔥 Comprar com Desconto →
+            <a href="https://www.amazon.com.br/s?k=legging+fitness+feminina+cintura+alta&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
             </a>
+            </div>
         </div>
 
         <div class="produto-card" id="produto-2">
-            
-            <h2>💪 2. Acessórios de Treino</h2>
-            
+            <img class="prod-img" src="/produto/imgs/2-conjunto-fitness-feminino-top-e-short-de-academia.jpg" alt="Conjunto Fitness Top + Short" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">HOT</span>
+            <h2>💃 2. Conjunto Fitness Top + Short de Academia</h2>
+            <div class="preco">R$ 79,90</div>
             <div class="detalhes">
-                <p>🏪 Loja: Amazon</p>
-                <p>⭐ Avaliação: Excelente — produto com ótimas reviews de compradoras reais</p>
-                <p>🚚 Entrega rápida disponível</p>
+                <p>🏪 Amazon — Frete Grátis</p>
+                <p>⭐ Look completo para a academia! Top com bojo + short cintura alta. Tecido dry-fit que não retém suor. Combinação perfeita para treinar com estilo.</p>
             </div>
-            <a href="https://www.amazon.com.br/s?k=acessorios+fitness+treino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
-                🔥 Comprar com Desconto →
+            <a href="https://www.amazon.com.br/s?k=conjunto+fitness+feminino+top+short&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
             </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-3">
+            <img class="prod-img" src="/produto/imgs/top-cropped-academia-com-bojo.jpg" alt="Top Cropped com Bojo" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>🎽 3. Top Cropped Academia com Bojo Removível</h2>
+            <div class="preco">R$ 35,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Sustentação média, ideal para musculação e pilates. Bojo removível, alças ajustáveis. Tecido respiravel que não marca. Várias cores.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=top+cropped+academia+feminino+bojo&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-4">
+            <img class="prod-img" src="/produto/imgs/bermuda-feminina-short-academia-bolso-lateral-cintura-alta.jpg" alt="Short Fitness com Bolso" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>🏃‍♀️ 4. Short Fitness Feminino com Bolso Lateral</h2>
+            <div class="preco">R$ 39,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Cintura alta com bolso lateral para celular. Tecido leve e fresco para corrida e crossfit. Não sobe durante o exercício. Comprimento ideal.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=short+fitness+feminino+cintura+alta+bolso&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-5">
+            <img class="prod-img" src="/produto/imgs/calca-flare-fitness-feminina.jpg" alt="Calça Flare Fitness" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">TENDÊNCIA</span>
+            <h2>✨ 5. Calça Flare Fitness Feminina</h2>
+            <div class="preco">R$ 79,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon — Top Avaliações</p>
+                <p>⭐ A calça do momento! Estilo flare que alonga a silhueta. Use na academia ou no dia a dia. Tecido supplex com elastano. Conforto máximo.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=calca+flare+fitness+feminina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-6">
+            <img class="prod-img" src="/produto/imgs/bolsa-mochila-academia-feminina.jpg" alt="Bolsa Mochila Academia" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>🎵 6. Bolsa Mochila para Academia Feminina</h2>
+            <div class="preco">R$ 49,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Compartimento para tênis, bolso para garrafa e porta-objetos. Tecido impermeável, lavavel. Leve e compacta. Cabe tudo que você precisa!</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=bolsa+mochila+academia+feminina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
         </div>
 
         </div>
@@ -345,28 +428,53 @@
                         <th>#</th>
                         <th>Produto</th>
                         <th>Preço</th>
-                        <th>Loja</th>
+                        <th>Tipo</th>
                         <th>Link</th>
                     </tr>
                 </thead>
                 <tbody>
-
                     <tr>
                         <td>1</td>
-                        <td>Looks Moda Fitness</td>
-                        <td style="color:#00ff88;font-weight:700">Ver</td>
-                        <td>Amazon</td>
-                        <td><a href="https://www.amazon.com.br/s?k=moda+fitness+feminina+legging&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                        <td>Legging Cintura Alta</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 49,90</td>
+                        <td>Calça / Treino</td>
+                        <td><a href="https://www.amazon.com.br/s?k=legging+fitness+feminina+cintura+alta&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
                     </tr>
-
                     <tr>
                         <td>2</td>
-                        <td>Acessórios de Treino</td>
-                        <td style="color:#00ff88;font-weight:700">Ver</td>
-                        <td>Amazon</td>
-                        <td><a href="https://www.amazon.com.br/s?k=acessorios+fitness+treino&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                        <td>Conjunto Top + Short</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 79,90</td>
+                        <td>Conjunto / Look completo</td>
+                        <td><a href="https://www.amazon.com.br/s?k=conjunto+fitness+feminino+top+short&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
                     </tr>
-
+                    <tr>
+                        <td>3</td>
+                        <td>Top Cropped com Bojo</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 35,90</td>
+                        <td>Top / Academia</td>
+                        <td><a href="https://www.amazon.com.br/s?k=top+cropped+academia+feminino+bojo&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Short Fitness com Bolso</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 39,90</td>
+                        <td>Short / Corrida</td>
+                        <td><a href="https://www.amazon.com.br/s?k=short+fitness+feminino+cintura+alta+bolso&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Calça Flare Fitness</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 79,90</td>
+                        <td>Calça / Tendência</td>
+                        <td><a href="https://www.amazon.com.br/s?k=calca+flare+fitness+feminina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Bolsa Mochila Academia</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 49,90</td>
+                        <td>Acessório / Mochila</td>
+                        <td><a href="https://www.amazon.com.br/s?k=bolsa+mochila+academia+feminina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>

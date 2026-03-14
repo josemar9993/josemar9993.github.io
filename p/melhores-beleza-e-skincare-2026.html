@@ -110,10 +110,24 @@
         margin-bottom: 20px;
         border: 1px solid rgba(255,255,255,0.08);
         transition: transform 0.2s, border-color 0.3s;
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
     }
     .produto-card:hover {
         transform: translateY(-2px);
         border-color: rgba(255,255,255,0.2);
+    }
+    .produto-card .prod-img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        border-radius: 12px;
+        background: #fff;
+        flex-shrink: 0;
+    }
+    .produto-card .prod-info {
+        flex: 1;
     }
     .produto-card h2 {
         font-size: 1.2em;
@@ -141,6 +155,10 @@
         font-size: 0.9em;
         line-height: 1.7;
         margin: 12px 0;
+    }
+    @media (max-width: 600px) {
+        .produto-card { flex-direction: column; align-items: center; text-align: center; }
+        .produto-card .prod-img { width: 100px; height: 100px; }
     }
     .btn-comprar {
         display: inline-block;
@@ -299,20 +317,99 @@
         </div>
 
         <div class="secao">
-            <h2>🏆 Os Melhores Beleza e Skincare de 2026</h2>
+            <h2>🏆 Os Melhores Produtos de Beleza e Skincare 2026</h2>
             
         <div class="produto-card" id="produto-1">
-            
-            <h2>✨ 1. Beleza & Skincare</h2>
-            
+            <img class="prod-img" src="/produto/imgs/serum-vitamina-c-facial-30ml.jpg" alt="Sérum Vitamina C 30ml" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">MAIS VENDIDO</span>
+            <h2>✨ 1. Sérum Vitamina C Facial 30ml</h2>
+            <div class="preco">R$ 39,90</div>
             <div class="detalhes">
-                <p>🏪 Loja: Shopee</p>
-                <p>⭐ Avaliação: Excelente — produto com ótimas reviews de compradoras reais</p>
-                <p>🚚 Entrega rápida disponível</p>
+                <p>🏪 Amazon — Entrega Prime</p>
+                <p>⭐ O queridinho da skincare! Clareia manchas, uniformiza o tom e protege contra radicais livres. Textura leve, absorção rápida. Use de manhã antes do protetor.</p>
             </div>
-            <a href="https://shopee.com.br/search?keyword=skincare+vitamina+c+serum&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&af_click_lookback=7d" class="btn-comprar" target="_blank" rel="noopener">
-                🔥 Comprar com Desconto →
+            <a href="https://www.amazon.com.br/s?k=serum+vitamina+c+facial+30ml&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
             </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-2">
+            <img class="prod-img" src="/produto/imgs/protetor-solar-fps60-60g.jpg" alt="Protetor Solar FPS60" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">ESSENCIAL</span>
+            <h2>☀️ 2. Protetor Solar Facial FPS 60 — 60g</h2>
+            <div class="preco">R$ 49,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon — Frete Grátis</p>
+                <p>⭐ OBRIGATÓRIO na rotina! Protege contra UVA/UVB, previne envelhecimento e manchas. Toque seco, não deixa branco. Reaplicar a cada 2h.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=protetor+solar+facial+fps+60&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-3">
+            <img class="prod-img" src="/produto/imgs/acido-hialuronico-facial-30ml.jpg" alt="Ácido Hialurônico 30ml" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>💧 3. Ácido Hialurônico Facial 30ml</h2>
+            <div class="preco">R$ 39,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Hidratação profunda e efeito preenchedor. Reduz linhas finas e deixa a pele aveludada. Funciona em todos os tipos de pele. Use à noite.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=acido+hialuronico+facial+serum&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-4">
+            <img class="prod-img" src="/produto/imgs/niacinamida-10-serum-facial-30ml.jpg" alt="Niacinamida 10% Sérum" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>🧪 4. Niacinamida 10% Sérum Facial 30ml</h2>
+            <div class="preco">R$ 39,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Controla oleosidade, reduz poros dilatados e melhora a textura da pele. Combina com vitamina C. Perfeito para peles mistas e oleosas.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=niacinamida+10+serum+facial&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-5">
+            <img class="prod-img" src="/produto/imgs/mascara-capilar-hidratacao-intensa-500g.jpg" alt="Máscara Capilar 500g" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">CABELOS</span>
+            <h2>💇 5. Máscara Capilar Hidratação Intensa 500g</h2>
+            <div class="preco">R$ 29,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon — Melhor Preço</p>
+                <p>⭐ Hidratação profunda para cabelos ressecados. Repara fios danificados por química e calor. Use 1x por semana por 20min. Resultado imediato.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=mascara+capilar+hidratacao+intensa+500g&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-6">
+            <img class="prod-img" src="/produto/imgs/agua-micelar-demaquilante-200ml.jpg" alt="Água Micelar 200ml" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>🌿 6. Água Micelar Demaquilante 200ml</h2>
+            <div class="preco">R$ 24,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Limpa, demaquila e tonifica em um só passo. Sem enxágue! Fórmula suave para todos os tipos de pele. Ideal como 1º passo da skincare noturna.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=agua+micelar+demaquilante+200ml&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
         </div>
 
         </div>
@@ -326,20 +423,53 @@
                         <th>#</th>
                         <th>Produto</th>
                         <th>Preço</th>
-                        <th>Loja</th>
+                        <th>Para quê</th>
                         <th>Link</th>
                     </tr>
                 </thead>
                 <tbody>
-
                     <tr>
                         <td>1</td>
-                        <td>Beleza & Skincare</td>
-                        <td style="color:#00ff88;font-weight:700">Ver</td>
-                        <td>Shopee</td>
-                        <td><a href="https://shopee.com.br/search?keyword=skincare+vitamina+c+serum&mmp_pid=an_18356120947&utm_source=an_18356120947&utm_medium=affiliates&utm_content=FitComEstilo-Site---&af_click_lookback=7d" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                        <td>Sérum Vitamina C 30ml</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 39,90</td>
+                        <td>Clareamento / Antioxidante</td>
+                        <td><a href="https://www.amazon.com.br/s?k=serum+vitamina+c+facial+30ml&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
                     </tr>
-
+                    <tr>
+                        <td>2</td>
+                        <td>Protetor Solar FPS 60</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 49,90</td>
+                        <td>Proteção UV / Anti-idade</td>
+                        <td><a href="https://www.amazon.com.br/s?k=protetor+solar+facial+fps+60&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ácido Hialurônico 30ml</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 39,90</td>
+                        <td>Hidratação / Preenchimento</td>
+                        <td><a href="https://www.amazon.com.br/s?k=acido+hialuronico+facial+serum&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Niacinamida 10% Sérum</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 39,90</td>
+                        <td>Oleosidade / Poros</td>
+                        <td><a href="https://www.amazon.com.br/s?k=niacinamida+10+serum+facial&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Máscara Capilar 500g</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 29,90</td>
+                        <td>Cabelos / Hidratação</td>
+                        <td><a href="https://www.amazon.com.br/s?k=mascara+capilar+hidratacao+intensa+500g&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Água Micelar 200ml</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 24,90</td>
+                        <td>Limpeza / Demaquilante</td>
+                        <td><a href="https://www.amazon.com.br/s?k=agua+micelar+demaquilante+200ml&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>

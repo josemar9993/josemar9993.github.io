@@ -110,10 +110,24 @@
         margin-bottom: 20px;
         border: 1px solid rgba(255,255,255,0.08);
         transition: transform 0.2s, border-color 0.3s;
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
     }
     .produto-card:hover {
         transform: translateY(-2px);
         border-color: rgba(255,255,255,0.2);
+    }
+    .produto-card .prod-img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        border-radius: 12px;
+        background: #fff;
+        flex-shrink: 0;
+    }
+    .produto-card .prod-info {
+        flex: 1;
     }
     .produto-card h2 {
         font-size: 1.2em;
@@ -141,6 +155,10 @@
         font-size: 0.9em;
         line-height: 1.7;
         margin: 12px 0;
+    }
+    @media (max-width: 600px) {
+        .produto-card { flex-direction: column; align-items: center; text-align: center; }
+        .produto-card .prod-img { width: 100px; height: 100px; }
     }
     .btn-comprar {
         display: inline-block;
@@ -302,17 +320,96 @@
             <h2>🏆 Ranking: Melhores Suplementos Femininos 2026</h2>
             
         <div class="produto-card" id="produto-1">
-            <span class="badge">PRIME</span>
-            <h2>💊 1. Suplementos Whey & Creatina</h2>
-            
+            <img class="prod-img" src="/produto/imgs/basic-whey-1kg-growth-supplements-chocolate.jpg" alt="Whey Protein Growth 1kg" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">MAIS VENDIDO</span>
+            <h2>💊 1. Whey Protein Concentrado Growth 1kg</h2>
+            <div class="preco">R$ 69,90</div>
             <div class="detalhes">
-                <p>🏪 Loja: Amazon</p>
-                <p>⭐ Avaliação: Excelente — produto com ótimas reviews de compradoras reais</p>
-                <p>🚚 Entrega rápida disponível</p>
+                <p>🏪 Amazon — Entrega Prime</p>
+                <p>⭐ O whey mais vendido do Brasil. 80% de proteína, baixo em gordura e lactose. Ideal para pós-treino. Sabor chocolate com ótima dissolução.</p>
             </div>
-            <a href="https://www.amazon.com.br/s?k=suplementos+whey+creatina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
-                🔥 Comprar com Desconto →
+            <a href="https://www.amazon.com.br/s?k=whey+protein+growth+1kg&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
             </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-2">
+            <img class="prod-img" src="/produto/imgs/creatina-monohidratada-250g-growth-supplements-forca-sabor-sem-sabor.jpg" alt="Creatina Growth 250g" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">PRIME</span>
+            <h2>⚡ 2. Creatina Monohidratada Growth 250g</h2>
+            <div class="preco">R$ 39,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon — Frete Grátis</p>
+                <p>⭐ O suplemento mais estudado da ciência. Aumenta força, resistência e volume muscular. Sem sabor, mistura fácil. Rende 50 doses.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=creatina+monohidratada+growth+250g&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-3">
+            <img class="prod-img" src="/produto/imgs/bcaa-2400mg-integralmedica-120-tabs.jpg" alt="BCAA Integralmédica 120 tabs" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>💪 3. BCAA 2400mg Integralmédica 120 Cápsulas</h2>
+            <div class="preco">R$ 35,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Aminoácidos essenciais para recuperação muscular. Reduz fadiga e dor pós-treino. Marca líder no Brasil há 30+ anos.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=bcaa+integralmedica+120+capsulas&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-4">
+            <img class="prod-img" src="/produto/imgs/colageno-skin-body-lata-300g-sabor-neutro-sanavita.jpg" alt="Colágeno Sanavita 300g" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <span class="badge">MULHERES</span>
+            <h2>✨ 4. Colágeno Hidrolisado Sanavita 300g</h2>
+            <div class="preco">R$ 49,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon — Top Avaliações</p>
+                <p>⭐ Colágeno Verisol para pele, cabelo e unhas. O mais recomendado por dermatologistas. Dissolve fácil em água ou suco. Sabor neutro.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=colageno+hidrolisado+verisol+sanavita&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-5">
+            <img class="prod-img" src="/produto/imgs/aceviton-vitamina-c-1g-30-comprimidos-efervecentes.jpg" alt="Vitamina C Aceviton" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>🍊 5. Vitamina C Aceviton 1g — 30 Comprimidos</h2>
+            <div class="preco">R$ 15,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon — Melhor Preço</p>
+                <p>⭐ Fortalece a imunidade e combate radicais livres. Efervescente, sabor laranja. Dose diária de 1000mg de vitamina C pura.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=vitamina+c+aceviton+efervescente&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
+        </div>
+
+        <div class="produto-card" id="produto-6">
+            <img class="prod-img" src="/produto/imgs/barra-de-proteina-zero-40g.jpg" alt="Barra de Proteína Zero" width="120" height="120" loading="lazy">
+            <div class="prod-info">
+            <h2>🍫 6. Barra de Proteína Zero — Snack Saudável</h2>
+            <div class="preco">R$ 7,90</div>
+            <div class="detalhes">
+                <p>🏪 Amazon</p>
+                <p>⭐ Zero açúcar, rica em proteína. Perfeita para lanche entre refeições. Sabores variados: cookies, amendoim, chocolate.</p>
+            </div>
+            <a href="https://www.amazon.com.br/s?k=barra+proteina+zero+acucar&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" target="_blank" rel="noopener">
+                🔥 Ver Preço na Amazon →
+            </a>
+            </div>
         </div>
 
         </div>
@@ -326,20 +423,53 @@
                         <th>#</th>
                         <th>Produto</th>
                         <th>Preço</th>
-                        <th>Loja</th>
+                        <th>Para quê</th>
                         <th>Link</th>
                     </tr>
                 </thead>
                 <tbody>
-
                     <tr>
                         <td>1</td>
-                        <td>Suplementos Whey & Creatina</td>
-                        <td style="color:#00ff88;font-weight:700">Ver</td>
-                        <td>Amazon</td>
-                        <td><a href="https://www.amazon.com.br/s?k=suplementos+whey+creatina&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                        <td>Whey Protein Growth 1kg</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 69,90</td>
+                        <td>Proteína / Pós-treino</td>
+                        <td><a href="https://www.amazon.com.br/s?k=whey+protein+growth+1kg&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
                     </tr>
-
+                    <tr>
+                        <td>2</td>
+                        <td>Creatina Growth 250g</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 39,90</td>
+                        <td>Força / Resistência</td>
+                        <td><a href="https://www.amazon.com.br/s?k=creatina+monohidratada+growth+250g&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>BCAA Integralmédica 120 caps</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 35,90</td>
+                        <td>Recuperação muscular</td>
+                        <td><a href="https://www.amazon.com.br/s?k=bcaa+integralmedica+120+capsulas&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Colágeno Sanavita 300g</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 49,90</td>
+                        <td>Pele / Cabelo / Unhas</td>
+                        <td><a href="https://www.amazon.com.br/s?k=colageno+hidrolisado+verisol+sanavita&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Vitamina C Aceviton 30 comp</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 15,90</td>
+                        <td>Imunidade</td>
+                        <td><a href="https://www.amazon.com.br/s?k=vitamina+c+aceviton+efervescente&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Barra Proteína Zero 40g</td>
+                        <td style="color:#00ff88;font-weight:700">R$ 7,90</td>
+                        <td>Lanche saudável</td>
+                        <td><a href="https://www.amazon.com.br/s?k=barra+proteina+zero+acucar&tag=fitcomestilo-20&linkCode=ll2&ref_=as_li_ss_tl" class="btn-comprar" style="padding:6px 14px;font-size:0.8em" target="_blank" rel="noopener">Ver</a></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
