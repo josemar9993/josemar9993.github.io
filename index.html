@@ -54,6 +54,10 @@
       gtag('config', 'G-J8TPYHYMY8');
     </script>
 
+    <!-- Facebook Pixel ID — substitua pelo seu Pixel ID real -->
+    <meta name="fb-pixel-id" content="">
+    <!-- Noscript fallback do Facebook Pixel (ativado somente se o Pixel ID estiver preenchido acima) -->
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://fitcomestilo.store/">
     <link rel="alternate" type="application/rss+xml" title="Fit com Estilo — Ofertas" href="https://fitcomestilo.store/feed.xml">
@@ -74,8 +78,8 @@
     <!-- Preconnect CDN critico -->
     <link rel="preconnect" href="https://m.media-amazon.com" crossorigin>
 
-    <!-- Preload LCP image -->
-    <link rel="preload" as="image" href="https://m.media-amazon.com/images/I/61cVXbI0OOL._AC_SL300_.jpg" fetchpriority="high">
+    <!-- Preload LCP image (logo local — elemento LCP real) -->
+    <link rel="preload" as="image" href="/logo.webp" fetchpriority="high">
 
     <!-- Fontes: Sistema otimizado (sem requisições externas) -->
 
@@ -1205,7 +1209,7 @@
     <header class="header">
         <div class="container">
             <div class="profile-photo">
-                <img src="logo.webp" alt="Fit com Estilo - Moda Fitness Feminina" width="180" height="180" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                <img src="logo.webp" alt="Fit com Estilo - Moda Fitness Feminina" width="180" height="180" fetchpriority="high" decoding="sync" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
             </div>
             
             <h1 class="profile-name">Fit com Estilo</h1>
@@ -2316,6 +2320,18 @@
                 t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window,document,'clarity','script','veeg17eg6l');
+            // Facebook Pixel — PIXEL_ID configurável via data-attribute ou hardcoded
+            var _fbPixelId = document.querySelector('meta[name="fb-pixel-id"]');
+            var fbId = _fbPixelId ? _fbPixelId.content : '';
+            if (fbId) {
+                !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+                n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+                (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', fbId);
+                fbq('track', 'PageView');
+            }
         }
         // Carrega na primeira interação ou após 5s (o que ocorrer antes)
         ['mousedown','touchstart','keydown','scroll'].forEach(function(e){
@@ -2357,6 +2373,19 @@
                     });
                     gtag('event', 'conversion', {'send_to': 'AW-17983743163/MBwGCOvD6oQcELvJgE9C'});
         }
+                // Facebook Pixel — ViewContent + AddToCart (clique = intenção de compra)
+                if (typeof fbq !== 'undefined') {
+                    fbq('track', 'ViewContent', {
+                        content_name: cardTitle,
+                        content_category: store,
+                        content_type: 'product'
+                    });
+                    fbq('track', 'AddToCart', {
+                        content_name: cardTitle,
+                        content_category: store,
+                        content_type: 'product'
+                    });
+                }
       });
     });
 
